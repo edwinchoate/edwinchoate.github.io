@@ -85,6 +85,9 @@ h3 {
 }
 /* end */
 /* Link CSS */
+a {
+  color: #f87217;
+}
 a:hover {
   color: #f87217 !important;
 }
@@ -128,5 +131,61 @@ iframe {
   width: 97vw;
   height: 100vh;
   border: none;
+}
+/* end */
+/* Code CSS */
+.code-hl {
+  color: #f87217;
+}
+/* end */
+/* AudioJS CSS */
+.audiojs {
+  width: 100%;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+.audiojs .play-pause {
+  height: 100%;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.audiojs .play,
+.audiojs .pause,
+.audiojs .loading {
+  margin-top: 5px;
+}
+.audiojs .play {
+  background: url("/assets/images/play.svg");
+  background-repeat: no-repeat;
+}
+.audiojs .pause {
+  background: url("/assets/images/pause.svg");
+  background-repeat: no-repeat;
+}
+.audiojs .loading {
+  background: url("/assets/images/loading.svg");
+  background-repeat: no-repeat;
+}
+.audiojs .progress,
+.audiojs .loaded {
+  border-radius: 0;
+}
+.audiojs .progress {
+  background: #f87217;
+  height: 100%;
+}
+.audiojs .loaded {
+  background: black;
+}
+.audiojs .scrubber {
+  width: 60vw;
+  max-width: 850px;
+  border: none;
+  background: black;
+}
+.audiojs .time {
+  display: none;
 }
 /* end */

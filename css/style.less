@@ -114,8 +114,12 @@ h1, h2, h3 {
 @accent-color: #F87217;
 @secondary-color: black;
 
+a {
+    color: @accent-color;
+}
+
 a:hover {
-    color: @accent-color !important;   
+    color: @accent-color !important;
 }
 /* end */
 
@@ -170,5 +174,72 @@ iframe {
     width: 97vw;
     height: 100vh;
     border: none;
+}
+/* end */
+
+
+/* Code CSS */
+.code-hl { // highlighted code elements such as vars and strings
+    color: @accent-color;
+}
+/* end */
+
+
+/* AudioJS CSS */
+.audiojs {
+    width: 100%;
+    background: none;
+    box-shadow: none;
+    border: none;
+
+    .play-pause {
+        height: 100%;
+        border: none;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .play, .pause, .loading {
+        margin-top: 5px;
+    }
+
+    .play {
+        background: url("/assets/images/play.svg");
+        background-repeat: no-repeat;
+    }
+
+    .pause {
+        background: url("/assets/images/pause.svg");
+        background-repeat: no-repeat;
+    }
+
+    .loading {
+        background: url("/assets/images/loading.svg");
+        background-repeat: no-repeat;
+    }
+
+    .progress, .loaded {
+        border-radius: 0;
+    }
+
+    .progress {
+        background: @accent-color;
+        height: 100%;
+    }
+
+    .loaded {
+        background: @secondary-color;
+    }
+
+    .scrubber {
+        width: 60vw;
+        max-width: 850px;
+        border: none;
+        background: @secondary-color;
+    }
+
+    .time {
+        display: none;
+    }
 }
 /* end */

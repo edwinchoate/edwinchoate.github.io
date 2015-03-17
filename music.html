@@ -43,6 +43,16 @@
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
+
+        <!-- Audio.js -->
+        <script src="js/audiojs/audio.min.js"></script>
+
+        <!-- Setting up Audio.js -->
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
     
     </head>
     
@@ -58,7 +68,18 @@
             <div id="content">
                 
                 <div class="container">
-                    <h1>Still recording; come back soon!</h1>
+                    <h2>Shank Hill St.</h2>
+                    <audio src="assets/mp3/shankhillst.mp3" preload="auto"/>
+                </div>
+
+                <div class="container">
+                    <h2>The Stable Song</h2>
+                    <audio src="assets/mp3/thestablesong.mp3" preload="auto"/>
+                </div>
+
+                <div class="container">
+                    <h2>Don't Think Twice, It's Alright</h2>
+                    <audio src="assets/mp3/dontthinktwice.mp3" preload="auto"/>
                 </div>
                 
             </div> <!-- Content end -->
