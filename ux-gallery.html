@@ -43,6 +43,16 @@
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Audio.js -->
+        <script src="js/audiojs/audio.min.js"></script>
+
+        <!-- Setting up Audio.js -->
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
     
     </head>
     
@@ -58,15 +68,46 @@
             <div id="content">
                 
                 <div class="container">
-                    <h1>Still designing; come back soon!</h1>
+                    <h1>Logos</h1>
+                    
+                    <!-- Mandledwin logo -->
+                    <figure>
+                        <img class="ux-logo" src="assets/images/mandledwin.png" alt="Mandledwin Logo"/>
+                        <figcaption>The logo for my music blog, Mandledwin. Hand-drawn + Photoshop.</figcaption>
+                    </figure>
 
-    <pre><code>
-    <span class="code-hl">while</span> (!finished) {
-        printf(<span class="code-hl">"Come back soon!\n"</span>);
-    }
-    </code></pre>
+                    <!-- Quikalarm logo --> 
+                    <figure>
+                        <img class="ux-logo" src="assets/images/quikalarm.png" alt="Quikalarm Logo"/>
+                        <figcaption>A logo for a fictitious alarm clock app.</figcaption>
+                    </figure>
 
+                    <!-- Old edwinchoate.com logo -->
+                    <figure>
+                        <img class="ux-logo" src="assets/images/old_site_logo.png" alt="Old edwinchoate.com Logo"/>
+                        <figcaption>The logo for an older version of this site.</figcaption>
+                    </figure>
+
+                    <h1>Widgets</h1>
+                    
+                    <div id="ux-audio" class="container">
+                        
+                        <!-- Minimalist audiojs -->
+                        <audio src="assets/mp3/example.mp3" preload="auto"/>
+                        
+                    </div>
+                    
+                    <br>
+                    <p>This audio player is used on this very site; it's responsive and supports HTML5 and Flash. Once installed, it can be used as an HTML5 audio element like so:</p>
+                        
+                    <!-- example code for audio player -->
+                    <pre>&lt;audio src=<span class="code-hl">"/path/to/an.mp3"</span> preload=<span class="code-hl">"auto"</span>/&gt;</pre>
+                        
+                    <p>For more installation details, see <a href="https://github.com/edwinchoate/audiojs" target="_blank">source code on GitHub</a>.</p>
+                    
+                    
                 </div>
+                
                 
             </div> <!-- Content end -->
        
