@@ -25,8 +25,8 @@
         <!-- Header and Footer jQuery -->
         <script>
             $(document).ready(function() {
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
+                $("header").load("header.html");
+                $("footer").load("footer.html");
             });
         </script>
         
@@ -54,10 +54,10 @@
         <div id="wrapper">
             
             <!-- Header -->
-            <div id="header"></div>
+            <header class="header"></header>
 
             <!-- Content start -->
-            <div id="content">
+            <main id="content">
 
                 <div class="container-fluid">
                 
@@ -76,15 +76,15 @@
                         
                             <!-- Slide 1 -->
                             <div class="item active">
-                                <img class="carousel-image" src="assets/images/slide1.jpg"/>
+                                <img class="carousel-image" src="assets/images/slide1.png"/>
                             </div>
                             <!-- Slide 2 -->
                             <div class="item">
-                                <img class="carousel-image" src="assets/images/slide2.jpg"/>
+                                <img class="carousel-image" src="assets/images/slide2.png"/>
                             </div>
                             <!-- Slide 3 -->
                             <div class="item">
-                                <img class="carousel-image" src="assets/images/slide3.jpg"/>
+                                <img class="carousel-image" src="assets/images/slide3.png"/>
                             </div>
                         
                         </div>
@@ -104,10 +104,10 @@
                 </div> <!-- Carousel container end -->
                 
                   
-            </div> <!-- Content end -->
+            </main> <!-- Content end -->
        
             <!-- Footer -->
-            <div id="footer"></div>
+            <footer class="footer"></footer>
             
         </div> <!-- Wrapper ID ends -->
         

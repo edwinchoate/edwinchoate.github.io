@@ -10,6 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: #FFFFFF url("../assets/images/concrete_seamless.png") top left repeat;     
 }
 
 h1, h2, h3, h4 {
@@ -26,7 +27,7 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-#header {
+header {
     height: @header-height;
 }
 
@@ -36,7 +37,7 @@ h1, h2, h3, h4 {
     padding-bottom: 200px;
 }
 
-#footer {
+footer {
     width: 100%;
     height: @footer-height; 
     position: absolute;
@@ -92,6 +93,14 @@ h1, h2, h3, h4 {
     
     .navbar-collapse {
         background-color: fade(@secondary-color, 100%);
+        
+        .nav.navbar-nav.navbar-right {
+            li {
+                a {
+                    color: darken(white, 25%);
+                }
+            }
+        }
     }
     
     li {
@@ -165,6 +174,10 @@ a:hover {
 #homepage-carousel {
     margin: -75px 0 0 0;
     width: 100%;
+    
+    .carousel-indicators {
+        transform: translateY(75px);
+    }
 }
 /* end */
 
