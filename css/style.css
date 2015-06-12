@@ -51,6 +51,10 @@ footer .fa {
 footer .fa:hover {
   color: #f87217;
 }
+.title {
+  font-size: 5em;
+  text-align: center;
+}
 /* end */
 /* Navbar CSS */
 .navbar {
