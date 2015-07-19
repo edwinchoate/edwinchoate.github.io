@@ -1,0 +1,3 @@
+[submodule "TwitterTicker"]
+	path = TwitterTicker
+	url = https://github.com/edwinchoate/TwitterTicker
