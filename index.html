@@ -20,7 +20,10 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         
         <!-- jQuery JavaScript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
         
         <!-- Header and Footer jQuery -->
         <script>
@@ -54,59 +57,65 @@
         <div id="wrapper">
             
             <!-- Header -->
-            <header class="header"></header>
+            <div class="row">
+                <header class="header"></header>
+            </div>
 
             <!-- Content start -->
-            <main id="content">
+            <div class="row">
+                <main id="content">
 
-                <div class="container-fluid">
-                
-                    <!-- Carousel -->
-                    <div id="homepage-carousel" class="carousel slide" data-ride="carousel">
-                    
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#homepage-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#homepage-carousel" data-slide-to="1"></li>
-                            <li data-target="#homepage-carousel" data-slide-to="2"></li>
-                        </ol>
-                        
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                        
-                            <!-- Slide 1 -->
-                            <div class="item active">
-                                <img class="carousel-image" src="assets/images/slide1.png"/>
+                    <div class="container-fluid">
+
+                        <!-- Carousel -->
+                        <div id="homepage-carousel" class="carousel slide animated fadeIn" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#homepage-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#homepage-carousel" data-slide-to="1"></li>
+                                <li data-target="#homepage-carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Slide 1 -->
+                                <div class="item active">
+                                    <img class="carousel-image" src="assets/images/slide1.png"/>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="item">
+                                    <img class="carousel-image" src="assets/images/slide2.png"/>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="item">
+                                    <img class="carousel-image" src="assets/images/slide3.png"/>
+                                </div>
+
                             </div>
-                            <!-- Slide 2 -->
-                            <div class="item">
-                                <img class="carousel-image" src="assets/images/slide2.png"/>
-                            </div>
-                            <!-- Slide 3 -->
-                            <div class="item">
-                                <img class="carousel-image" src="assets/images/slide3.png"/>
-                            </div>
-                        
-                        </div>
-                        
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#homepage-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#homepage-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    
-                    </div> <!-- Carousel end -->
-                
-                </div> <!-- Carousel container end -->
-                    
-            </main> <!-- Content end -->
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#homepage-carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#homepage-carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- Carousel end -->
+
+                    </div> <!-- Carousel container end -->
+
+                </main>
+            </div> <!-- Content end -->
        
             <!-- Footer -->
-            <footer class="footer"></footer>
+            <div class="row">
+                <footer class="footer"></footer>
+            </div>
             
         </div> <!-- Wrapper ID ends -->
         

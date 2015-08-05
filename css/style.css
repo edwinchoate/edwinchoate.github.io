@@ -24,6 +24,11 @@ h4 {
 header {
   height: 125px;
 }
+@media (max-width: 768px) {
+  header {
+    height: 75px;
+  }
+}
 #content {
   position: relative;
   padding-top: 20px;
@@ -40,9 +45,6 @@ footer {
   font-size: 0.9em;
   text-align: center;
 }
-footer span {
-  padding: 15px 0px 15px 0px;
-}
 footer .fa {
   color: black;
   text-align: center;
@@ -50,6 +52,15 @@ footer .fa {
 }
 footer .fa:hover {
   color: #f87217;
+}
+footer #ec-logo {
+  width: 32px;
+  margin: 32px auto 32px auto;
+}
+footer p {
+  color: #808080;
+  font-weight: 300;
+  font-size: 1.1em;
 }
 .title {
   font-size: 4em;
@@ -60,7 +71,7 @@ footer .fa:hover {
 .navbar {
   border-radius: 0% !important;
   background: rgba(0, 0, 0, 0);
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.2em;
   border: none !important;
   box-shadow: none;
@@ -74,6 +85,9 @@ footer .fa:hover {
 .navbar #logo {
   width: 100%;
 }
+.navbar #logo:hover {
+  background-color: #f87217;
+}
 .navbar .btn,
 .navbar navbar-collapse {
   border: 0;
@@ -82,7 +96,10 @@ footer .fa:hover {
   background-color: #000000;
 }
 .navbar .navbar-collapse .nav.navbar-nav.navbar-right li a {
-  color: #bfbfbf;
+  color: #f2f2f2;
+}
+.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a:hover {
+  font-weight: 400;
 }
 .navbar li {
   padding-right: 10px;
@@ -131,11 +148,8 @@ a:hover {
   background-color: black;
 }
 #homepage-carousel {
-  margin: -75px 0 0 0;
+  padding: 0 0 75px 0;
   width: 100%;
-}
-#homepage-carousel .carousel-indicators {
-  transform: translateY(75px);
 }
 /* end */
 /* iframe CSS */

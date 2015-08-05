@@ -1,6 +1,7 @@
 
 /* Page layout CSS */
 @header-height: 125px;
+@header-height-mobile: 75px;
 @footer-height: 150px;
 @container-width: 960px;
 @text-color: black;
@@ -31,6 +32,12 @@ header {
     height: @header-height;
 }
 
+@media (max-width: 768px) {
+    header {
+        height: @header-height-mobile;   
+    }
+}
+
 #content {
     position: relative;
     padding-top: 20px;
@@ -48,10 +55,6 @@ footer {
     font-size: 0.9em;
     text-align: center;
     
-    span {
-        padding: 15px 0px 15px 0px;
-    }
-    
     .fa {
         color: @secondary-color;
         text-align: center;
@@ -61,6 +64,17 @@ footer {
             color: @accent-color;   
         }
     }
+    
+    #ec-logo {
+        width: 32px;   
+        margin: 32px auto 32px auto;
+    }
+    
+    p {
+        color: lighten(black, 50%);
+        font-weight: 300;
+        font-size: 1.1em;
+    }
 }
 
 .title {
@@ -69,14 +83,14 @@ footer {
 }
 /* end */
 
-
+ 
 /* Navbar CSS */
 @navbar-color: rgba(0, 0, 0, 0);
 
 .navbar {
     border-radius: 0% !important; 
     background: @navbar-color;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1.2em;
     border: none !important;
     box-shadow: none;
@@ -90,6 +104,10 @@ footer {
     
     #logo {
         width: 100%;
+        
+        &:hover {
+            background-color: @accent-color; 
+        }
     }
     
     .btn, navbar-collapse {
@@ -102,7 +120,11 @@ footer {
         .nav.navbar-nav.navbar-right {
             li {
                 a {
-                    color: darken(white, 25%);
+                    color: darken(white, 5%);
+                    
+                    &:hover {
+                        font-weight: 400;   
+                    }
                 }
             }
         }
@@ -162,6 +184,7 @@ a:hover {
 }
 
 .carousel-indicators {
+    
     li {
         border-color: @secondary-color;
         
@@ -177,12 +200,8 @@ a:hover {
 }
 
 #homepage-carousel {
-    margin: -75px 0 0 0;
+    padding: 0 0 75px 0;
     width: 100%;
-    
-    .carousel-indicators {
-        transform: translateY(75px);
-    }
 }
 /* end */
 
@@ -279,3 +298,4 @@ figure {
     padding-bottom: 50px;
 }
 /* end */
+

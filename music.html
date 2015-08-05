@@ -18,7 +18,10 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         
         <!-- jQuery JavaScript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
         
         <!-- Header and Footer jQuery -->
         <script>
@@ -62,55 +65,63 @@
         <div id="wrapper">
             
             <!-- Header -->
-            <header class="header"></header>
+            <div class="row">
+                <header class="header"></header>
+            </div>
 
             <!-- Content start -->
-            <main id="content">
-                
-                <div class="container">
-                    <h2>Saint Valentine</h2>
-                    <audio src="assets/mp3/saintvalentine.mp3" preload="auto"/>
-                </div>
-                
-                <div class="container">
-                    <h2>Charlie</h2>
-                    <audio src="assets/mp3/charlie.mp3" preload="auto"/>
-                </div>
-                
-                <div class="container">
-                    <h2>Blue Spotted Tail</h2>
-                    <audio src="assets/mp3/bluespottedtail.mp3" preload="none"/>
-                </div>
-                
-                <div class="container">
-                    <h2>One More Down</h2>
-                    <audio src="assets/mp3/onemoredown.mp3" preload="none"/>
-                </div>
-                
-                <div class="container">
-                    <h2>Emmylou</h2>
-                    <audio src="assets/mp3/emmylou.mp3" preload="none"/>
-                </div>
-                
-                <div class="container">
-                    <h2>Shank Hill St.</h2>
-                    <audio src="assets/mp3/shankhillst.mp3" preload="none"/>
-                </div>
+            <div class="row">
+                <main id="content">
+                    
+                    <div id="songs" class="animated fadeIn">
+                        <div class="container">
+                            <h2>Saint Valentine</h2>
+                            <audio src="assets/mp3/saintvalentine.mp3" preload="auto"/>
+                        </div>
 
-                <div class="container">
-                    <h2>The Stable Song</h2>
-                    <audio src="assets/mp3/thestablesong.mp3" preload="none"/>
-                </div>
+                        <div class="container">
+                            <h2>Charlie</h2>
+                            <audio src="assets/mp3/charlie.mp3" preload="auto"/>
+                        </div>
 
-                <div class="container">
-                    <h2>Don't Think Twice, It's Alright</h2>
-                    <audio src="assets/mp3/dontthinktwice.mp3" preload="none"/>
-                </div>
-                
-            </main> <!-- Content end -->
+                        <div class="container">
+                            <h2>Blue Spotted Tail</h2>
+                            <audio src="assets/mp3/bluespottedtail.mp3" preload="none"/>
+                        </div>
+
+                        <div class="container">
+                            <h2>One More Down</h2>
+                            <audio src="assets/mp3/onemoredown.mp3" preload="none"/>
+                        </div>
+
+                        <div class="container">
+                            <h2>Emmylou</h2>
+                            <audio src="assets/mp3/emmylou.mp3" preload="none"/>
+                        </div>
+
+                        <div class="container">
+                            <h2>Shank Hill St.</h2>
+                            <audio src="assets/mp3/shankhillst.mp3" preload="none"/>
+                        </div>
+
+                        <div class="container">
+                            <h2>The Stable Song</h2>
+                            <audio src="assets/mp3/thestablesong.mp3" preload="none"/>
+                        </div>
+
+                        <div class="container">
+                            <h2>Don't Think Twice, It's Alright</h2>
+                            <audio src="assets/mp3/dontthinktwice.mp3" preload="none"/>
+                        </div>
+                    </div>
+                    
+                </main> <!-- Content end -->
+            </div>
        
             <!-- Footer -->
-            <footer class="footer"></footer>
+            <div class="row">
+                <footer class="footer"></footer>
+            </div>
             
         </div> <!-- Wrapper ID ends -->
         
