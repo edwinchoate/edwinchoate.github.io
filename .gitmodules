@@ -4,3 +4,6 @@
 [submodule "audiojs"]
 	path = audiojs
 	url = https://github.com/edwinchoate/audiojs
+[submodule "OffSeason"]
+	path = OffSeason
+	url = https://github.com/edwinchoate/OffSeason
