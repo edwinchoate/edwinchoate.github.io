@@ -1,0 +1,94 @@
+/* Page layout CSS */
+html,
+body {
+  font-family: 'Lato', sans-serif !important;
+  margin: 0 10px 0 10px;
+  padding: 0;
+  height: 100%;
+  background: #ffffff url("../assets/images/concrete_seamless.png") top left repeat;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+.container {
+  max-width: 960px;
+  min-height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+header {
+  height: 125px;
+}
+@media (max-width: 768px) {
+  header {
+    height: 75px;
+  }
+}
+#content {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+footer {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-size: 0.9em;
+  text-align: center;
+}
+footer .fa {
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+}
+footer .fa:hover {
+  color: #f87217;
+}
+footer #ec-logo {
+  width: 32px;
+  margin: 32px auto 32px auto;
+}
+footer p {
+  color: #808080;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+.title {
+  font-size: 4em;
+  text-align: center;
+}
+/* end */
+/* Button CSS */
+.btn {
+  border-radius: 0%;
+}
+/* end */
+/* Link CSS */
+a {
+  color: #f87217;
+}
+a:hover {
+  color: #f87217 !important;
+}
+/* end */
+/* iframe CSS */
+#resume {
+  width: 97vw;
+  height: 100vh;
+  border: none;
+}
+/* end */
+/* Code CSS */
+.code-hl {
+  color: #f87217;
+}
+/* end */

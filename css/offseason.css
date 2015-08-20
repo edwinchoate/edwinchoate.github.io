@@ -1,0 +1,14 @@
+html,
+body {
+  background-image: none;
+  background: #9CE6FF;
+}
+.platform {
+  width: 51%;
+}
+#sprite {
+  position: relative;
+  left: 20%;
+  top: 95px;
+  width: 13%;
+}

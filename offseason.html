@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
     <head>
     
-        <title>edwinchoate.com | 404</title>
+        <title>edwinchoate.com | Off Season</title>
         
         <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="edwin, choate, edwin choate, Edwin, Choate, Edwin Choate, Georgia Tech, Tech, georgia tech, gt, GT, tech, computer, science, Computer, Science, Computer Science, computational, media, Computational, Media, Computational Media, college student, atlanta, Atlanta, Off Season, off season, indie game, GameBoy Advance, web dev">
+        <meta name="description" content="Edwin Choate's personal website. Edwin is a current Georgia Tech student studying computational media from Atlanta, GA.">
         <meta name="author" content="Edwin Choate">
         
         <!-- Favicon -->
@@ -25,7 +27,7 @@
         
         <!-- Header and Footer jQuery -->
         <script>
-            $(function() {
+            $(document).ready(function() {
                 $("header").load("header.html");
                 $("footer").load("footer.html");
             });
@@ -47,29 +49,39 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/navbar.css">
-    
+        <link rel="stylesheet" href="css/offseason.css">
+        
     </head>
     
     <body>
-    
+        
         <!-- Wrapper: contains header, content, and footer -->
         <div id="wrapper">
             
             <!-- Header -->
-            <header id="header"></header>
-
+            <div class="row">
+                <header class="header"></header>
+            </div>
+            
             <!-- Content start -->
-            <div id="content">
-                
-                <div class="container">
-                    <h1 class="title">error<strong>(404)</strong></h1>
-                    <h2 class="text-center">Sorry, this page is unavailable. <a href="index.html">Back to the homepage</a></h2>
-                </div>
-                
+            <div class="row">
+                <main id="content">
+
+                    <div class="container">
+                        <img id="sprite" src="assets/images/splash_screen_sprite_xl.png" alt="off season sprite" />
+                        <img class="platform" src="assets/images/platform_summer.png" align="right" alt="summer platform" style="margin-top: 50px;"/>
+                        <img class="platform" src="assets/images/platform_spring.png" align="left" alt="spring platform" style="margin-top: 50px;"/> 
+                        <img class="platform" src="assets/images/platform_winter.png" align="right" alt="winter platform" style="margin-bottom: 50px;"/>
+                        <img class="platform" src="assets/images/platform_fall.png" align="left" alt="fall platform"/>
+                    </div>
+                        
+                </main>
             </div> <!-- Content end -->
-       
-            <!-- Footer -->
-            <footer id="footer"></footer>
+                
+                 <!-- Footer -->
+            <div class="row">
+                <footer class="footer"></footer>
+            </div>
             
         </div> <!-- Wrapper ID ends -->
         
