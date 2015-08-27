@@ -7,3 +7,6 @@
 [submodule "OffSeason"]
 	path = OffSeason
 	url = https://github.com/edwinchoate/OffSeason
+[submodule "qr_fun"]
+	path = qr_fun
+	url = https://github.com/edwinchoate/qr_fun

@@ -1,7 +1,7 @@
 html,
 body {
   background-image: none;
-  background: #9CE6FF;
+  background: #9ce6ff;
 }
 .platform {
   width: 51%;
@@ -11,4 +11,51 @@ body {
   left: 20%;
   top: 95px;
   width: 13%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: 'VT323', 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+h1 {
+  margin-top: 50px;
+}
+button,
+#offseason-info,
+#offseason-info-button,
+a {
+  font-size: 1.4em;
+  border: none;
+}
+button {
+  background-color: #eeeeee;
+}
+button:hover {
+  background-color: black;
+  color: #9ce6ff;
+}
+#offseason-info {
+  background-color: #73dcff;
+}
+#offseason-button {
+  font-size: 2em;
+}
+#offseason-info-button {
+  margin-top: 72px;
+  background-color: #73dcff;
+}
+#offseason-info-button:hover {
+  background-color: black;
+  color: #9ce6ff;
+}
+.os-logo {
+  margin: 8px auto 24px auto;
 }

@@ -14,7 +14,7 @@
         <meta name="author" content="Edwin Choate">
         
         <!-- Favicon -->
-        <link rel="icon" type="image/png" href="assets/images/logos/favicon.png">
+        <link rel="icon" type="image/png" href="OffSeason/assets/splash_screen_sprite_xl.png">
         
         <!-- Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -30,6 +30,15 @@
             $(document).ready(function() {
                 $("header").load("header.html");
                 $("footer").load("footer.html");
+                
+                $("#sprite").on("mouseenter", function () {
+                    $(this).removeClass("fadeInLeft");
+                    $(this).addClass("animated bounce");
+                });
+
+                $("#sprite").on("mouseleave", function () {
+                    $(this).removeClass("animated bounce");  
+                });
             });
         </script>
         
@@ -45,6 +54,8 @@
         
         <!-- Lato typeface -->
         <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+        <!-- VT123 typeface -->
+        <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
@@ -67,12 +78,64 @@
             <div class="row">
                 <main id="content">
 
+                    
                     <div class="container">
-                        <img id="sprite" src="OffSeason/assets/splash_screen_sprite_xl.png" alt="off season sprite" />
-                        <img class="platform" src="OffSeason/assets/platform_summer.png" align="right" alt="summer platform" style="margin-top: 50px;"/>
-                        <img class="platform" src="OffSeason/assets/platform_spring.png" align="left" alt="spring platform" style="margin-top: 50px;"/> 
-                        <img class="platform" src="OffSeason/assets/platform_winter.png" align="right" alt="winter platform" style="margin-bottom: 50px;"/>
-                        <img class="platform" src="OffSeason/assets/platform_fall.png" align="left" alt="fall platform"/>
+                        
+                        <div class="row">
+                            <img id="sprite" class="animated fadeInLeft" src="OffSeason/assets/splash_screen_sprite_xl.png" alt="off season sprite" />
+                            <img class="platform animated fadeInRight" src="OffSeason/assets/platform_summer.png" align="right" alt="summer platform" style="margin-top: 50px;"/>
+                            <img class="platform animated fadeInLeft" src="OffSeason/assets/platform_spring.png" align="left" alt="spring platform" style="margin-top: 50px;"/>
+                        </div>
+                        
+                        <iframe class="youtube-video animated fadeInUp" width="420" height="315" src="https://www.youtube.com/embed/zx6vyI2lgME" frameborder="0" allowfullscreen></iframe>
+                            
+                        <div class="row">
+                            <img class="platform animated fadeInRight" src="OffSeason/assets/platform_winter.png" align="right" alt="winter platform" style="margin-bottom: 20px;"/>
+                            <img class="platform animated fadeInLeft" src="OffSeason/assets/platform_fall.png" align="left" alt="fall platform" />
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-center">Get the Game!</h1>
+                            </div>
+                            <div class="col-xs-12">
+                                <button id="offseason-button" class="center-block"><i class="fa fa-download"></i> Download</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="text-center">
+                                <h1>Grab an Emulator!</h1>
+                            </div>
+                            <div class="col-sm-2 col-sm-offset-4 col-xs-4 col-xs-offset-2 text-center">
+                                <i class="fa fa-windows fa-4x os-logo"></i>
+                            </div>
+                            <div class="col-sm-2 col-xs-4 text-center">
+                                <i class="fa fa-apple fa-4x os-logo"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-4 col-xs-4 col-xs-offset-2">
+                                <button class="center-block"><i class="fa fa-download"></i> VisualBoy</button>
+                            </div>
+                            <div class="col-sm-2 col-xs-4">
+                                <button class="center-block"><i class="fa fa-download"></i> OpenEmu</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row"> <a class="col-xs-12 text-center" style="margin-top: 12px;">Wait... what's an emulator?</a> </div>
+                        
+                        <div class="row"> 
+                            <div class="col-xs-12">
+                                <button id="offseason-info-button" class="center-block" role="button" data-toggle="collapse" data-target="#offseason-info">More Info...</button>
+                            </div>
+                             
+                            <div id="offseason-info" class="container collapse col-xs-8 col-xs-offset-2">
+                                <p>Off Season blah blah blah</p>
+                            </div>
+                        </div>
+                        
                     </div>
                         
                 </main>
