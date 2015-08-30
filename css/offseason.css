@@ -35,6 +35,9 @@ a {
   font-size: 1.4em;
   border: none;
 }
+.footer-ico {
+  font-size: 1.4em;
+}
 button {
   background-color: #eeeeee;
 }
@@ -42,11 +45,11 @@ button:hover {
   background-color: black;
   color: #9ce6ff;
 }
-#offseason-info {
-  background-color: #73dcff;
-}
 #offseason-button {
   font-size: 2em;
+}
+#offseason-info {
+  background-color: #73dcff;
 }
 #offseason-info-button {
   margin-top: 72px;
