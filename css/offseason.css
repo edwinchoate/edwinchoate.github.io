@@ -20,7 +20,9 @@ h5,
 h6,
 p,
 a,
-button {
+button,
+ol,
+li {
   font-family: 'VT323', 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
@@ -53,6 +55,9 @@ a button:hover {
 }
 #offseason-info {
   background-color: #73dcff;
+}
+#offseason-info a {
+  font-size: 1em;
 }
 #offseason-info-button {
   margin-top: 72px;
