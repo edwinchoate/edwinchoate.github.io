@@ -38,10 +38,13 @@ a {
 .footer-ico {
   font-size: 1.4em;
 }
-button {
+a:hover {
+  text-decoration: none;
+}
+a button {
   background-color: #eeeeee;
 }
-button:hover {
+a button:hover {
   background-color: black;
   color: #9ce6ff;
 }

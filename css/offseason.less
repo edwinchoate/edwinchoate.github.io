@@ -36,12 +36,18 @@ button, #offseason-info, #offseason-info-button, a {
     font-size: 1.4em; 
 }
 
-button {
-    background-color: @btn-color;
-    
+a {
     &:hover {
-        background-color: black;
-        color: @bg-color;
+        text-decoration: none;
+    }
+    
+    button {
+        background-color: @btn-color;
+
+        &:hover {
+            background-color: black;
+            color: @bg-color;
+        }
     }
 }
 
