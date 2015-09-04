@@ -81,6 +81,26 @@ a:hover {
 }
 /* end */
 /* iframe CSS */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container-small {
+  max-width: 512px;
+  max-height: 288px;
+  margin: 64px auto 64px auto;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 #resume {
   width: 97vw;
   height: 100vh;

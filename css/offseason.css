@@ -57,7 +57,7 @@ a button:hover {
   font-size: 2em;
 }
 #offseason-info {
-  background-color: #73dcff;
+  background: #73dcff url("/OffSeason/assets/checkered-squares.jpg") top left repeat;
 }
 #offseason-info a {
   font-size: 1em;
