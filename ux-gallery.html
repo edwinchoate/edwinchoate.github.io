@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <title>edwinchoate.com | ux</title>
+        
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Edwin Choate">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <!-- jQuery JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <!-- Header and Footer jQuery -->
+        <script>
+            $(function() {
+                $("header").load("header.html");
+                $("footer").load("footer.html");
+            });
+        </script>
+        
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- lato typeface -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Audio.js -->
+        <script src="audiojs/audiojs/audio.min.js"></script>
+
+        <!-- Setting up Audio.js -->
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
+    
+    </head>
+    
+    <body>
+    
+        <!-- Wrapper: contains header, content, and footer -->
+        <div id="wrapper">
+            
+            <!-- Header -->
+            <header id="header"></header>
+
+            <!-- Content start -->
+            <main id="content">
+                
+                <div class="container">
+                    <h1>Logos</h1>
+                    
+                    <!-- Mandledwin logo -->
+                    <figure>
+                        <img class="ux-logo" src="assets/images/mandledwin.png" alt="Mandledwin Logo"/>
+                        <figcaption>The logo for my music blog, Mandledwin. Hand-drawn + Photoshop.</figcaption>
+                    </figure>
+
+                    <!-- Quikalarm logo --> 
+                    <figure>
+                        <img class="ux-logo" src="assets/images/quikalarm.png" alt="Quikalarm Logo"/>
+                        <figcaption>A logo for a fictitious alarm clock app.</figcaption>
+                    </figure>
+
+                    <!-- Old edwinchoate.com logo -->
+                    <figure>
+                        <img class="ux-logo" src="assets/images/old_site_logo.png" alt="Old edwinchoate.com Logo"/>
+                        <figcaption>The logo for an older version of this site.</figcaption>
+                    </figure>
+
+                    <h1>Widgets</h1>
+                    
+                    <div id="ux-audio" class="container">
+                        
+                        <!-- Minimalist audiojs -->
+                        <audio src="assets/mp3/example.mp3" preload="auto"/>
+                        
+                    </div>
+                    
+                    <br>
+                    <p>This audio player is used on this very site; it's responsive and supports HTML5 and Flash. Once installed, it can be used as an HTML5 audio element like so:</p>
+                        
+                    <!-- example code for audio player -->
+                    <pre>&lt;audio src=<span class="code-hl">"/path/to/an.mp3"</span> preload=<span class="code-hl">"auto"</span>/&gt;</pre>
+                        
+                    <p>For more installation details, see <a href="https://github.com/edwinchoate/audiojs" target="_blank">source code on GitHub</a>.</p>
+                    
+                    
+                </div>
+                
+                
+            </main> <!-- Content end -->
+       
+            <!-- Footer -->
+            <footer id="footer"></footer>
+            
+        </div> <!-- Wrapper ID ends -->
+        
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    
+</html>

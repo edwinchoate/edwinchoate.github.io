@@ -1,0 +1,37 @@
+/* Navbar CSS */
+.navbar {
+  border-radius: 0% !important;
+  background: rgba(0, 0, 0, 0);
+  font-weight: 300;
+  font-size: 1.2em;
+  border: none !important;
+  box-shadow: none;
+  max-height: 150px;
+}
+.navbar .glyphicon {
+  padding-right: 10px;
+  padding-top: 0px;
+  display: inline;
+}
+.navbar #logo {
+  width: 100%;
+}
+.navbar #logo:hover {
+  background-color: #f87217;
+}
+.navbar .btn,
+.navbar navbar-collapse {
+  border: 0;
+}
+.navbar .navbar-collapse {
+  background-color: #000000;
+}
+.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a {
+  color: #f2f2f2;
+}
+.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a:hover {
+  font-weight: 400;
+}
+.navbar li {
+  padding-right: 10px;
+}
