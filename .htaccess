@@ -2,7 +2,7 @@
 # Allow PHP/HTML pages to load without the filename extension
 ######
 RewriteEngine On # Turns rewrite engine on (if allowed by server settings)
-RewriteCond %{HTTP_HOST} ^www.edwinchoate.com
+RewriteCond %{HTTP_HOST} ^www\.edwinchoate\.com
 RewriteRule (.*) http://edwinchoate.com/$1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
