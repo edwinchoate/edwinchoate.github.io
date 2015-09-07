@@ -1,3 +1,5 @@
+// Boostrap helper variables
+@screen-sm-min: 768px;
 
 /* Page layout CSS */
 @header-height: 125px;
@@ -35,7 +37,7 @@ header {
     height: @header-height;
 }
 
-@media (max-width: 768px) {
+@media (max-width: @screen-sm-min) {
     header {
         height: @header-height-mobile;   
     }
@@ -102,6 +104,14 @@ a {
 a:hover {
     color: @accent-color !important;
 }
+
+.info-btn {
+    color: @text-color;
+    
+    &:hover {
+        color: @accent-color;   
+    }
+}
 /* end */
 
 
@@ -136,6 +146,60 @@ a:hover {
     border: none;
 }
 /* end */
+
+
+// Minimalist borders
+@b-thickness: 16px;
+
+.styled-border {
+    border-style: solid;
+    border-color: @text-color;
+    
+    padding: 5%;
+    margin: 5%;
+    width: 39%; 
+    display: inline-block;
+    
+    img {
+        width: 100%; 
+    }
+    
+    p {
+        margin-top: 25px;
+    }
+    
+    @media (max-width: @screen-sm-min) {
+        padding: 10%;
+        margin: 10%;
+        width: 79%; 
+        
+    }   
+    
+    i {
+        padding-top: 15px;
+    }
+    
+}
+
+.styled-border-tl {
+    .styled-border;
+    border-top-width: @b-thickness;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: @b-thickness;
+}
+
+.styled-border-rb {
+    .styled-border;
+    border-top-width: 0;
+    border-right-width: @b-thickness;
+    border-bottom-width: @b-thickness;
+    border-left-width: 0;
+}
+
+.well {
+    border-radius: 0;
+}
 
 
 /* Code CSS */
