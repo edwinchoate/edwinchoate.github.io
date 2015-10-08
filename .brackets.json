@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/edwinchoate/git/edwinchoate.github.io/TwitterTicker/nvd3/test/testScript.js",
+        "/Users/edwinchoate/git/edwinchoate.github.io/TwitterTicker/nvd3/test/stream_layers.js",
+        "/Users/edwinchoate/git/edwinchoate.github.io/TwitterTicker/nvd3/test/node/nodeTest.js",
+        "/Users/edwinchoate/git/edwinchoate.github.io/TwitterTicker/nvd3/test/node/GruntFile.js"
+    ]
+}
