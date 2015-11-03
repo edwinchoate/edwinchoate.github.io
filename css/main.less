@@ -23,6 +23,12 @@ h1, h2, h3, h4 {
     font-weight: 300;
 }
 
+p { 
+    font-size: 1.5em; 
+    font-weight: 300;
+    line-height: 200%;
+}
+
 .container {
     max-width: @container-width;
     min-height: 100%;
@@ -82,6 +88,10 @@ footer {
     }
 }
 
+.full-width {
+    width: 100%;
+}
+
 .title {
     font-size: 4em;
     text-align: center;
@@ -123,10 +133,14 @@ a:hover {
     overflow: hidden;
 }
 
-.video-container-small {
+.video-container-small-lite {
     @max-video-width: 512px;
     max-width: @max-video-width;
     max-height: (@max-video-width * 9) / 16;
+}
+
+.video-container-small {
+    .video-container-small-lite; 
     margin: 64px auto 64px auto;
 }
  
@@ -196,6 +210,12 @@ a:hover {
     border-bottom-width: @b-thickness;
     border-left-width: 0;
 }
+
+.project-container {
+    border-left: @b-thickness solid @text-color;
+}
+
+/* end */
 
 .well {
     border-radius: 0;

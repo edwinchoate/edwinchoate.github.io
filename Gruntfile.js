@@ -11,7 +11,8 @@ module.exports = function(grunt) {
                     "css/main.css": "css/main.less",
                     "css/offseason.css": "css/offseason.less",
                     "css/navbar.css": "css/navbar.less",
-                    "css/carousel.css": "css/carousel.less"
+                    "css/carousel.css": "css/carousel.less",
+                    "css/projects.css": "css/projects.less"
                 }
             }
         },

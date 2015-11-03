@@ -13,6 +13,11 @@ h3,
 h4 {
   font-weight: 300;
 }
+p {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 200%;
+}
 .container {
   max-width: 960px;
   min-height: 100%;
@@ -62,6 +67,9 @@ footer p {
   font-weight: 300;
   font-size: 1.1em;
 }
+.full-width {
+  width: 100%;
+}
 .title {
   font-size: 4em;
   text-align: center;
@@ -92,6 +100,10 @@ a:hover {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
+}
+.video-container-small-lite {
+  max-width: 512px;
+  max-height: 288px;
 }
 .video-container-small {
   max-width: 512px;
@@ -193,6 +205,10 @@ a:hover {
 .styled-border-rb i {
   padding-top: 15px;
 }
+.project-container {
+  border-left: 16px solid black;
+}
+/* end */
 .well {
   border-radius: 0;
 }
