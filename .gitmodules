@@ -7,3 +7,6 @@
 [submodule "off_season"]
 	path = off_season
 	url = https://github.com/edwinchoate/off_season
+[submodule "faze"]
+	path = faze
+	url = https://github.com/edwinchoate/faze
