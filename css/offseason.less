@@ -1,0 +1,85 @@
+@bg-color: #9CE6FF;
+@btn-color: #eee;
+
+html, body {  
+    background-image: none;
+    background: @bg-color;
+}
+
+.platform {
+    width: 51%;
+}
+
+#sprite {
+    position: relative;
+    left: 20%;
+    top: 95px;
+    width: 13%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, ol, li {
+    font-family: 'VT323', 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.navbar {
+    a {
+       font-size: 1.3em; 
+    }
+}
+
+button, #offseason-info, #offseason-info-button, a {
+    font-size: 1.2em;
+    border: none;
+}
+
+.footer-ico {
+    font-size: 1.65em; 
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+    
+    button {
+        background-color: @btn-color;
+
+        &:hover {
+            background-color: black;
+            color: @bg-color;
+        }
+    }
+}
+
+#offseason-button {
+    font-size: 2em;
+}
+
+#offseason-info {
+    background: darken(@bg-color, 8%) url("/off_season/assets/checkered-squares.jpg") top left repeat;
+    
+    a {
+        font-size: 1em;
+    }
+}
+
+#offseason-info-button {
+    margin-top: 72px;
+    font-size: 1.4em;
+    background-color: darken(@bg-color, 8%);
+    
+    &:hover {
+        background-color: black;
+        color: @bg-color;
+    }
+}
+
+.os-logo {
+    margin: 8px auto 24px auto;
+}

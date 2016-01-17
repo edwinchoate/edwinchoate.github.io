@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <title>edwinchoate.com | projects</title>
+        
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Edwin Choate">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/logos/favicon.png">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        <!-- jQuery JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <!-- Header and Footer jQuery -->
+        <script>
+            $(function() {
+                $("header").load("views/header.html");
+                $("footer").load("views/footer.html");
+            });
+        </script>
+        
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- Lato typeface -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="audiojs/audiojs/minimalist-audiojs.css">
+        <link rel="stylesheet" href="css/projects.css"> 
+
+        <!-- Audio.js -->
+        <script src="audiojs/audiojs/audio.min.js"></script>
+
+        <!-- Setting up Audio.js -->
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
+    
+    </head>
+    
+    <body>
+    
+        <!-- Wrapper: contains header, content, and footer -->
+        <div id="wrapper">
+            
+            <!-- Header -->
+            <div class="row">
+                <header class="header"></header>
+            </div>
+
+            <!-- Content start -->
+            <div class="row">
+                <main id="content"><div class="container">
+                    
+                    <!-- Off Season -->
+                    <div class="project off-season">
+                        <!-- off season image -->
+                        <div class="project-head">
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                                    <img class="full-width project-offseason-img" alt="off season thumbnail" src="assets/images/projects/thumbnail_off_season.png" data-transparent="assets/images/projects/thumbnail_off_season.png" data-neutral="assets/images/projects/thumbnail_off_season_highlighted.png">
+                                </div>
+                            </div>
+                            <!-- interactive season icons -->
+                            <div class="row">
+                                <img id="flower" class="season-icon col-sm-2 col-sm-offset-2 col-xs-3" src="assets/images/projects/flower.png">
+                                <img id="sun" class="season-icon col-sm-2 col-xs-3" src="assets/images/projects/sun.png">
+                                <img id="leaf" class="season-icon col-sm-2 col-xs-3" src="assets/images/projects/leaf.png">
+                                <img id="snowflake" class="season-icon col-sm-2 col-xs-3" src="assets/images/projects/snowflake.png">
+                            </div>
+                        </div>
+                        <!-- off season description -->
+                        <div class="row project-description">
+                            <div class="col-xs-12"><p><a href="/offseason.html">Off Season</a> is a nostalgic 8-bit puzzle game full of exploration and challenge. Programmed in C, Off Season is for the <a href="https://en.wikipedia.org/wiki/Game_Boy_Advance">GameBoy Advance</a> platform. I built the Off Season world from the ground up, doing everything from character design, visual design, and game design to in-game physics and gameplay. You can play it with a GameBoy Advance emulator like <a href="http://sourceforge.net/projects/vba/">VisualBoy Advance</a>, <a href="http://www.bannister.org/software/ba.htm">Boycott Advance</a>, or <a href="http://openemu.org/">OpenEmu</a>. Off Season was inspired in part by <a href="http://www.zelda.com/oracle/#body-seasons">Legend of Zelda Oracle of Seasons</a> and <a href="http://fezgame.com/">Fez</a>. </p>
+                                <p>Favorite part of the project: figuring out how 8-bit art and low-level C fit into the big picture.</p>
+                                <p>To see the project, check out <a href="http://edwinchoate.com/offseason">edwinchoate.com/offseason</a></p>
+                                <p><a href="https://github.com/edwinchoate/off_season">Off Season on Github <i class="fa fa-code-fork"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Off Season -->
+                        
+                    <!-- Greenlight.space -->
+                    <div class="project greenlight">
+                        <!-- greenlight image -->
+                        <div class="project-head"><div class="row">
+                            <div class="col-xs-12"><img class="full-width project-greenlight-img" alt="greenlight.space thumbnail" src="assets/images/projects/thumbnail_greenlight.png" data-swap="assets/images/projects/thumbnail_greenlight_highlighted.png"></div>    
+                        </div>
+                        <!-- greenlight.space YouTube embed
+                        <div class="row video-container-small center-block"><div class="video-container">
+                            <iframe class="youtube-video animated fadeInUp" width="420" height="315" src="https://www.youtube.com/embed/Kz8V0HXolA8?color=white&autohide=1&rel=0&theme=light&playsinline=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        </div></div>--></div>
+                        <!-- greeenlight.space description -->
+                        <div class="row project-description">
+                            <div class="col-xs-12"><p><a href="http://www.greenlight.space/">Greenlight.space</a> is an <a href="https://en.wikipedia.org/wiki/Internet_of_Things">IoT</a> web app that brings all the functionality of a physical traffic light to your pocket. I worked with electrical engineering student <a href="https://www.linkedin.com/in/gtzintzarov">George Tzintzarov</a> to develop this project for fun. I carried out all of the visual design, experience design, and front-end development for the project. Written in <a href="https://www.python.org/">Python</a>, Greenlight.space is a <a href="http://flask.pocoo.org/">Flask</a> micro app that is deployed to <a href="https://www.heroku.com/">Heroku</a>. On the server side, the physical traffic light is controlled by scripts residing on a <a href="https://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2</a> (as a result, the site does have some downtime). </p>
+                            <p>Favorite part of the project: connecting UX and IoT.</p>  
+                            <p>See the project live at <a href="http://www.greenlight.space/">greenlight.space</a></p>
+                            <p><a href="https://github.com/edwinchoate/greenlight">Greenlight.space on Github <i class="fa fa-code-fork"></i></a></p>
+                            </div></div>
+                    </div>
+                    <!-- end Greenlight.space -->
+                        
+                    <!-- coatlanta.org project -->
+                    <div class="project coatlanta">
+                        <div class="project-head">
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1 col-xs-12"><img class="full-width project-coatlanta-img" alt="coatlanta thumbnail" src="assets/images/projects/thumbnail_coatlanta.org.png" data-swap="assets/images/projects/thumbnail_coatlanta.org_highlighted.png"></div>
+                            </div>
+                            <!-- coatlanta preview -->
+                            <div class="row video-container-small"><a href="http://coatlanta.org/" target="_blank"><img class="full-width coatlanta-screenshot" alt="coatlanta preview" src="assets/images/projects/coatlanta_screenshot.png" data-swap="assets/images/projects/coatlanta_screenshot_highlighted.png"></a></div>
+                        </div>
+                        <div class="row project-description">
+                            <div class="col-xs-12">
+                                <p>Campus Outreach Atlanta serves hundreds of students at <a href="http://coatlanta.org/campuses.html">six college campuses</a> in the metro Atlanta area. As lead designer and developer, I met with the Campus Outreach Staff Team to design the site according to their needs. Using <a href="http://www.adobe.com/products/muse.html?sdid=KKQMF&s_kwcid=AL!3085!3!77502776683!e!!g!!adobe%20muse&ef_id=VgRHMgAAAKrrXTlL:20151103035817:s">Adobe Muse</a>, I created the entire desktop site and the majority of the mobile site. I employed user-centered design principles in assessing critical requirements such as the site's <a href="http://coatlanta.org/give.html">donations page</a>. I worked with the team's Media Developer to populate the site with compelling images and videos of current students.</p>
+                                <p>Favorite part of the project: working with the client to build something they love.</p>
+                                <p>See the finished product at <a href="http://coatlanta.org/">coatlanta.org</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end coatlanta.org -->
+                    
+                    <!-- TwitterTicket project -->
+                    <div class="project twitterticker">
+                        <div class="project-head">
+                            <div class="row">
+                                <div class="col-sm-10 col-sm-offset-1 col-xs-12"><img class="full-width project-twitterticker-img" alt="twitterticker thumbnail" src="assets/images/projects/thumbnail_twitter_ticker.png" data-swap="assets/images/projects/thumbnail_twitter_ticker_highlighted.png"></div>
+                            </div>
+                            <div class="row video-container-small"><a href="http://www.edwinchoate.com/TwitterTicker/index.html" target="_blank"><img class="full-width twitterticker-screenshot" alt="twitterticker screenshot" src="assets/images/projects/twitterticker_screenshot.png" data-swap="assets/images/projects/twitterticker_screenshot_highlighted.png"></a></div>
+                        </div>
+                        <div class="row project-description">
+                            <div class="col-xs-12">
+                                <p><a href="http://www.edwinchoate.com/TwitterTicker/index.html">TwitterTicker</a> is a visualization that juxtaposes stock and Twitter data to help better understand how social media can play a role in the stock market. I built TwitterTicker as part of a team project for the <a href="http://www.cc.gatech.edu/~stasko/4460/">Introduction to Information Visualization (CS 4460)</a> course at <a href="http://www.gatech.edu/">Georgia Tech</a>. As the lead front-end developer, I carried out the visual design, widget design, and interaction design. I also built the project's <a href="http://getbootstrap.com/">Bootstrap</a> site and implemented two of the three views: the "Stock Timeline View" and "Magnet View". The TwitterTicker front-end utilizes <a href="http://d3js.org/">D3</a> and <a href="http://jquery.com/">jQuery</a> for interaction.</p>
+                                <p>Favorite part of the project: working with back-end developers to bring large datasets to life (~30,000 tweets per company).</p>
+                                <p>Give the project a try at <a href="http://www.edwinchoate.com/TwitterTicker/index.html">edwinchoate.com/TwitterTicker</a></p>
+                                <p><a href="https://github.com/edwinchoate/TwitterTicker">TwitterTicker on Github <i class="fa fa-code-fork"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end TwitterTicker -->
+                    
+                    
+                    <!-- audioJS project -->
+                    <div class="project project-audiojs">
+                        <div class="project-head">
+                            <div class="row"><div class="col-sm-6 col-sm-offset-3 col-xs-12"><p class="text-center audiojs-title">audio.js</p></div></div>
+                        </div>
+                        <div class="row project-description">
+                            <div id="ux-audio" class="container">
+                                <!-- Minimalist audiojs -->
+                                <audio src="assets/mp3/example.mp3" preload="auto"/>
+                            </div>
+                        </div>
+                        <div class="row project-description">
+                            <div class="col-xs-12">
+                                <p>This just-for-fun project is a fork of <a href="http://www.kolber.info/">Anthony Kolber's</a> HTML5 music player, <a href="https://github.com/kolber/audiojs">audio.js</a>. In designing an audio player for my site, I wanted to focus on modernism and minimalism. I modified <a href="http://kolber.github.io/audiojs/">the original</a> by bringing in flat and responsive design. This version of audio.js can be seen in action on my <a href="http://www.edwinchoate.com/music">music page</a>.
+                                <p>Favorite part of the project: the combination of aesthetics, functionality, and music.</p>
+                                <p><a href="https://github.com/edwinchoate/audiojs">Audio.js on Github <i class="fa fa-code-fork"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end audioJS -->
+                    
+                    
+                    
+                </div></main> <!-- Content end -->
+            </div>
+       
+            <!-- Footer -->
+            <div class="row">
+                <footer class="footer"></footer>
+            </div>
+            
+        </div> <!-- Wrapper ID ends -->
+        
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/projects.js"></script>
+    </body>
+    
+</html>

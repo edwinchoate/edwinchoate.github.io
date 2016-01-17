@@ -1,0 +1,12 @@
+.project {
+  margin-bottom: 72px;
+}
+.project .project-head {
+  margin-bottom: 48px;
+}
+.project .project-description {
+  padding: 0 0 72px 0;
+}
+.audiojs-title {
+  font-size: 4.5em;
+}
