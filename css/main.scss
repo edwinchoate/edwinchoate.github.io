@@ -4,7 +4,6 @@
 @charset "utf-8";
 
 
-
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -27,8 +26,10 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
+// bootstrap media query breakpoints
+$screen-sm-min:    768px;
+$screen-md-min:    992px;
+$screen-lg-min:    1200px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
