@@ -31,14 +31,14 @@
   .menu-bar {
     position: fixed;
     top: $spacing-unit * 2;
-    right: 0;
+    left: 0;
     z-index: 1002;
     background-color: orange;
     $menu-bar-width: $spacing-unit * 2;
     width: $menu-bar-width;
     height: $menu-bar-width; // square dimensions
 
-    .fa-bars {
+    .fa {
       text-align: center;
       width: $spacing-unit;
       $menu-logo-margin: ($menu-bar-width - $spacing-unit) / 2;
@@ -47,23 +47,6 @@
   }
 
   .overlay {
-    .menu-links {
-      position: fixed;
-      border-top: $spacing-unit / 4 solid black;
-      top: $spacing-unit * 4;
-      width: 100%;
-      text-align: right;
-      right: 0;
-      float: right;
-      padding-right: $spacing-unit * 2;
-      max-height: 100%;
-      overflow: auto;
-
-      a {
-        font-size: 64px;
-      }
-    }
-
     position: fixed;
     min-width: 100%;
     min-height: 100%;
@@ -71,8 +54,24 @@
     top: 0;
     left: 0;
     background-color: rgba($background-color, 0.90);
-    border: 1px dotted blue;
     border-radius: none;
+  }
+
+  .menu-links {
+    position: fixed;
+    // border-top: $spacing-unit / 4 solid black;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    text-align: left;
+    left: 0;
+    padding: 0 ($spacing-unit * 2) 0 ($spacing-unit * 2);
+    max-height: 100%;
+    overflow: auto;
+
+    a {
+      font-size: 64px;
+    }
   }
 
   // float: right;
@@ -84,15 +83,19 @@
 
   .page-link {
       display: block;
-      padding: 5px 10px;
+      // padding: $spacing-unit / 2 $spacing-unit / 2;
       margin-right: $spacing-unit / 2;
 
       // &:not(:last-child) {
       //     margin-right: 0;
       // }
-      margin-left: 20px;
+      margin-left: $spacing-unit * 2;
       color: $text-color;
       line-height: $base-line-height;
+
+      &:first-child {
+        margin-top: $spacing-unit * 5;
+      }
 
       &:last-child {
         margin-bottom: $spacing-unit * 8;
