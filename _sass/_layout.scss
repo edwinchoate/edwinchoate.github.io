@@ -28,13 +28,21 @@
 
   overflow: hidden;
 
+  $menu-bar-top: $spacing-unit * 2;
+  $menu-bar-top-mobile: $spacing-unit * 0.75;
+  $menu-bar-width: $spacing-unit * 2;
+
+
   .menu-bar {
     position: fixed;
-    top: $spacing-unit * 2;
+    top: $menu-bar-top-mobile;
+
+    @include my-media-query($screen-sm-min) {
+      top: $menu-bar-top;
+    }
     left: 0;
-    z-index: 1002;
+    z-index: 1003;
     background-color: orange;
-    $menu-bar-width: $spacing-unit * 2;
     width: $menu-bar-width;
     height: $menu-bar-width; // square dimensions
 
@@ -44,6 +52,19 @@
       $menu-logo-margin: ($menu-bar-width - $spacing-unit) / 2;
       margin: 0 $menu-logo-margin 0 $menu-logo-margin;
     }
+  }
+
+  .ec-logo {
+    position: fixed;
+    top: $menu-bar-top-mobile;
+    left: $menu-bar-width + $spacing-unit / 2;
+
+    @include my-media-query($screen-sm-min) {
+      top: $menu-bar-top;
+    }
+
+    z-index: 1002;
+    max-width: $menu-bar-width;
   }
 
   .overlay {
@@ -65,12 +86,25 @@
     z-index: 1001;
     text-align: left;
     left: 0;
-    padding: 0 ($spacing-unit * 2) 0 ($spacing-unit * 2);
+    padding: $spacing-unit / 2;
+
+    @include my-media-query($screen-sm-min) {
+      padding: 0 $menu-bar-width 0 $menu-bar-width;
+    }
+
     max-height: 100%;
     overflow: auto;
 
     a {
-      font-size: 64px;
+      font-size: $base-font-size * 3;
+
+      @include my-media-query($screen-sm-min) {
+        font-size: $base-font-size * 4;
+      }
+
+      @include my-media-query($screen-md-min) {
+        font-size: $base-font-size * 5;
+      }
     }
   }
 
@@ -89,12 +123,16 @@
       // &:not(:last-child) {
       //     margin-right: 0;
       // }
-      margin-left: $spacing-unit * 2;
+      margin-left: $spacing-unit / 2;
       color: $text-color;
       line-height: $base-line-height;
 
       &:first-child {
-        margin-top: $spacing-unit * 5;
+        margin-top: $menu-bar-top-mobile + $menu-bar-width;
+
+        @include my-media-query($screen-sm-min) {
+          margin-top: $menu-bar-top + $menu-bar-width + $spacing-unit;
+        }
       }
 
       &:last-child {
@@ -106,6 +144,7 @@
       //     margin-right: 20px;
       // }
   }
+
 
 
   // @include media-query($on-palm) {

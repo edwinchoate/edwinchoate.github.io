@@ -44,6 +44,12 @@ $screen-lg-min:    1200px;
     }
 }
 
+// e.g.   @include my-media-query($screen-md-min) { ... }
+@mixin my-media-query($screen-size) {
+    @media screen and (min-width: $screen-size) {
+        @content;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
