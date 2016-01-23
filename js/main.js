@@ -16,14 +16,14 @@ var menuHandler = function() {
 
   // collapsing navbar
   if (navbarExpanded) {
-    navbarElements.hide();
+    navbarElements.fadeOut();
     icon.removeClass("fa-close");
     icon.addClass("fa-bars");
     navbarExpanded = false;
   }
   // expanding navbar
   else {
-    navbarElements.show();
+    navbarElements.fadeIn();
     icon.removeClass("fa-bars");
     icon.addClass("fa-close");
     navbarExpanded = true;
