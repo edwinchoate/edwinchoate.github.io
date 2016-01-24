@@ -5,15 +5,17 @@
 
   <body>
 
-    {% include header.html %}
+    <div id="wrapper">
+      <div id="header">{% include header.html %}</div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div id="content" class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
-    </div>
 
-    {% include footer.html %}
+      <div id="footer">{% include footer.html %}</div>
+    </div>
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/js/main.js"></script>
