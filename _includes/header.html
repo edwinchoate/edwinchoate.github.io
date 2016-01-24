@@ -1,0 +1,25 @@
+<header class="site-header">
+
+    <nav class="site-nav">
+
+
+        <div class="menu-bar">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <a href="{{ site.url }}"><img class="ec-logo" src="/img/ec_logo.png" alt="edwin choate logo"></a>
+
+        <div class="overlay"></div>
+
+        <div class="menu-links">
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <a class="menu-page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+
+    </nav>
+
+</header>

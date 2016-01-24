@@ -1,0 +1,78 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// my variables
+$landing-grey:        #c0bcb2;
+$landing-grey-light:  #d4cdc4;
+$landing-grey-dark:   #a09c93;
+
+$logo-orange:         #fd8624;
+$logo-orange-dark:    #e65f22;
+$logo-gold:           #e69828;
+
+// jekyll variables
+$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       darken($landing-grey-dark, 25%);
+$background-color: $landing-grey-light;
+$brand-color:      $logo-orange-dark;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+// Width of the content area
+$content-width:    960px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// bootstrap media query breakpoints
+$screen-sm-min:    768px;
+$screen-md-min:    992px;
+$screen-lg-min:    1200px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// e.g.   @include my-media-query($screen-md-min) { ... }
+@mixin my-media-query($screen-size) {
+    @media screen and (min-width: $screen-size) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+// useful for fullscreen images
+.full-screen {
+  min-height: 100vh;
+  position: fixed;
+    top: 0;
+    left: 0;
+}
