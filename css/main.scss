@@ -3,9 +3,17 @@
 ---
 @charset "utf-8";
 
+// my variables
+$landing-grey:        #c0bcb2;
+$landing-grey-light:  #d4cdc4;
+$landing-grey-dark:   #a09c93;
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$logo-orange:         #fd8624;
+$logo-orange-dark:    #e65f22;
+$logo-gold:           #e69828;
+
+// jekyll variables
+$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -13,19 +21,21 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       darken($landing-grey-dark, 25%);
+$background-color: $landing-grey-light;
+$brand-color:      $logo-orange-dark;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+
 // Width of the content area
-$content-width:    800px;
+$content-width:    960px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
 // bootstrap media query breakpoints
 $screen-sm-min:    768px;
 $screen-md-min:    992px;
@@ -58,3 +68,11 @@ $screen-lg-min:    1200px;
         "layout",
         "syntax-highlighting"
 ;
+
+// useful for fullscreen images
+.full-screen {
+  min-height: 100vh;
+  position: fixed;
+    top: 0;
+    left: 0;
+}
