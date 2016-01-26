@@ -1,0 +1,10 @@
+/**
+  Offseason Page styles
+**/
+.platform {
+  margin-top: $spacing-unit;
+
+  @include my-media-query($screen-sm-min) {
+    margin-top: $spacing-unit * 3;
+  }
+}
