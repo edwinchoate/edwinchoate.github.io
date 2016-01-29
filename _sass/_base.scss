@@ -82,11 +82,10 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .menu-links {
+    font-family: $alt-font-family !important;
     font-weight: $base-font-weight;
 }
-
-
 
 /**
  * Links
