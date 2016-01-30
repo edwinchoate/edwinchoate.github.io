@@ -1,0 +1,22 @@
+$theme-dark-bg-color:     #333;
+$theme-dark-text-color:   #ccc;
+$theme-dark-menu-icon-color: #333;
+
+$text-color:       $theme-dark-text-color;
+$background-color: $theme-dark-bg-color;
+
+.menu-bar {
+  .fa {
+    color: $theme-dark-menu-icon-color;
+  }
+}
+
+#footer {
+  i.fa {
+    color: $theme-dark-text-color;
+  }
+}
+
+p {
+  color: $theme-dark-text-color;
+}

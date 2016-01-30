@@ -1,0 +1,21 @@
+$theme-light-bg-color:    #ccc;
+$theme-light-text-color:  #333;
+
+$text-color:       $theme-light-text-color;
+$background-color: $theme-light-bg-color;
+
+.menu-bar {
+  .fa {
+    color: $theme-light-text-color;
+  }
+}
+
+#footer {
+  i.fa {
+    color: $theme-light-text-color;
+  }
+}
+
+p {
+  color: $theme-light-text-color;
+}

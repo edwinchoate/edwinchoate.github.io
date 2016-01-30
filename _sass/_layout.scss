@@ -76,7 +76,6 @@
     height: $menu-bar-width; // square dimensions
 
     .fa {
-      color: darken($landing-grey-dark, 25%);
       text-align: center;
       width: $spacing-unit;
       $menu-logo-margin: ($menu-bar-width - $spacing-unit) / 2;
@@ -266,7 +265,6 @@
 
     // font awesome icons
     i.fa {
-      color: $landing-grey-dark;
 
       &:hover {
           color: $brand-color !important;
@@ -274,7 +272,6 @@
     }
 
     p {
-      color: $landing-grey-dark;
 
       &:hover {
         text-decoration: none !important;
