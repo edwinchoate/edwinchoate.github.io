@@ -247,3 +247,14 @@ pre {
         }
     }
 }
+
+/**
+ * Text Selection
+ */
+ ::selection {
+   background: $logo-orange;
+ }
+
+ ::-moz-selection {
+   background: $logo-orange;
+ }
