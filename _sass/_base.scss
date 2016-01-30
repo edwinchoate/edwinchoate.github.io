@@ -87,6 +87,14 @@ h1, h2, h3, h4, h5, h6, .menu-links {
     font-weight: $base-font-weight;
 }
 
+// Large dynamic headers
+.post-title {
+
+  @include my-media-query($screen-md-min) {
+    font-size: $base-font-size * 3.5 !important;
+  }
+}
+
 /**
  * Links
  */
@@ -110,6 +118,17 @@ a, .post-link {
   button {
     @include links;
   }
+}
+
+.post-link {
+
+  @include my-media-query($screen-md-min) {
+    font-size: $base-font-size * 2 !important;
+  }
+}
+
+.post-meta {
+  font-family: $alt-font-family;
 }
 
 span, p {
