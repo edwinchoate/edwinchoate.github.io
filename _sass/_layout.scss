@@ -15,6 +15,14 @@
   }
 }
 
+.margin-bottom-responsive {
+  margin-bottom: $spacing-unit;
+
+  @include my-media-query($screen-sm-min) {
+    margin-bottom: $spacing-unit * 3;
+  }
+}
+
 /**
  * Site header
  */
