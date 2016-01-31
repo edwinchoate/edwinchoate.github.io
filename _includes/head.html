@@ -15,10 +15,18 @@
   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
   <script>
-    var theme = "light";
+    var time, theme, customCSS;
+
+    time = new Date().getHours();
+
+    if (time > 19) {
+      theme = "dark";
+    } else {
+      theme = "light";
+    }
 
     // create link to color-appropriate .css file
-    var customCSS = document.createElement("link");
+    customCSS = document.createElement("link");
         customCSS.type = "text/css";
         customCSS.rel = "stylesheet";
         customCSS.href = "/css/main-theme-" + theme + ".css";
