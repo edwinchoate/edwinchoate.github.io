@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+  <h1 class="header-responsive margin-top-responsive">404.</h1>
+  <p class="margin-bottom-responsive">Sorry, the page you requested does not exist.</p>
+  <p>
+    Sitemap
+    <ul>
+      <li><a href="/">home</a></li>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <li><a class="menu-page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </p>
+  </div>
+</div>
