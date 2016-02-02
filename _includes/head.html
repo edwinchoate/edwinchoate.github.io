@@ -14,11 +14,13 @@
   <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
+  <!-- handles day/night mode  -->
   <script>
     var time, theme, customCSS;
 
     time = new Date().getHours();
 
+    // night theme is between 7pm and 5am
     if (time >= (12 + 7) || time < 5) {
       theme = "dark";
     } else {

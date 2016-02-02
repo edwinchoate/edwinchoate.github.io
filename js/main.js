@@ -1,11 +1,10 @@
 
-var navbarElements = $(".menu-links, .overlay");
-// hide the navbar menu on page load
-navbarElements.hide();
+var navbarElements = $(".menu-links, .overlay"); // the large links and transparent overlay
+navbarElements.hide(); // collapse navbar on page load
 
 var menuBar, navbarExpanded;
-menuBar = $(".menu-bar");
-navbarExpanded = false;
+menuBar = $(".menu-bar"); // hamburger menu widget
+navbarExpanded = false; // used for menu button click handling
 
 // toggles navbar button's Font Awesome icons and expands/collapses menu
 var menuHandler = function() {
