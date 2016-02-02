@@ -23,3 +23,6 @@ soundcloud_username: edwinchoate
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
