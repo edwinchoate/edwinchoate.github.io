@@ -12,7 +12,7 @@ permalink: /blog/
     {% for post in site.posts %}
       <li>
         <!-- the post title -->
-        <h2>
+        <h2 class="post-link-header">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <!-- the post date  -->

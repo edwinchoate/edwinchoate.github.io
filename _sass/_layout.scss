@@ -366,12 +366,14 @@
     color: $grey-color;
 }
 
+.post-link-header {
+  margin-bottom: 3px;
+}
+
 .post-link {
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts
@@ -383,7 +385,7 @@
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
+    margin-bottom: 3px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
