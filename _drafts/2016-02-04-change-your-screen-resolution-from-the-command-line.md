@@ -10,8 +10,7 @@ Cscreen is a tool that allows you to bypass the regular resolution settings on O
 
 I'd recommend starting out by viewing the help options like so:
 
-{% prism bash %}
-edwinchoate:~ ☕️  cscreen -h
+<pre><code class="language-bash">edwinchoate:~ ☕️  cscreen -h
 Usage: cscreen [-d <depth>] [-x <width>] [-y <height>] [-r <refresh>] [-s <display>] [-v] [-m] [-f] [-l] [-h]
            [-d <depth>]    : specifies the bit depth (bits per pixel)
            [-x <width>]    : specifies the width in pixels
@@ -27,20 +26,18 @@ Usage: cscreen [-d <depth>] [-x <width>] [-y <height>] [-r <refresh>] [-s <displ
            [-l]            : lists the current displays and modes
            [-p]            : sets the requested display to have the menu bar
            [-h]            : displays the usage
-{% endprism %}
+</code></pre>
 
 As you can see from the above options, cscreen allows you to really fine-tune things. I would start by using the -l flag to check out your current settings:
 
-{% prism bash %}
-edwinchoate:~ ☕️  cscreen -l
+<pre><code class="language-bash">edwinchoate:~ ☕️  cscreen -l
 DisplayID  Index     Depth     Width     Height  Refresh
  4280a80       1        32      1280        800     0
-{% endprism %}
+</code></pre>
 
 Cscreen gives an index value to each of your monitors. Let's say I want to look at all of the valid resolution options for my external monitor (index = 2). I would enter the following command:
 
-{% prism bash %}
-edwinchoate:~ ☕️  cscreen -s 1 -v
+<pre><code class="language-bash">edwinchoate:~ ☕️  cscreen -s 1 -v
 DisplayID  Index     Depth     Width     Height  Refresh
  4280a80       1        32      2560       1600     0
  4280a80       2        32      1280        800     0
@@ -52,15 +49,14 @@ DisplayID  Index     Depth     Width     Height  Refresh
  4280a80       8        32      1024        768     0
  4280a80       9        32       800        600     0
  4280a80      10        32       640        480     0
-{% endprism %}
+</code></pre>
 
 This is probably the quickest way to find out if you can improve your display's resolution.  In this example, I would want to set my external monitor to the highest resolution setting available. I recommend using a refresh rate of 60 frames per second if you're not going to be doing any gaming on that monitor.
 
 You can apply all of your desired changes in a single command:
 
-{% prism bash %}
-edwinchoate:~ ☕️  cscreen -s 1 -x 1280 -y 800 -b 32
-{% endprism %}
+<pre><code class="language-bash">edwinchoate:~ ☕️  cscreen -s 1 -x 1280 -y 800 -b 32
+</code></pre>
 
 And that's really all there is to it! Shout out to [pyehouse](http://www.pyehouse.com/) for making such a simple, useful tool.
 
