@@ -22,8 +22,7 @@ linkedin_username: edwinchoate
 soundcloud_username: edwinchoate
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
 
 gems:
   - jekyll-redirect-from
