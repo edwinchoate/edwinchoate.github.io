@@ -4,7 +4,7 @@ title: "Change Your Screen Resolution from the Command Line on OSX"
 date: 2016-02-04
 ---
 
-The first time I hooked up my MacBook Pro to my Dell monitor, I was disappointed. I expected the screen resolution on my monitor to be a little higher than <span style="color: red;">1140 x 768</span>. Lacking HDMI input, I was forced to use a [Mini DisplayPort to VGA Adapter](http://www.apple.com/shop/product/MB572Z/B/mini-displayport-to-vga-adapter). I thought I was stuck at first, but then I came across a great solution: [cscreen](http://www.pyehouse.com/cscreen/).
+The first time I hooked up my MacBook Pro to my Dell monitor, I was disappointed. I expected the screen resolution on my monitor to be a little higher than 1024 x 768. Lacking HDMI input, I was forced to use a [Mini DisplayPort to VGA Adapter](http://www.apple.com/shop/product/MB572Z/B/mini-displayport-to-vga-adapter). I thought I was stuck at first, but then I came across a great solution: [cscreen](http://www.pyehouse.com/cscreen/).
 
 Cscreen is a tool that allows you to bypass the regular resolution settings on OSX. (You can download it [here](http://www.pyehouse.com/cscreen/).) Cscreen is quite simple and you can learn how to use it in just five minutes. To install, just place the cscreen executable in /usr/local/bin/.
 
@@ -35,23 +35,30 @@ As you can see from the above options, cscreen allows you to really fine-tune th
 edwinchoate:~ ☕️  cscreen -l
 DisplayID  Index     Depth     Width     Height  Refresh
  4280a80       1        32      1280        800     0
+2b28398d       2        32      1400       1050    60
 {% endhighlight %}
 
 Cscreen gives an index value to each of your monitors. Let's say I want to look at all of the valid resolution options for my external monitor (index = 2). I would enter the following command:
 
 {% highlight bash %}
-edwinchoate:~ ☕️  cscreen -s 1 -v
+edwinchoate:~ ☕️  cscreen -s2 -v
 DisplayID  Index     Depth     Width     Height  Refresh
- 4280a80       1        32      2560       1600     0
- 4280a80       2        32      1280        800     0
- 4280a80       3        32      2048       1280     0
- 4280a80       4        32      1650       1050     0
- 4280a80       5        32      1440        900     0
- 4280a80       6        32      1152        720     0
- 4280a80       7        32       840        524     0
- 4280a80       8        32      1024        768     0
- 4280a80       9        32       800        600     0
- 4280a80      10        32       640        480     0
+2b28398d       1        32      1280       1024    75
+2b28398d       2        32      1024        768    75
+2b28398d       3        32      1024        768    60
+2b28398d       4        32       800        600    75
+2b28398d       5        32       800        600    60
+2b28398d       6        32       640        480    75
+2b28398d       7        32       640        480    60
+2b28398d       8        32      1280       1024    60
+2b28398d       9        32      1152        864    75
+2b28398d      10        32      1280        960    60
+2b28398d      11        32      1280        960    75
+2b28398d      12        32      1280        768    60
+2b28398d      13        32      1280        768    75
+2b28398d      14        32      1344       1008    60
+2b28398d      15        32      1344       1008    75
+2b28398d      16        32      1400       1050    60
 {% endhighlight %}
 
 This is probably the quickest way to find out if you can improve your display's resolution.  In this example, I would want to set my external monitor to the highest resolution setting available. I recommend using a refresh rate of 60 frames per second if you're not going to be doing any gaming on that monitor.
@@ -59,7 +66,7 @@ This is probably the quickest way to find out if you can improve your display's 
 You can apply all of your desired changes in a single command:
 
 {% highlight bash %}
-edwinchoate:~ ☕️  cscreen -s 1 -x 1280 -y 800 -b 32
+edwinchoate:~ ☕️  cscreen -s2 -x 1400 -y 1050 -d 32 -r 60
 {% endhighlight %}
 
 And that's really all there is to it! Shout out to [pyehouse](http://www.pyehouse.com/) for making such a simple, useful tool.
