@@ -42,9 +42,11 @@ edwinchoate:~ ☕️  git config --list
 alias.s=status
 alias.c=commit
 alias.lg=log --oneline --decorate --all --graph
-alias.b=branch
+alias.b=branch --all
 alias.co=checkout
 alias.d=diff
+alias.a=add .
+alias.f=fetch --all
 {% endhighlight %}
 
 As an aside, the above log alias is pretty cool. Here's what it displays:
