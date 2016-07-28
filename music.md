@@ -1,6 +1,6 @@
 ---
 layout: page
-title: edwinchoate.com/soundcloud
+title: soundcloud
 permalink: /music/
 redirect_to:
   - https://soundcloud.com/edwinchoate/tracks
