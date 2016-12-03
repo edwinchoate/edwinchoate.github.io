@@ -26,9 +26,9 @@ permalink: /links/
     <li><a href="https://www.reddit.com/r/gatech/">r/gatech</a></li>  
   </ul></span>
 
-<span class="col-xs-12 col-sm-4"><h1><i class="fa fa-microphone"></i> podcasts</h1>
+<span class="col-xs-12 col-sm-4"><h1><a href="https://play.pocketcasts.com/"><i class="fa fa-microphone"></i> podcasts</a></h1>
   <ul>
-    <li><a href="http://gtathletics.libsyn.com/"></a>gtathletics</li>
+    <li><a href="http://gtathletics.libsyn.com/">gtathletics</a></li>
     <li><a href="http://nerdist.com/podcasts/nerdist-podcast-channel/">Nerdist Podcast</a></li>
     <li><a href="http://www.npr.org/podcasts/510298/ted-radio-hour">TED Radio Hour</a></li>
     <li><a href="https://serialpodcast.org/season-one">Serial</a></li>
