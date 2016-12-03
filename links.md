@@ -16,10 +16,8 @@ permalink: /links/
     <li><a href="https://www.reddit.com/r/nostalgia/">r/nostaglia</a></li>
     <li><a href="https://www.reddit.com/r/GetMotivated/">r/GetMotivated</a></li>
     <li><a href="https://www.reddit.com/r/declutter/">r/declutter</a></li>
-    <li><a href="https://www.reddit.com/r/90scartoons/">r/90scartoons</a></li>
     <li><a href="https://www.reddit.com/r/AskReddit/">r/AskReddit</a></li>
     <li><a href="https://www.reddit.com/r/webdev/">r/webdev</a></li>
-    <li><a href="https://www.reddit.com/r/pokemon/">r/pokemon</a></li>  
     <li><a href="https://www.reddit.com/r/fitbit/">r/fitbit</a></li>
     <li><a href="https://www.reddit.com/r/Atlanta/">r/Atlanta</a></li>
     <li><a href="https://www.reddit.com/r/subaru/">r/subaru</a></li>      
