@@ -4,6 +4,8 @@ title: links
 permalink: /links/
 ---
 
+My favorite places on the internet. 
+
 <div class="row">
 <span class="col-xs-12 col-sm-4"><h1><a href="https://www.reddit.com/"><i class="fa fa-reddit-alien"></i> reddit</a></h1>
   <ul>
