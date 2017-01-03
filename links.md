@@ -9,17 +9,19 @@ My favorite places on the internet.
 <div class="row">
 <span class="col-xs-12 col-sm-4"><h1><a href="https://www.reddit.com/"><i class="fa fa-reddit-alien"></i> reddit</a></h1>
   <ul>
-    <li><a href="https://www.reddit.com/r/running/">r/running</a></li>
-    <li><a href="https://www.reddit.com/r/ObscureMedia/">r/ObscureMedia</a></li>
-    <li><a href="https://www.reddit.com/r/nostalgia/">r/nostaglia</a></li>
-    <li><a href="https://www.reddit.com/r/GetMotivated/">r/GetMotivated</a></li>
-    <li><a href="https://www.reddit.com/r/declutter/">r/declutter</a></li>
+    <li><a href="https://www.reddit.com/r/Android/">r/Android</a></li>
     <li><a href="https://www.reddit.com/r/AskReddit/">r/AskReddit</a></li>
-    <li><a href="https://www.reddit.com/r/webdev/">r/webdev</a></li>
-    <li><a href="https://www.reddit.com/r/fitbit/">r/fitbit</a></li>
     <li><a href="https://www.reddit.com/r/Atlanta/">r/Atlanta</a></li>
-    <li><a href="https://www.reddit.com/r/subaru/">r/subaru</a></li>      
-    <li><a href="https://www.reddit.com/r/gatech/">r/gatech</a></li>  
+    <li><a href="https://www.reddit.com/r/dataisbeautiful/">r/dataisbeautiful</a></li>
+    <li><a href="https://www.reddit.com/r/gatech/">r/gatech</a></li>
+    <li><a href="https://www.reddit.com/r/GetMotivated/">r/GetMotivated</a></li>
+    <li><a href="https://www.reddit.com/r/minimalism/">r/minimalism</a></li>
+    <li><a href="https://www.reddit.com/r/nostalgia/">r/nostalgia</a></li>
+    <li><a href="https://www.reddit.com/r/ObscureMedia/">r/ObscureMedia</a></li>
+    <li><a href="https://www.reddit.com/r/pokemon/">r/pokemon</a></li>
+    <li><a href="https://www.reddit.com/r/Showerthoughts/">r/Showerthougts</a></li>
+    <li><a href="https://www.reddit.com/r/simpleliving/">r/simpleliving</a></li>
+    <li><a href="https://www.reddit.com/r/subaru/">r/subaru</a></li>
   </ul></span>
 
 <span class="col-xs-12 col-sm-4"><h1><a href="https://play.pocketcasts.com/"><i class="fa fa-microphone"></i> podcasts</a></h1>
