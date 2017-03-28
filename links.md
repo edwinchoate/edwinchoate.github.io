@@ -26,6 +26,10 @@ My favorite places on the internet.
 
 <span class="col-xs-12 col-sm-4"><h1><a href="https://play.pocketcasts.com/"><i class="fa fa-microphone"></i> podcasts</a></h1>
   <ul>
+    <li><a href="http://www.earwolf.com/show/beautiful-anonymous/">Beautiful Anonymous</a></li>
+    <li><a href="http://www.wsj.com/podcasts/browse/wsj-tech-news-briefing">WSJ Tech News Briefing</a></li>
+    <li><a href="http://www.theminimalists.com/podcast/">The Minimalists</a></li>
+    <li><a href="http://podcast.crater.io/">Crater</a></li>
     <li><a href="http://www.artofmanliness.com/category/podcast/">The Art of Manliness</a></li>   
     <li><a href="http://revisionisthistory.com/episodes">Revisionist History</a></li>
     <li><a href="http://gtathletics.libsyn.com/">gtathletics [local]</a></li>
