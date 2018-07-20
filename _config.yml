@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: edwinchoate.com
+title: edwinchoate.github.io
 email: edwin.choate@gatech.edu
 description: > # this means to ignore newlines until "baseurl:"
   Edwin Choate's personal website. Edwin is a current Georgia Tech student
   from Atlanta, GA studying computer science and design.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://edwinchoate.com" # the base hostname & protocol for your site
+url: "http://edwinchoate.github.io" # the base hostname & protocol for your site
 
 # Social media usernames
 twitter_username: edwinchoate
