@@ -1,0 +1,122 @@
+
+/* General */
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #FFFFFA;
+    margin: 10px;
+}
+
+body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+
+/* Links */
+a, a:visited, a:hover {
+    color: #0095dd;
+    text-decoration: none;
+}
+
+main h1 a:hover,
+main h2 a:hover,
+main h3 a:hover,
+main h4 a:hover,
+main h5 a:hover,
+main h6 a:hover {
+    border-bottom: 4px solid #0095dd;
+}
+
+main a:hover {
+    border-bottom: 3px solid #0095dd;
+}
+
+/* Text  */
+.text-center { text-align: center; }
+
+article {
+    font-size: 1.1em;
+    line-height: 180%;
+}
+
+
+/* Images */
+.img-small { max-width: 200px; width: 100%; }
+.img-medium { max-width: 400px; width: 100%; }
+.img-large { max-width: 600px; width: 100% }
+.img-x-large { max-width: 760px; width: 100% }
+.img-center { display: block; margin-left: auto; margin-right: auto; }
+
+main img {
+    max-width: 800px;
+    width: 100%;
+}
+
+figure {
+    margin: 40px 0;
+}
+
+
+/* Header  */
+header img {
+    height: 32px;
+    margin: 16px 8px 0 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul { padding: 0; }
+
+nav li {
+    display: inline;
+    padding: 12px;
+    border-radius: 2px 2px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li.active {
+    border-bottom: 4px solid black;
+}
+
+nav li:hover {
+    background-color: rgba(0, 0, 255, 2%);
+    border-bottom: 4px solid #0095dd;
+}
+
+
+/* Main Content Section  */
+main {
+    min-height: 80vh;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+
+/* Footer  */
+footer {
+    width: 100%;
+    height: 48px;
+    color: #999999;
+}
+
+footer img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+
+.book-thumbnail {
+    max-width: 96px;
+    margin: 4px;
+}
