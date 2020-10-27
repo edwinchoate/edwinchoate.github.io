@@ -37,9 +37,9 @@ main h6 a:hover {
 main a:hover {
     border-bottom: 3px solid #007CB1;
 }
-
+    
 main h1 a:visited:hover,
-main h2 a:visited:hover,
+main h2 a:visited:hover,    
 main h3 a:visited:hover,
 main h4 a:visited:hover,
 main h5 a:visited:hover,
