@@ -16,12 +16,8 @@ body {
 
 /* Links */
 a, a:hover {
-    color: #007CB1;
+    color: #4D5DE8;
     text-decoration: none;
-}
-
-a:visited {
-    color: #7D4AC8;
 }
 
 
@@ -31,24 +27,11 @@ main h3 a:hover,
 main h4 a:hover,
 main h5 a:hover,
 main h6 a:hover {
-    border-bottom: 4px solid #007CB1;
+    border-bottom: 4px solid #4D5DE8;
 }
 
 main a:hover {
-    border-bottom: 3px solid #007CB1;
-}
-    
-main h1 a:visited:hover,
-main h2 a:visited:hover,    
-main h3 a:visited:hover,
-main h4 a:visited:hover,
-main h5 a:visited:hover,
-main h6 a:visited:hover {
-    border-bottom: 4px solid #7D4AC8;
-}
-
-main a:visited:hover {
-    border-bottom: 3px solid #7D4AC8;
+    border-bottom: 3px solid #4D5DE8;
 }
 
 
@@ -106,11 +89,11 @@ nav li.active {
 
 nav li:hover {
     background-color: rgba(0, 0, 255, 2%);
-    border-bottom: 4px solid #007CB1;
+    border-bottom: 4px solid #4D5DE8;
 }
 
 nav a:visited {
-    color: #007CB1;
+    color: #4D5DE8;
 }
 
 
