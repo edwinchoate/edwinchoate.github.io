@@ -38,6 +38,16 @@ main a:hover {
 /* Text  */ 
 .text-center { text-align: center; }
 
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #4D5DE8;
+}
+
+::selection {
+    color: white;
+    background: #4D5DE8;
+}
+
 article {
     font-size: 1.1em;
     line-height: 180%;
