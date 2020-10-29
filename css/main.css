@@ -135,6 +135,15 @@ footer img {
     padding-right: 8px;
 }
 
+footer a {
+    color: #999999;
+    border-bottom: 3px solid #999999;
+}
+
+footer a:hover {
+    color: #4D5DE8;
+    border-bottom: 3px solid #4D5DE8;
+}
 
 .book {
     max-width: 72px;
