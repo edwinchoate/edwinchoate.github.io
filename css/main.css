@@ -16,7 +16,7 @@ body {
 
 
 /* Links */
-a, a:hover {
+a, a:hover, a:visited {
     color: #4D5DE8;
     text-decoration: none;
 }
@@ -102,10 +102,6 @@ nav li {
     border-radius: 2px 2px 0 0;
 }
 
-nav a {
-    text-decoration: none;
-}
-
 nav li.active {
     border-bottom: 4px solid black;
 }
@@ -115,14 +111,9 @@ nav li:hover {
     border-bottom: 4px solid #4D5DE8;
 }
 
-nav a:visited {
-    color: #4D5DE8;
-}
-
 
 /* Main Content Section  */
 main {
-    min-height: 80vh;
     padding-top: 32px;
     padding-bottom: 48px;
 }
@@ -145,12 +136,8 @@ footer p {
     margin: 0;
 }
 
-footer img {
-    height: 20px;
-    padding-right: 8px;
-}
-
-footer a {
+footer a,
+footer a:visited {
     color: #999999;
     border-bottom: 3px solid #999999;
 }
