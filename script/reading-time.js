@@ -30,6 +30,7 @@
     function ReadingTime(readigTimeLabel, minutesLabel, lessThanAMinuteLabel) {
 
         const wordsPerMinute = 220;
+        const extraTimeforImages = 120;
         // Select all the paragraphs in element with ID readText.
         const paragraphs = document.querySelectorAll('article p');
 
@@ -51,7 +52,7 @@
         wordsPerSecond = wordsPerMinute / 60;
 
         //define total reading time in seconds
-        totalReadingTimeSeconds = totalWords / wordsPerSecond;
+        totalReadingTimeSeconds = totalWords / wordsPerSecond + extraTimeforImages;
 
         // define reading time
         readingTimeDuration = Math.floor(totalReadingTimeSeconds / 60);
