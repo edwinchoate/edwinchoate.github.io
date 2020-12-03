@@ -29,10 +29,10 @@
 
     function ReadingTime(readigTimeLabel, minutesLabel, lessThanAMinuteLabel) {
 
-        const wordsPerMinute = 250;
-        const extraTimeforImages = 120;
+        const wordsPerMinute = 220;
         // Select all the paragraphs in element with ID readText.
         const paragraphs = document.querySelectorAll('article p');
+        const figcaptions = document.querySelectorAll('figcaption');
 
         // The counter.
         var count = 0;
@@ -40,6 +40,11 @@
         for (var i = 0; i < paragraphs.length; i++) {
             // Split the innerHtml of the current paragraph to count the words.
             count += paragraphs[i].innerHTML.split(' ').length;
+        }
+
+        for (var i = 0; i < figcaptions.length; i++) {
+            // Split the innerHtml of the current paragraph to count the words.
+            count += figcaptions[i].innerHTML.split(' ').length;
         }
 
         // Add 'Reading time:' label
@@ -52,7 +57,7 @@
         wordsPerSecond = wordsPerMinute / 60;
 
         //define total reading time in seconds
-        totalReadingTimeSeconds = totalWords / wordsPerSecond + extraTimeforImages;
+        totalReadingTimeSeconds = totalWords / wordsPerSecond;
 
         // define reading time
         readingTimeDuration = Math.floor(totalReadingTimeSeconds / 60);
