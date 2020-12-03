@@ -29,7 +29,7 @@
 
     function ReadingTime(readigTimeLabel, minutesLabel, lessThanAMinuteLabel) {
 
-        const wordsPerMinute = 220;
+        const wordsPerMinute = 250;
         const extraTimeforImages = 120;
         // Select all the paragraphs in element with ID readText.
         const paragraphs = document.querySelectorAll('article p');
