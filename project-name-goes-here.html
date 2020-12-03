@@ -20,6 +20,7 @@
 
     <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101284460);</script>
     <script async src="//static.getclicky.com/js"></script>
+    <script src="script/reading-time.js"></script>
 </head>
 <body>
     <header>
@@ -36,7 +37,16 @@
         <article>
             <section>
                 <h1>🚘 Project Name Goes Here</h1>
-                <i>Read time: X minutes</i>
+                <div class="reading-time">
+                    <i><span class="reading-time__label"></span>
+                    <span class="reading-time__duration"></span></i>
+                    <script>
+                        // ReadingTime(numberWordsPerMinute, readigTimeLabel, minutesLabel, wordsLabel, lessThanAMinuteLabel)
+                        document.addEventListener('DOMContentLoaded', (event) => {
+                        new ReadingTime('Read time:', 'minutes', 'Less than a minute');
+                        })
+                    </script>
+                </div>
                 <p><strong>Summary:</strong> Lorem ipsum dolor sit amet, <mark>consectetur adipiscing elit.</mark> Donec accumsan augue eu efficitur sagittis. Cras semper dolor sit amet nibh.</p>
             </section>
             

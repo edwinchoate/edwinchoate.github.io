@@ -20,6 +20,7 @@
 
     <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101284460);</script>
     <script async src="//static.getclicky.com/js"></script>
+    <script src="script/reading-time.js"></script>
 </head>
 <body>
     <header>
@@ -37,7 +38,16 @@
             <section>
                 <img alt="kiosk header" src="img/menu-maker/menu-maker-header.png" />
                 <h1>Menu Maker</h1>
-                <i>Read time: 15-19 minutes</i>
+                <div class="reading-time">
+                    <i><span class="reading-time__label"></span>
+                    <span class="reading-time__duration"></span></i>
+                    <script>
+                        // ReadingTime(numberWordsPerMinute, readigTimeLabel, minutesLabel, wordsLabel, lessThanAMinuteLabel)
+                        document.addEventListener('DOMContentLoaded', (event) => {
+                        new ReadingTime('Read time:', 'minutes', 'Less than a minute');
+                        })
+                    </script>
+                </div>
                 <p><strong>Summary:</strong> As UX Lead, I led a small design team through an iterative design process to design a menu configuration tool for medium-to-large restaurant chains in close collaboration with product and engineering. Our research-backed efforts led to greater organization of information and ease-of-use in our final design.</p>
             </section>
 
