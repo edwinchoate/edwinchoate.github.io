@@ -107,7 +107,7 @@ nav li.active {
 }
 
 nav li:hover {
-    background-color: rgba(0, 0, 255, 2%);
+    background-color: rgba(0, 0, 255, 4%);
     border-bottom: 4px solid #4D5DE8;
 }
 
