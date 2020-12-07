@@ -2,7 +2,7 @@
 /* General */
 html {
     font-family: 'Red Hat Display', sans-serif;
-    background-color: #FFFFFA;
+    background-color: #FAFAFF;
     height: 100%;
     margin: 0 10px 0 10px;
 }
@@ -129,7 +129,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 48px;
-    color: #999999;
+    color: #9093AF;
 }
 
 footer p {
@@ -138,8 +138,8 @@ footer p {
 
 footer a,
 footer a:visited {
-    color: #999999;
-    border-bottom: 3px solid #999999;
+    color: #9093AF;
+    border-bottom: 3px solid #9093AF;
 }
 
 footer a:hover {
