@@ -39,13 +39,9 @@
                 <img alt="self-order kiosk header" src="img/self-order-kiosk/self-order-kiosk-header.png" />
                 <h1>Self-Order Kiosk</h1>
                 <div class="reading-time">
-                    <i><span class="reading-time__label"></span>
-                    <span class="reading-time__duration"></span></i>
+                    <span class="reading-time-label"></span>
                     <script>
-                        // ReadingTime(numberWordsPerMinute, readigTimeLabel, minutesLabel, wordsLabel, lessThanAMinuteLabel)
-                        document.addEventListener('DOMContentLoaded', (event) => {
-                        new ReadingTime('Read time:', 'min', 'Less than a minute');
-                        })
+                        document.addEventListener('DOMContentLoaded', (event) => { new ReadingTime(); })
                     </script>
                 </div>
                 <p><strong>Summary:</strong> As a UX architect on a team of five UXers, I re-architected the user flow of the NCR Self-Serve Kiosk. I prototyped iteratively based on observations from NCR Corporation’s in-house food court. My team and I were able to significantly improve the usability of the product as it was brought into the market.</p>

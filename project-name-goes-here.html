@@ -38,13 +38,9 @@
             <section>
                 <h1>🚘 Project Name Goes Here</h1>
                 <div class="reading-time">
-                    <i><span class="reading-time__label"></span>
-                    <span class="reading-time__duration"></span></i>
+                    <span class="reading-time-label"></span>
                     <script>
-                        // ReadingTime(numberWordsPerMinute, readigTimeLabel, minutesLabel, wordsLabel, lessThanAMinuteLabel)
-                        document.addEventListener('DOMContentLoaded', (event) => {
-                        new ReadingTime('Read time:', 'min', 'Less than a minute');
-                        })
+                        document.addEventListener('DOMContentLoaded', (event) => { new ReadingTime(); })
                     </script>
                 </div>
                 <p><strong>Summary:</strong> Lorem ipsum dolor sit amet, <mark>consectetur adipiscing elit.</mark> Donec accumsan augue eu efficitur sagittis. Cras semper dolor sit amet nibh.</p>
