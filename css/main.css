@@ -58,6 +58,10 @@ article {
     line-height: 180%;
 }
 
+summary {
+    margin-top: 16px;
+}
+
 article h1 {
     font-size: 2.2em;
     line-height: 110%;
