@@ -21,7 +21,7 @@
 
     function ReadingTime() {
 
-        const wordsPerMinute = 220;
+        const wordsPerMinute = 180;
         // Select all the paragraphs in element with ID readText.
         const paragraphs = document.querySelectorAll('article p');
         const figcaptions = document.querySelectorAll('figcaption');
