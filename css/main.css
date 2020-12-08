@@ -16,7 +16,7 @@ body {
 
 /* Links */
 a, a:hover, a:visited {
-    color: #4D5DE8;
+    color: #4A51EA;
     text-decoration: none;
 }
 
@@ -30,11 +30,11 @@ main h3 a:hover,
 main h4 a:hover,
 main h5 a:hover,
 main h6 a:hover {
-    border-bottom: 4px solid #4D5DE8;
+    border-bottom: 4px solid #4A51EA;
 }
 
 main a:hover {
-    border-bottom: 3px solid #4D5DE8;
+    border-bottom: 3px solid #4A51EA;
 }
 
 
@@ -43,12 +43,12 @@ main a:hover {
 
 ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #4D5DE8;
+    background: #4A51EA;
 }
 
 ::selection {
     color: white;
-    background: #4D5DE8;
+    background: #4A51EA;
 }
 
 article {
@@ -107,7 +107,7 @@ nav li.active {
 
 nav li:hover {
     background-color: rgba(0, 0, 255, 4%);
-    border-bottom: 4px solid #4D5DE8;
+    border-bottom: 4px solid #4A51EA;
 }
 
 
@@ -142,8 +142,8 @@ footer a:visited {
 }
 
 footer a:hover {
-    color: #4D5DE8;
-    border-bottom: 3px solid #4D5DE8;
+    color: #4A51EA;
+    border-bottom: 3px solid #4A51EA;
 }
 
 .book {
