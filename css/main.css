@@ -51,6 +51,8 @@ main a:hover {
     background: #4A51EA;
 }
 
+mark { background-color: #FFFF90; }
+
 article {
     font-size: 1.1em;
     line-height: 180%;
