@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto 0 auto;
     min-height: 100%;
     position: relative;
@@ -56,7 +56,7 @@ main a:hover {
 mark { background-color: #FFFF90; }
 
 article {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 180%;
 }
 
@@ -75,7 +75,7 @@ article h1 {
 .img-center { display: block; margin-left: auto; margin-right: auto; }
 
 main img {
-    max-width: 960px;
+    max-width: 800px;
     width: 100%;
 }
 
