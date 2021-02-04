@@ -6,6 +6,7 @@ html {
     color: #333;
     height: 100%;
     margin: 0 10px 0 10px;
+    overflow-y: scroll; /* fixes a bug where header moves around */
 }
 
 body {
