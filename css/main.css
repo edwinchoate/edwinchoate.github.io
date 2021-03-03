@@ -97,17 +97,20 @@ nav {
 nav ul { padding: 0; }
 
 nav li {
-    font-weight: 500;
     display: inline;
+}
+
+nav li a {
+    font-weight: 500;
     padding: 12px;
     border-radius: 2px 2px 0 0;
 }
 
-nav li.active {
+nav li.active a {
     border-bottom: 4px solid black;
 }
 
-nav li:hover {
+nav li a:hover {
     background-color: rgba(0, 0, 255, 4%);
     border-bottom: 4px solid #4A51EA;
 }
