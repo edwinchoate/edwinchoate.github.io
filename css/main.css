@@ -152,6 +152,9 @@ footer a:hover {
     border-bottom: 3px solid #4A51EA;
 }
 
+/* Footer doesn't show up when you Print  */
+@media print { footer { display: none !important; } }
+
 
 /* Classes */
 .card {
