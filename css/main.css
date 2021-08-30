@@ -182,41 +182,6 @@ footer a:hover {
     color: #4A51EA;
 }
 
-.tooltip-wrapper {
-    position: relative;
-    display: inline-block;
-}
-  
-.tooltip-wrapper .tooltip {
-    visibility: hidden;
-    width: 200px; /* adjusts width of tooltip content area */
-    background-color: #333;
-    color: #f8f8f8;
-    line-height: normal;
-    text-align: center;
-    border-radius: 4px;
-    padding: 8px;
-    position: absolute;
-    z-index: 1;
-    top: 100%; /* adjust vertical position of tooltip */
-    left: -67px; /* adjusts horizontal position of tooltip */
-}
-  
-.tooltip-wrapper .tooltip::after { /* renders caret of tooltip */
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -6px;
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent transparent #333 transparent;
-}
-  
-.tooltip-wrapper:hover .tooltip {
-    visibility: visible;
-}
-
 .book {
     max-width: 72px;
     margin: 4px;
