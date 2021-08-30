@@ -187,9 +187,14 @@ footer a:hover {
     display: inline-block;
 }
 
-.tooltip-wrapper .tooltip {
+.tooltip-wrapper .tooltip { 
     visibility: hidden;
-    position: absolute;
+    
+    /* keeps hidden content from expanding past viewport edge */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
 }
 
 .book {
