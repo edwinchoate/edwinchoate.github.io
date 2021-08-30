@@ -2,14 +2,8 @@
 
 @media screen and (min-width: 940px) {
 
-    
-    .tooltip-wrapper {
-        position: relative;
-        display: inline-block;
-    }
       
     .tooltip-wrapper .tooltip {
-        visibility: hidden;
         width: 200px; /* adjusts width of tooltip content area */
         background-color: #333;
         color: #f8f8f8;
@@ -17,7 +11,6 @@
         text-align: center;
         border-radius: 4px;
         padding: 8px;
-        position: absolute;
         z-index: 1;
         top: 100%; /* adjust vertical position of tooltip */
         left: -67px; /* adjusts horizontal position of tooltip */
