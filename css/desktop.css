@@ -14,7 +14,7 @@
         padding: 10px;
         z-index: 1;
         top: 100%; /* adjust vertical position of tooltip */
-        left: -67px; /* adjusts horizontal position of tooltip */
+        left: -71px; /* adjusts horizontal position of tooltip */
     }
         
     .tooltip-wrapper .tooltip::after { /* renders caret of tooltip */
