@@ -141,11 +141,6 @@ footer p {
     margin: 0;
 }
 
-footer a,
-footer a:visited {
-    color: #666;
-    border-bottom: 3px solid #666;
-}
 
 footer a:hover {
     color: #4A51EA;
