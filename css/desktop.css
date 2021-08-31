@@ -10,8 +10,8 @@
         color: #f8f8f8;
         line-height: normal;
         text-align: center;
-        border-radius: 4px;
-        padding: 8px;
+        border-radius: 3px;
+        padding: 10px;
         z-index: 1;
         top: 100%; /* adjust vertical position of tooltip */
         left: -67px; /* adjusts horizontal position of tooltip */
