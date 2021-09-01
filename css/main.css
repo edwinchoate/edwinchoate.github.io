@@ -48,6 +48,10 @@ main a:hover {
 
 mark { background-color: #FFFF90; }
 
+td {
+    padding: 8px;
+}
+
 article {
     font-size: 1.1em;
     line-height: 180%;
