@@ -162,12 +162,12 @@ footer a:hover {
     display: flex;
     align-items: center;
     color: #333;
-    border: 2px solid rgba(0, 0, 0, 0); /* prevents layout shift */
+    border: 1px solid rgba(0, 0, 0, 0); /* prevents layout shift */
 }
 
 .card:hover {
     background-color: rgba(0, 0, 255, 3%);
-    border: 2px solid rgba(0, 0, 255, 4%);
+    border: 1px solid rgba(0, 0, 255, 4%);
 }
 
 .card img {
