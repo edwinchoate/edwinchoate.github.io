@@ -1,0 +1,58 @@
+@media (prefers-color-scheme: dark) {
+
+    html {
+        background: #333;   
+    }
+
+    html, mark, 
+    .project div,
+    .tooltip-wrapper .tooltip {
+        color: #f8f8f8;
+    }
+
+    a, a:hover, a:visited,
+    footer a:hover,
+    .project:hover h2 {
+        color: #8F93FF;
+    }
+
+    main a:hover,
+    nav li a:hover,
+    footer a:hover {
+        border-color: #8F93FF;
+    }
+    
+    ::selection, ::-moz-selection {
+        color: #333;
+        background: #8F93FF;
+    }
+
+    footer,
+    .reading-time-label {
+        color: #A0A0A0;
+    }
+
+    nav li a:hover,
+    .project:hover {
+        background-color: rgba(255, 255, 255, 8%);
+    }
+
+    nav li.active a { border-color: #f8f8f8; }
+    
+    mark { background-color: rgba(255, 255, 255, 16%); }
+
+    header img {
+        filter: invert(100%) sepia(93%) saturate(26%) hue-rotate(6deg) brightness(105%) contrast(95%);
+    }
+
+    header img:hover {
+        filter: invert(55%) sepia(40%) saturate(708%) hue-rotate(200deg) brightness(102%) contrast(102%);
+    }
+
+    .tooltip-wrapper .tooltip { background-color: black; }
+
+    .tooltip-wrapper .tooltip::after { /* renders caret of tooltip */
+        border-color: transparent transparent black transparent;
+    }
+
+}
