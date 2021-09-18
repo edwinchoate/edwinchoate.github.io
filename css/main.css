@@ -161,12 +161,11 @@ footer a:hover {
     border-radius: 4px;
     display: flex;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0); /* prevents layout shift */
 }
 
 .project:hover {
-    background-color: rgba(0, 0, 255, 3%);
-    border: 1px solid rgba(0, 0, 255, 4%);
+    background-color: rgba(0, 0, 255, 4%);
+    border: none;
 }
 
 .project div { color: #333; }
