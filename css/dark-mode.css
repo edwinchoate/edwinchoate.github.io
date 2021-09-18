@@ -55,4 +55,8 @@
         border-color: transparent transparent black transparent;
     }
 
+    #homepage-img {
+        background: url(https://edwinchoate.com/img/homepage-image-dark-mode.png) no-repeat;
+    }
+
 }
