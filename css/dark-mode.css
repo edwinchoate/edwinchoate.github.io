@@ -16,17 +16,10 @@
         color: #8F93FF;
     }
     
-    nav li.active a { border-color: #d4d4d4; }
-
     main a:hover,
     nav li a:hover,
     footer a:hover {
         border-color: #8F93FF;
-    }
-    
-    ::selection, ::-moz-selection {
-        color: #333;
-        background: #8F93FF;
     }
 
     footer,
@@ -47,6 +40,10 @@
 
     header img:hover {
         filter: invert(55%) sepia(40%) saturate(708%) hue-rotate(200deg) brightness(102%) contrast(102%);
+    }
+
+    .book:hover {
+        box-shadow: 1px 1px 10px black;
     }
 
     .tooltip-wrapper .tooltip { background-color: black; }

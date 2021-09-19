@@ -86,7 +86,7 @@ header img {
 }
 
 header img {
-    filter: invert(32%) sepia(23%) saturate(504%) hue-rotate(195deg) brightness(93%) contrast(84%);
+    filter: invert(51%) sepia(15%) saturate(564%) hue-rotate(195deg) brightness(95%) contrast(89%);
 }
 
 header img:hover {
@@ -110,7 +110,7 @@ nav li a {
 }
 
 nav li.active a {
-    border-bottom: 4px solid #53566F;
+    border-bottom: 4px solid #797D9A;
 }
 
 nav li a:hover {
