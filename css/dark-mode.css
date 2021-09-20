@@ -1,15 +1,21 @@
 @media (prefers-color-scheme: dark) {
 
-    html {
-        background: #333;   
-    }
+    /* Background color */
+    html { background: #333; }
     
-    html, mark, 
+    /* Text color */
+    html, 
     .project div,
     .tooltip-wrapper .tooltip {
         color: #f8f8f8;
     }
+
+    footer,
+    .reading-time-label {
+        color: #A0A0A0;
+    }
     
+    /* Link color */
     a, a:hover, a:visited,
     footer a:hover,
     .project:hover h2 {
@@ -22,18 +28,13 @@
         border-color: #8F93FF;
     }
 
-    footer,
-    .reading-time-label {
-        color: #A0A0A0;
-    }
-
+    /* Nav hover color */
     nav li a:hover,
     .project:hover {
         background-color: rgba(255, 255, 255, 8%);
     }
-    
-    mark { background-color: rgba(255, 255, 255, 16%); }
 
+    /* Logo */
     header img {
         filter: invert(99%) sepia(6%) saturate(54%) hue-rotate(286deg) brightness(113%) contrast(95%);
     }
@@ -42,10 +43,7 @@
         filter: invert(55%) sepia(40%) saturate(708%) hue-rotate(200deg) brightness(102%) contrast(102%);
     }
 
-    .book:hover {
-        box-shadow: 1px 1px 10px black;
-    }
-
+    /* Tooltip */
     .tooltip-wrapper .tooltip { background-color: black; }
 
     .tooltip-wrapper .tooltip::after { /* renders caret of tooltip */
