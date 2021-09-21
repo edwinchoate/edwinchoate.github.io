@@ -33,7 +33,9 @@ main a:hover {
 
 
 /* Text  */ 
-.text-center { text-align: center; }
+.text-center { text-align: center; float: center; }
+.text-left { text-align: left; float: left; }
+.text-right {text-align: right; float: right; }
 
 ::selection, ::-moz-selection {
     color: white;
