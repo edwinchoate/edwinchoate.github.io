@@ -1,9 +1,9 @@
 @media (prefers-color-scheme: dark) {
 
-    /* Background color */
+    /* Background colors */
     html { background: #333; }
     
-    /* Text color */
+    /* Text colors */
     html, 
     .project div,
     .tooltip-wrapper .tooltip {
@@ -15,11 +15,15 @@
         color: #A0A0A0;
     }
     
-    /* Link color */
     a, a:hover, a:visited,
     footer a:hover,
     .project:hover h2 {
         color: #8F93FF;
+    }
+
+    /* Underline colors */
+    nav li.active a {
+        border-bottom: 4px solid #f8f8f8;
     }
     
     main a:hover,
@@ -28,7 +32,7 @@
         border-color: #8F93FF;
     }
 
-    /* Nav hover color */
+    /* Fill colors */
     nav li a:hover,
     .project:hover {
         background-color: rgba(255, 255, 255, 8%);

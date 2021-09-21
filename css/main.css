@@ -87,10 +87,6 @@ header img {
     margin: 16px 8px 0 8px;
 }
 
-header img {
-    filter: invert(51%) sepia(15%) saturate(564%) hue-rotate(195deg) brightness(95%) contrast(89%);
-}
-
 header img:hover {
     filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
 }
@@ -112,7 +108,7 @@ nav li a {
 }
 
 nav li.active a {
-    border-bottom: 4px solid #797D9A;
+    border-bottom: 4px solid #333;
 }
 
 nav li a:hover {
