@@ -16,7 +16,7 @@
     }
     
     a, a:hover, a:visited,
-    footer a:hover,
+    footer .text-left a:hover,
     .project:hover h2 {
         color: #8F93FF;
     }
@@ -28,7 +28,7 @@
     
     main a:hover,
     nav li a:hover,
-    footer a:hover {
+    footer .text-left a:hover {
         border-color: #8F93FF;
     }
 
