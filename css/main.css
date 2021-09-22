@@ -138,13 +138,18 @@ footer {
 }
 
 footer p {
+    padding: 0 16px;
     margin: 0;
 }
 
 
-footer a:hover {
+footer .text-left a:hover {
     color: #4A51EA;
     border-bottom: 3px solid #4A51EA;
+}
+
+footer img:hover {
+    filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
 }
 
 /* hiding footer on print, because it was obscuring content  */
