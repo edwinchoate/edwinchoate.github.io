@@ -138,10 +138,12 @@ footer {
 }
 
 footer p {
-    padding: 0 16px;
     margin: 0;
 }
 
+footer img {
+    padding: 0 4px;
+}
 
 footer .text-left a:hover {
     color: #4A51EA;
