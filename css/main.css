@@ -141,8 +141,14 @@ footer p {
     margin: 0;
 }
 
+footer span.text-left { /* vertically aligns footer text with footer icons */
+    padding-top: 6px;
+}
+
 footer img {
-    padding: 0 4px;
+    padding: 6px;
+    border-radius: 2px;
+    filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
 }
 
 footer .text-left a:hover {
@@ -151,7 +157,7 @@ footer .text-left a:hover {
 }
 
 footer img:hover {
-    filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
+    background: rgba(0, 0, 255, 8%);
 }
 
 /* hiding footer on print, because it was obscuring content  */

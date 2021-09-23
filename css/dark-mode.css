@@ -32,13 +32,12 @@
         border-color: #8F93FF;
     }
 
-    header img,
-    footer img {
+    header img {
         filter: invert(99%) sepia(6%) saturate(54%) hue-rotate(286deg) brightness(113%) contrast(95%);
     }
 
     header img:hover,
-    footer img:hover {
+    footer img {
         filter: invert(55%) sepia(40%) saturate(708%) hue-rotate(200deg) brightness(102%) contrast(102%);
     }
 
@@ -46,6 +45,11 @@
     nav li a:hover,
     .project-card:hover {
         background-color: rgba(255, 255, 255, 8%);
+    }
+
+    footer img:hover {
+        filter: invert(99%) sepia(6%) saturate(54%) hue-rotate(286deg) brightness(113%) contrast(95%);
+        background: rgba(0, 0, 0, 12%);
     }
 
     .tooltip-wrapper .tooltip { background-color: black; }
