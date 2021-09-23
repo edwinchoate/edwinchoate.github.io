@@ -171,7 +171,7 @@ footer img:hover {
     border: none;
 }
 
-.project-card div>div { color: #333; }
+.project-card div { color: #333; }
 
 .project-card img {
     width: 72px;
@@ -180,6 +180,10 @@ footer img:hover {
 
 .project-card h2 {
     margin: 0 0 4px 0;
+}
+
+.project-card:hover h2 {
+    color: #4A51EA;
 }
 
 .tooltip-wrapper {

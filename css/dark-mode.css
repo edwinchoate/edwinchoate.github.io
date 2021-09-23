@@ -5,7 +5,7 @@
     
     /* Text colors */
     html, 
-    .project-card div>div,
+    .project-card div,
     .tooltip-wrapper .tooltip {
         color: #f8f8f8;
     }
