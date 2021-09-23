@@ -28,16 +28,17 @@
     
     main a:hover,
     nav li a:hover,
-    footer a:hover {
+    footer .text-left a:hover {
         border-color: #8F93FF;
     }
 
-    header img {
+    header img,
+    footer img {
         filter: invert(99%) sepia(6%) saturate(54%) hue-rotate(286deg) brightness(113%) contrast(95%);
     }
 
     header img:hover,
-    footer img {
+    footer img:hover {
         filter: invert(55%) sepia(40%) saturate(708%) hue-rotate(200deg) brightness(102%) contrast(102%);
     }
 
