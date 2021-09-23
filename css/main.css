@@ -168,7 +168,7 @@ footer a:hover {
     border: none;
 }
 
-.project div { color: #333; }
+.project div>div { color: #333; }
 
 .project img {
     width: 72px;
@@ -177,10 +177,6 @@ footer a:hover {
 
 .project h2 {
     margin: 0 0 4px 0;
-}
-
-.project:hover h2 {
-    color: #4A51EA;
 }
 
 .tooltip-wrapper {
