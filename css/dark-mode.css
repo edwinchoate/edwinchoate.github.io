@@ -5,7 +5,7 @@
     
     /* Text colors */
     html, 
-    .project div>div,
+    .project-card div>div,
     .tooltip-wrapper .tooltip {
         color: #f8f8f8;
     }
@@ -17,7 +17,7 @@
     
     a, a:hover, a:visited,
     footer .text-left a:hover,
-    .project:hover h2 {
+    .project-card:hover h2 {
         color: #8F93FF;
     }
 
@@ -43,7 +43,7 @@
 
     /* Fill colors */
     nav li a:hover,
-    .project:hover {
+    .project-card:hover {
         background-color: rgba(255, 255, 255, 8%);
     }
 

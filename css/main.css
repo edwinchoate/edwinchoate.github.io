@@ -156,26 +156,26 @@ footer a:hover {
 
 
 /* Classes */
-.project {
+.project-card {
     padding: 16px;
     border-radius: 4px;
     display: flex;
     align-items: center;
 }
 
-.project:hover {
+.project-card:hover {
     background-color: rgba(0, 0, 255, 4%);
     border: none;
 }
 
-.project div>div { color: #333; }
+.project-card div>div { color: #333; }
 
-.project img {
+.project-card img {
     width: 72px;
     margin-right: 16px;
 }
 
-.project h2 {
+.project-card h2 {
     margin: 0 0 4px 0;
 }
 
