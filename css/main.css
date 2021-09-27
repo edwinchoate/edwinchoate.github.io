@@ -101,7 +101,9 @@ nav li {
     display: inline;
 }
 
-nav li a {
+nav a,
+nav a:visited {
+    color: #333;
     font-weight: 500;
     padding: 12px;
     border-radius: 2px 2px 0 0;
@@ -112,6 +114,7 @@ nav li.active a {
 }
 
 nav li a:hover {
+    color: #4A51EA;
     background-color: rgba(0, 0, 255, 4%);
     border-bottom: 4px solid #4A51EA;
 }
@@ -141,23 +144,16 @@ footer p {
     margin: 0;
 }
 
-footer span.text-left { /* vertically aligns footer text with footer icons */
-    padding-top: 6px;
-}
-
-footer img {
-    padding: 6px;
-    border-radius: 2px;
-    filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
-}
-
 footer .text-left a:hover {
-    color: #4A51EA;
     border-bottom: 3px solid #4A51EA;
 }
 
+footer img {
+    padding: 0 6px;
+}
+
 footer img:hover {
-    background: rgba(0, 0, 255, 8%);
+    filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
 }
 
 /* hiding footer on print, because it was obscuring content  */
@@ -177,7 +173,7 @@ footer img:hover {
     border: none;
 }
 
-.project-card div>div { color: #333; }
+.project-card div { color: #333; }
 
 .project-card img {
     width: 72px;
