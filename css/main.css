@@ -42,7 +42,7 @@ main a:hover {
     background: #4A51EA;
 }
 
-mark { background-color: #FFFF90; }
+mark { background-color: rgba(255,255, 0, 35%); }
 
 td {
     padding: 6px;
