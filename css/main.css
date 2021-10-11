@@ -18,9 +18,17 @@ body {
 
 
 /* Links */
-a, a:hover, a:visited {
+a, a:hover {
     color: #4A51EA;
     text-decoration: none;
+}
+
+a:visited {
+    color: #874aea;
+}
+
+a:visited:hover {
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 
 main a:hover {
     border-bottom: 3px solid #4A51EA;
+}
+
+main a:visited:hover {
+    border-bottom: 3px solid #874aea;
 }
 
 
@@ -148,6 +160,10 @@ footer .text-left a:hover {
     border-bottom: 3px solid #4A51EA;
 }
 
+footer .text-left a:visited:hover {
+    border-bottom: 3px solid #874aea;
+}
+
 footer img {
     padding: 0 6px;
 }
@@ -186,6 +202,10 @@ footer img:hover {
 
 .project-card:hover h2 {
     color: #4A51EA;
+}
+
+.project-card:visited:hover h2 {
+    color: #874aea;
 }
 
 .tooltip-wrapper {

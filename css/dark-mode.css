@@ -17,11 +17,17 @@
         color: #A0A0A0;
     }
     
-    a, a:hover, a:visited,
+    a, a:hover,
     nav li a:hover,
     footer .text-left a:hover,
     .project-card:hover h2 {
         color: #8F93FF;
+    }
+
+    a:visited,
+    footer .text-left a:visited:hover,
+    .project-card:visited:hover h2 {
+        color: #ba8fff;
     }
 
     /* Stroke colors */
@@ -33,6 +39,11 @@
     nav li a:hover,
     footer .text-left a:hover {
         border-color: #8F93FF;
+    }
+
+    main a:visited:hover,
+    footer .text-left a:visited:hover {
+        border-color: #ba8fff;
     }
 
     header img,
