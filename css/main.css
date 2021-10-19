@@ -52,6 +52,10 @@ main a:visited:hover {
 
 mark { background-color: rgba(255,255, 0, 35%); }
 
+abbr {
+    cursor: help;
+}
+
 td {
     padding: 6px;
 }
