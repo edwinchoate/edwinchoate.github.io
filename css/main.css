@@ -23,8 +23,8 @@ a, a:hover {
     text-decoration: none;
 }
 
-a:visited {
-    color: #874aea;
+a:visited { 
+    color: #874aea; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,12 +52,8 @@ main a:visited:hover {
 
 mark { background-color: rgba(255,255, 0, 35%); }
 
-abbr {
-    cursor: help;
-}
-
-td {
-    padding: 6px;
+td { 
+    padding: 6px; 
 }
 
 article {
@@ -88,9 +84,7 @@ figure {
     margin: 40px 0;
 }
 
-figcaption {
-    font-style: italic;
-}
+figcaption { font-style: italic; }
 
 
 /* Header  */
@@ -103,15 +97,9 @@ header img:hover {
     filter: invert(25%) sepia(88%) saturate(3997%) hue-rotate(235deg) brightness(99%) contrast(86%);
 }
 
-nav {
-    float: right;
-}
-
+nav { float: right; }
 nav ul { padding: 0; }
-
-nav li {
-    display: inline;
-}
+nav li { display: inline; }
 
 nav a,
 nav a:visited {
@@ -228,6 +216,4 @@ footer img:hover {
     margin: 4px;
 }
 
-.reading-time-label {
-    color: #666;
-}
+.reading-time-label { color: #666; }
