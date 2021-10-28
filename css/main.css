@@ -18,25 +18,21 @@ body {
 
 
 /* Links */
-a, a:hover {
+a {
     color: #4A51EA;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited { 
     color: #874aea; 
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
-}
-
-main a:hover {
-    border-bottom: 3px solid #4A51EA;
-}
-
-main a:visited:hover {
-    border-bottom: 3px solid #874aea;
 }
 
 
@@ -107,6 +103,7 @@ nav a:visited {
     font-weight: 500;
     padding: 12px;
     border-radius: 2px 2px 0 0;
+    text-decoration: none;
 }
 
 nav li.active a {
@@ -144,12 +141,8 @@ footer p {
     margin: 0;
 }
 
-footer .text-left a:hover {
-    border-bottom: 3px solid #4A51EA;
-}
-
-footer .text-left a:visited:hover {
-    border-bottom: 3px solid #874aea;
+footer .text-right a {
+    text-decoration: none;
 }
 
 footer img {
@@ -170,6 +163,7 @@ footer img:hover {
     border-radius: 4px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .project-card:hover {
