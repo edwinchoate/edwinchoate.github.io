@@ -24,7 +24,7 @@ a {
 }
 
 a:visited { 
-    color: #874aea; 
+    color: #a900d9; 
 }
 
 a:hover {
@@ -187,7 +187,7 @@ footer img:hover {
 }
 
 .project-card:visited:hover h2 {
-    color: #874aea;
+    color: #a900d9;
 }
 
 .tooltip-wrapper {

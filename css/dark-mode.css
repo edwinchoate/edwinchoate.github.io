@@ -27,7 +27,7 @@
     a:visited,
     footer .text-left a:visited:hover,
     .project-card:visited:hover h2 {
-        color: #ba8fff;
+        color: #cb6fff;
     }
 
     /* Stroke colors */
@@ -35,15 +35,8 @@
         border-bottom: 4px solid #f8f8f8;
     }
     
-    main a:hover,
-    nav li a:hover,
-    footer .text-left a:hover {
+    nav li a:hover {
         border-color: #8F93FF;
-    }
-
-    main a:visited:hover,
-    footer .text-left a:visited:hover {
-        border-color: #ba8fff;
     }
 
     header img,
