@@ -21,10 +21,13 @@ body {
 a {
     color: #4A51EA;
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #c9ccff;
 }
 
 a:visited { 
     color: #a900d9; 
+    text-decoration-color: #f0bbff;
 }
 
 a:hover {

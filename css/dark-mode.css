@@ -24,10 +24,18 @@
         color: #8F93FF;
     }
 
+    a {
+        text-decoration-color: #5254a3;
+    }
+
     a:visited,
     footer .text-left a:visited:hover,
     .project-card:visited:hover h2 {
         color: #cb6fff;
+    }
+
+    a:visited {
+        text-decoration-color: #803da7;
     }
 
     /* Stroke colors */
