@@ -27,7 +27,7 @@
     }
 
     a {
-        text-decoration-color: #8F93FF;
+        text-decoration-color: #7b7fe4;
     }
 
     a:visited:hover,
@@ -37,7 +37,7 @@
     }
 
     a:visited {
-        text-decoration-color: #cb6fff;
+        text-decoration-color: #a356cf;
     }
 
     /* Stroke colors */

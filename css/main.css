@@ -23,7 +23,7 @@ a {
     font-weight: 500;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-decoration-color: #4A51EA;
+    text-decoration-color: #777dff;
 }
 
 a:hover {
@@ -32,7 +32,7 @@ a:hover {
 }
 
 a:visited { 
-    text-decoration-color: #a900d9;
+    text-decoration-color: #cb5beb;
 }
 
 a:visited:hover {
