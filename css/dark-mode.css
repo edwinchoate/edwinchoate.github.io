@@ -5,6 +5,7 @@
     
     /* Text colors */
     html, 
+    a,
     nav a, nav a:visited,
     mark,
     .project-card div,
@@ -17,25 +18,26 @@
         color: #A0A0A0;
     }
     
-    a, a:hover,
+    a:hover,
     nav li a:hover,
+    nav li a:visited:hover,
     footer .text-left a:hover,
     .project-card:hover h2 {
         color: #8F93FF;
     }
 
     a {
-        text-decoration-color: #5254a3;
+        text-decoration-color: #7b7fe4;
     }
 
-    a:visited,
+    a:visited:hover,
     footer .text-left a:visited:hover,
     .project-card:visited:hover h2 {
         color: #cb6fff;
     }
 
     a:visited {
-        text-decoration-color: #803da7;
+        text-decoration-color: #a356cf;
     }
 
     /* Stroke colors */
@@ -43,7 +45,8 @@
         border-bottom: 4px solid #f8f8f8;
     }
     
-    nav li a:hover {
+    nav li a:hover,
+    nav li a:visited:hover {
         border-color: #8F93FF;
     }
 
@@ -61,6 +64,7 @@
     mark { background-color: rgba(255, 255, 255, 25%); }
 
     nav li a:hover,
+    nav li a:visited:hover,
     .project-card:hover {
         background-color: rgba(255, 255, 255, 8%);
     }

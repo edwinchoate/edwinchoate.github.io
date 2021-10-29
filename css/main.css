@@ -19,19 +19,24 @@ body {
 
 /* Links */
 a {
-    color: #4A51EA;
+    color: #333;
+    font-weight: 500;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-decoration-color: #c9ccff;
-}
-
-a:visited { 
-    color: #a900d9; 
-    text-decoration-color: #f0bbff;
+    text-decoration-color: #777dff;
 }
 
 a:hover {
+    color: #4A51EA;
     text-decoration: none;
+}
+
+a:visited { 
+    text-decoration-color: #cb5beb;
+}
+
+a:visited:hover {
+    color: #a900d9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,7 +118,8 @@ nav li.active a {
     border-bottom: 4px solid #333;
 }
 
-nav li a:hover {
+nav li a:hover,
+nav li a:visited:hover {
     color: #4A51EA;
     background-color: rgba(0, 0, 255, 4%);
     border-bottom: 4px solid #4A51EA;
