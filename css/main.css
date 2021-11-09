@@ -191,7 +191,6 @@ footer img:hover {
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition-property: color, background-color;
     transition-duration: 200ms;
 }
 
