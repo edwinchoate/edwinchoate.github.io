@@ -6,6 +6,7 @@
     /* Text colors */
     html, 
     a,
+    button,
     nav a, nav a:visited,
     mark,
     .project-card div,
@@ -40,6 +41,8 @@
         text-decoration-color: #a356cf;
     }
 
+    button:hover { color: #333; }
+
     /* Stroke colors */
     nav li.active a {
         border-bottom: 4px solid #f8f8f8;
@@ -61,7 +64,9 @@
     }
 
     /* Fill colors */
-    mark { background-color: rgba(255, 255, 255, 25%); }
+    button, mark { background-color: #555; }
+
+    button:hover { background-color: #8F93FF }
 
     nav li a:hover,
     nav li a:visited:hover,
