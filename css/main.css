@@ -112,6 +112,8 @@ nav a:visited {
     padding: 12px;
     border-radius: 2px 2px 0 0;
     text-decoration: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 200ms;
 }
 
 nav li.active a {
@@ -173,6 +175,8 @@ footer img:hover {
     display: flex;
     align-items: center;
     text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 200ms;
 }
 
 .project-card:hover {
