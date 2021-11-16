@@ -202,6 +202,8 @@ footer img:hover {
 
 .project-card div { color: #333; }
 
+.project-card div>div { font-weight: 400; }
+
 .project-card img {
     width: 72px;
     margin-right: 16px;
