@@ -48,7 +48,7 @@
             
             <p>You just tried visiting:
                 <div style="word-wrap: break-word; line-height: 1.2;">
-                    <b><script>document.write(document.location.href.replace("https://", ""));</script></b>
+                    <b><script>document.write(decodeURI(document.location.href).replace("https://", ""));</script></b>
                 </div>
             </p>
             <ul>
