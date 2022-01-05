@@ -54,12 +54,10 @@
         document.getElementById("read-time-label").innerHTML = round(minutes) + " minute read";
 
         console.log(
-            `WPM         : ${WPM}\n` +
             `Word Count  : ${wordCount}\n` +
             `Image Count : ${imgCount}\n` +
-            `---------------------------\n` +
-            `Read Time   : ${minutes}m ${seconds}s\n` +
-            `UI Label    : ${round(minutes)} minute read`
+            `---------------------\n` +
+            `Read Time   : ${minutes}m ${seconds}s\n`
         );
     }
 
