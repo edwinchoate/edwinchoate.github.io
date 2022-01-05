@@ -29,15 +29,20 @@
         }
 
         let minutes = Math.floor(wordCount / WPM);
-        let seconds = 60 * (wordCount % WPM);
+        let seconds = 60 * ((wordCount % WPM) / WPM);
 
-        if (seconds >= 30) { minutes += 1; } 
+        let round = (min) => { 
+            return (seconds >= 30) ? min + 1 : min;
+        }
 
-        document.getElementById("read-time-label").innerHTML = minutes + " minute read";
-    }
+        document.getElementById("read-time-label").innerHTML = round(minutes) + " minute read";
+
+        console.log(`Word Count: ${wordCount}\nRead Time:  ${minutes}m ${seconds}s`);
+    } 
 
     window.ReadTime = ReadTime;
 
  })(window);
 
 
+   
