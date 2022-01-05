@@ -19,7 +19,7 @@
     <meta property="og:description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
     <meta name="twitter:title" content="Edwin Choate UX">
     
-    <title>Edwin Choate UX | 404</title>
+    <title>Page Not Found | Edwin Choate UX</title>
 
     <link rel="stylesheet" href="https://edwinchoate.com/css/main.css" />
     <link rel="stylesheet" href="https://edwinchoate.com/css/desktop.css" />
@@ -46,14 +46,20 @@
         <article>
             <h1>The page you're looking for couldn't be found</h1>
             
-            <p>Did you mean to enter...<br>
-                <b><script>document.write(document.location.href.replace("https://", ""));</script></b></p>
+            <p>You just tried visiting:
+                <div style="word-wrap: break-word; line-height: 1.2;">
+                    <b><script>document.write(decodeURI(document.location.href).replace("https://", ""));</script></b>
+                </div>
+            </p>
             <ul>
-                <li>Check for typos in the URL</li>
-                <li>The page may have been taken down</li>
+                <li>This page may have moved</li>
+                <li>Check to see if you made a typo</li>
             </ul>
             <br>
-            <button onclick="window.location.href='https://edwinchoate.com'">Go to home page →</button>
+            
+            <section>
+                <button onclick="window.location.href='https://edwinchoate.com'">Go to home page →</button>
+            </section>
         </article>
     </main>
 
@@ -65,7 +71,7 @@
             </span>
 
             <span class="align-right">
-                <a target="_blank" rel="noreferrer" href="mailto:hello@edwinchoate.com?subject=👋&nbsp;Hello,&nbsp;Edwin!">
+                <a target="_blank" rel="noreferrer" href="mailto:hello@edwinchoate.com?subject=👋&nbsp;Hi,&nbsp;Edwin!">
                     <img title="Email hello@edwinchoate.com" src="https://edwinchoate.com/img/email-icon.svg" alt="Email" height="24" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/edwinchoate">
