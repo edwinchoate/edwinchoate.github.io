@@ -15,7 +15,7 @@
         const WPM = 190; // reading speed of an average adult, in words per minute
 
         let textElements = document.querySelectorAll(
-        'article h1, article h2, article h3, article h4, article h5, article h6, article p, article figcaption'
+            'article h1, article h2, article h3, article h4, article h5, article h6, article p, article figcaption'
         );
         
         let wordCount = 0;
@@ -42,9 +42,7 @@
             return time;
         }
         
-        
         let totalTime = 60 * (wordCount / WPM) + imgViewTime(imgCount); // in seconds
-
 
         let minutes = Math.floor(totalTime / 60);
         let seconds = Math.round(totalTime - 60 * minutes);
