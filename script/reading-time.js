@@ -59,7 +59,7 @@
         } 
 
         // Add reading time label to document
-        document.querySelector(".reading-time-label").innerHTML = readingTimeDuration + " minute read";
+        document.querySelector("#reading-time-label").innerHTML = readingTimeDuration + " minute read";
     }
 
      //-- return the window object
