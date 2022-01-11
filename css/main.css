@@ -3,6 +3,7 @@ html {
     font-family: 'Red Hat Display', sans-serif;
     font-display: swap;
     background: #f8f8f8;
+    background-image: url(../img/bg-texture-light.jpg);
     color: #333;
     height: 100%;
     margin: 0 10px 0 10px;
