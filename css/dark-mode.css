@@ -1,10 +1,7 @@
 @media (prefers-color-scheme: dark) {
 
     /* Background colors */
-    html { 
-        background: #333; 
-        background-image: url(../img/bg-texture-dark.jpg);
-    }
+    html { background: #333; }
     
     /* Text colors */
     html, 
