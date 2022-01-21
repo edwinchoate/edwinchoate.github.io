@@ -135,7 +135,6 @@ nav li { display: inline; }
 
 nav a,
 nav a:visited {
-    color: #333;
     font-weight: 500;
     padding: 12px;
     border-radius: 2px 2px 0 0;
