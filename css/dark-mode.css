@@ -38,9 +38,12 @@
         text-decoration-color: #a356cf;
     }
 
-    button:hover { color: #333; }
-
     /* Stroke colors */
+    button { 
+        border-color: black;
+        box-shadow: black 2px 2px; 
+    }
+
     nav li.active a {
         border-bottom: 4px solid #f8f8f8;
     }
@@ -63,7 +66,7 @@
     /* Fill colors */
     button, mark { background-color: #555; }
 
-    button:hover { background-color: #8F93FF }
+    button:hover { background-color: #666; }
 
     nav li a:hover,
     nav li a:visited:hover,

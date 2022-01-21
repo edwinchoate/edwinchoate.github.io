@@ -54,15 +54,17 @@ button {
     font-size: 1em;
     background-color: #dadaf9;
     border-radius: 4px;
-    border-style: none;
+    border: 2px solid #333;
+    box-shadow: #333 2px 2px;
 }
 
 button:hover {
-    background: #4A51EA;
-    color: #f8f8f8;
+    background: #c5c5ff;
     transition-duration: 200ms;
     cursor: pointer;
 }
+
+button:active { box-shadow: none; }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
