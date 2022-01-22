@@ -47,6 +47,13 @@ main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']) {
     background-repeat: no-repeat;
 }
 
+main a[href^="mailto"] {
+    background-image: url(../img/icons/email-icon-small.svg);
+    padding-right: 24px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
 button {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
