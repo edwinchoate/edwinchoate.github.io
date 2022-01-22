@@ -19,7 +19,7 @@
     <meta property="og:description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
     <meta name="twitter:title" content="Edwin Choate UX">
     
-    <title>Page Not Found | Edwin Choate UX</title>
+    <title>Page Not Found (404) | Edwin Choate UX</title>
 
     <link rel="stylesheet" href="https://edwinchoate.com/css/main.css" />
     <link rel="stylesheet" href="https://edwinchoate.com/css/desktop.css" />
@@ -43,8 +43,10 @@
     </header>
 
     <main>
-        <article>
-            <h1>The page you're looking for couldn't be found</h1>
+        <div style="font-size: 1.08em; line-height: 180%;">
+            <h1 style="font-size: 2em; line-height: 110%;">
+                The page you're looking for couldn't be found <span class="low-contrast">(404)</span>
+            </h1>
             
             <p>You just tried visiting:
                 <div style="word-wrap: break-word; line-height: 1.2;">
@@ -52,16 +54,15 @@
                 </div>
             </p>
             <ul>
-                <li>Check for typos</li>
-                <li>The link may have changed</li>
-                <li>The page may have been removed</li>
+                <li>Check for typos <span style="padding-left: 6px;">↑</span></li>
+                <li>The page may have moved</li>
             </ul>
             <br>
             
-            <section>
-                <button onclick="window.location.href='https://edwinchoate.com'">Go to home page →</button>
-            </section>
-        </article>
+            <button onclick="window.location.href='https://edwinchoate.com'">
+                Go to home page <span style="padding-left: 8px">&gt;</span>
+            </button>
+        </div>
     </main>
 
     <footer>
