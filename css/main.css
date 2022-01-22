@@ -40,19 +40,18 @@ a:visited:hover {
     color: #a900d9;
 }
 
-main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']) {
-    background-image: url(../img/icons/external-link-icon.svg);
+main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']),
+main a[href^="mailto"] {
     padding-right: 24px;
     background-position: right center;
     background-repeat: no-repeat;
 }
 
-main a[href^="mailto"] {
-    background-image: url(../img/icons/email-icon-small.svg);
-    padding-right: 24px;
-    background-position: right center;
-    background-repeat: no-repeat;
+main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']) {
+    background-image: url(../img/icons/external-link-icon.svg);
 }
+
+main a[href^="mailto"] { background-image: url(../img/icons/email-icon-small.svg); }
 
 button {
     font-family: 'Red Hat Display', sans-serif;
