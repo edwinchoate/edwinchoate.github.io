@@ -223,6 +223,8 @@ footer img:hover {
 .project-card img {
     width: 72px;
     margin-right: 16px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 8%);
+    border-radius: 4px;
 }
 
 .project-card h2 {
