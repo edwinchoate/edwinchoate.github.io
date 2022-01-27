@@ -182,7 +182,10 @@ footer {
     height: 48px;
 }
 
-footer small { margin-top: 2px; }
+footer .align-left { 
+    font-size: 14px;
+    margin-top: 2px;
+}
 
 footer .align-right a {
     text-decoration: none;
