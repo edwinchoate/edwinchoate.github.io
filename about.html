@@ -55,10 +55,10 @@
                         let hour = new Date().getHours();
                         let timeOfDay = '';
 
-                        if (hour >= 17 && hour < 3) { timeOfDay = 'evening'; }
+                        if (hour >= 17 || hour < 3) { timeOfDay = 'evening'; }
                         else if (hour < 12) { timeOfDay = 'morning'; }
                         else { timeOfDay = 'afternoon'; }
-
+                        
                         document.write('Good ' + timeOfDay + '!');
                     </script>
                     I'm a user experience (UX) designer at <a target="_blank" rel="noreferrer" href="https://www.taxslayer.com/">TaxSlayer</a> and I'm based out of Atlanta, GA. Within the UX field, I'm especially interested in usability, accessibility, and prototyping. I'm an active member of <a target="_blank" rel="noreferrer" href="https://ixda.org/">The Interaction Design Association (IxDA)</a> and <a target="_blank" rel="noreferrer" href="https://www.interaction-design.org/about?r=edwin-choate">Interaction Design Foundation (IxDF)</a>. In my spare time I enjoy reading, folk music, retro video games, and playing my acoustic guitar.
