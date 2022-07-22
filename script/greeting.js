@@ -1,16 +1,13 @@
 "use strict";
 /**
 * @author Edwin Choate
-* @version 1.0.1
+* @version 1.0.2
 * @description A simple inline script that greets the user based on time of day
 */
 
 (function(){
     
-    const MORNING = 'morning';
-    const AFTERNOON = 'afternoon';
-    const EVENING = 'evening';
-
+    const MORNING = 'morning', AFTERNOON = 'afternoon', EVENING = 'evening';
     const hour = new Date().getHours();
     let timeOfDay = '';
 
@@ -20,9 +17,13 @@
         timeOfDay = MORNING; // 3am to noon
     else
         timeOfDay = AFTERNOON; // noon to 5pm
-
+    
     if ([MORNING, AFTERNOON, EVENING].includes(timeOfDay))
         document.write('Good ' + timeOfDay + '!');
-    else console.error(`There was a problem with greeting.js\ntimeOfDay: ${timeOfDay}`);
+    else {
+        console.error(
+            `There was a problem with greeting.js\nhour: ${hour}\ntimeOfDay: ${timeOfDay}`
+        );
+    }
 
 })();
