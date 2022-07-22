@@ -7,18 +7,18 @@
 
 (function(){
     
-    const MORNING = 'morning', AFTERNOON = 'afternoon', EVENING = 'evening';
+    const morning='morning', afternoon='afternoon', evening='evening';
     const hour = new Date().getHours(); // 0 to 23
     let timeOfDay = '';
-
-    if (hour >= 17 || hour < 3) 
-        timeOfDay = EVENING; // 5pm to 3am
-    else if (hour < 12)
-        timeOfDay = MORNING; // 3am to noon
-    else
-        timeOfDay = AFTERNOON; // noon to 5pm
     
-    if ([MORNING, AFTERNOON, EVENING].includes(timeOfDay))
+    if (hour >= 17 || hour < 3) 
+        timeOfDay = evening; // 5pm to 3am
+    else if (hour < 12)
+        timeOfDay = morning; // 3am to noon
+    else
+        timeOfDay = afternoon; // noon to 5pm
+    
+    if ([morning, afternoon, evening].includes(timeOfDay))
         document.write(`Good ${timeOfDay}!`);
     else {
         console.error(
