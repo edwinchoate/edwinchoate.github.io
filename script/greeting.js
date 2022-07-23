@@ -7,18 +7,18 @@
 
 (function(){
     
-    const Strings = { Morning: 'morning', Afternoon: 'afternoon', Evening: 'evening' };
+    const Strings = ['morning', 'afternoon', 'evening'];
     const hour = new Date().getHours(); // 0 to 23
     let timeOfDay = '';
     
     if (hour >= 17 || hour < 3) 
-        timeOfDay = Strings.Evening; // 5pm to 3am
+        timeOfDay = Strings[2]; // 5pm to 3am
     else if (hour < 12)
-        timeOfDay = Strings.Morning; // 3am to noon
+        timeOfDay = Strings[0]; // 3am to noon
     else
-        timeOfDay = Strings.Afternoon; // noon to 5pm
+        timeOfDay = Strings[1]; // noon to 5pm
     
-    if ([Strings.Morning, Strings.Afternoon, Strings.Evening].includes(timeOfDay))
+    if (Strings.includes(timeOfDay))
         document.write(`Good ${timeOfDay}!`);
     else {
         console.error(
