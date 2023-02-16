@@ -139,7 +139,7 @@ header img:hover {
 
 nav { float: right; }
 nav ul { padding: 0; }
-nav li { display: inline; }
+nav li { display: inline-block; }
 
 nav a,
 nav a:visited {
