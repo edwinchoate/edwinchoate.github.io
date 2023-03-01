@@ -166,10 +166,10 @@ nav li a:visited:hover {
 /* Main Content Section  */
 main {
     padding-top: 32px;
-    padding-bottom: 48px;
+    padding-bottom: 128px;
 }
 
-section {
+summary, section {
     margin-bottom: 80px;
 }
 
