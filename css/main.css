@@ -163,13 +163,17 @@ nav li a:visited:hover {
 }
 
 
-/* Main Content Section  */
+/* Main Content and Sections  */
 main {
     padding-top: 32px;
     padding-bottom: 128px;
 }
 
-section, .summary {
+section {
+    margin-top: 80px;
+}
+
+section:last-of-type {
     margin-bottom: 80px;
 }
 
