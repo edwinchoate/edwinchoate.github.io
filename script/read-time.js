@@ -12,7 +12,7 @@
 
     function ReadTime() {
 
-        const WPM = 190; // reading speed of an average adult, in words per minute
+        const WPM = 220; // reading speed of an average adult, in words per minute
 
         let textElements = document.querySelectorAll(
             'article h1, article h2, article h3, article h4, article h5, article h6, article p, article figcaption, article li'
