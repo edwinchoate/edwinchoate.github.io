@@ -169,7 +169,7 @@ main {
     padding-bottom: 128px;
 }
 
-section {
+section, .summary {
     margin-bottom: 80px;
 }
 
