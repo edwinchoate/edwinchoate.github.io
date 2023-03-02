@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 .align-center { text-align: center; }
 .low-contrast { color: #666; }
 
-::selection, ::-moz-selection {
+::selection {
     color: white;
     background: #4A51EA;
 }
