@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .align-left { text-align: left; float: left; }
 .align-right {text-align: right; float: right; }
-.align-center { text-align: center; float: center; }
+.align-center { text-align: center; }
 .low-contrast { color: #666; }
 
 ::selection, ::-moz-selection {
