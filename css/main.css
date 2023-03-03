@@ -203,7 +203,7 @@ footer img:hover {
 }
 
 /* hiding footer on print, because it was obscuring content  */
-@media print { footer { display: none !important; } }
+@media print { footer { display: none; } }
 
 
 /* Classes */
