@@ -12,14 +12,15 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Edwin Choate">
-    <meta name="description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/edwinchoate/edwinchoate.github.io/master/img/edwin-pic-squiggle.png">
-    <meta property="og:title" content="Edwin Choate UX">
-    <meta property="og:description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
-    <meta name="twitter:title" content="Edwin Choate UX">
     
     <title>NCR Design System | Edwin Choate UX</title>
+    <meta property="og:title" content="NCR Design System | Edwin Choate UX">
+    <meta name="twitter:title" content="NCR Design System | Edwin Choate UX">
+    
+    <meta name="author" content="Edwin Choate">
+    <meta name="description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
+    <meta property="og:description" content="A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the needs of the people who use it.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/edwinchoate/edwinchoate.github.io/master/img/edwin-pic-squiggle.png">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/desktop.css">
@@ -43,8 +44,9 @@
     </header>
 
     <main>
+        <img alt="" src="img/ncr-design-system/ncr-ds-header.png">
+        
         <article>
-            <img alt="header artwork" src="img/ncr-design-system/ncr-ds-header.png">
             <h1>NCR Design System</h1>
             <div>
                 <span id="read-time-label" class="low-contrast"></span>
@@ -52,9 +54,7 @@
                     document.addEventListener('DOMContentLoaded', (event) => { new ReadTime(); })
                 </script>
             </div>
-            <div class="summary">
-                <p><b>Summary:</b> I worked on the <abbr title="National Cash Register Corporation">NCR</abbr> Design System from its inception, focusing on the design of the user interface components in the system as well as the design system documentation site.</p>
-            </div>
+            <p><b>Summary:</b> I worked on the <abbr title="National Cash Register Corporation">NCR</abbr> Design System from its inception, focusing on the design of the user interface components in the system as well as the design system documentation site.</p>
 
             <section>
                 <h2>Project Goal</h2>
@@ -67,32 +67,32 @@
 
                 <figure>
                     <img src="img/ncr-design-system/component-affinity-map.png" alt="an affinity map of UI components from a variety of design systems">
-                    <figcaption>I created an affinity map in <a target="_blank" rel="noreferrer" href="https://www.figma.com">Figma</a> where I consolidated screenshots of various components from a variety of design systems. This allowed us to understand how fundamental (or not) a given component would be, which helped us narrow down our shortlist of components to include in the alpha release.</figcaption>
+                    <figcaption>I created an affinity map in <a target="_blank" href="https://www.figma.com">Figma</a> where I consolidated screenshots of various components from a variety of design systems. This allowed us to understand how fundamental (or not) a given component would be, which helped us narrow down our shortlist of components to include in the alpha release.</figcaption>
                 </figure>
             </section>
 
             <section>
                 <h2>Market Research - Design System Sites</h2>
-                <p>Fortunately, there are <em>lots</em> of design systems to check out online. I used <a target="_blank" rel="noreferrer" href="https://github.com/alexpate/awesome-design-systems">this fantastic list of design systems by @alexpate on Github</a> to find some of the best design system sites out there from which to draw inspiration. As I researched, I took screenshots and created an affinity map to break design system sites into their composite parts. This allowed me to spot patterns and understand conventions across the various design system sites.</p>
+                <p>Fortunately, there are <em>lots</em> of design systems to check out online. I used <a target="_blank" href="https://github.com/alexpate/awesome-design-systems">this fantastic list of design systems by @alexpate on Github</a> to find some of the best design system sites out there from which to draw inspiration. As I researched, I took screenshots and created an affinity map to break design system sites into their composite parts. This allowed me to spot patterns and understand conventions across the various design system sites.</p>
 
                 <figure>
                     <img src="img/ncr-design-system/site-structure-analysis.png" alt="an affinity map of general patterns on design system sites">
-                    <figcaption>I made an affinity diagram in <a target="_blank" rel="noreferrer" href="https://figma.com">Figma</a> to break down the patterns I was seeing across popular design system sites online. I used <a target="_blank" rel="noreferrer" href="https://github.com/alexpate/awesome-design-systems">alexpate's list of awesome design systems</a> to cast a wide net, looking at design systems large and small.</figcaption>
+                    <figcaption>I made an affinity diagram in <a target="_blank" href="https://www.figma.com">Figma</a> to break down the patterns I was seeing across popular design system sites online. I used <a target="_blank" href="https://github.com/alexpate/awesome-design-systems">alexpate's list of awesome design systems</a> to cast a wide net, looking at design systems large and small.</figcaption>
                 </figure>
 
                 <p>In particular, I analyzed:</p>
 
                 <ul>
-                    <li><a target="_blank" rel="noreferrer" href="https://spectrum.adobe.com/">Adobe Spectrum</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://ant.design/">Alibaba Ant Design</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://atlassian.design/">Atlassian Design System</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://design.firefox.com/photon">Firefox Photon Design System</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://primer.style/">GitHub Primer</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://material.io/design#introduction-goals">Google Material Design</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://www.carbondesignsystem.com/">IBM Carbon</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://styleguide.mailchimp.com/">Mailchimp Content Styleguide</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://www.microsoft.com/design/fluent/#/">Microsoft Fluent</a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://polaris.shopify.com/">Shopify Polaris</a></li>
+                    <li><a target="_blank" href="https://spectrum.adobe.com/">Adobe Spectrum</a></li>
+                    <li><a target="_blank" href="https://ant.design/">Alibaba Ant Design</a></li>
+                    <li><a target="_blank" href="https://atlassian.design/">Atlassian Design System</a></li>
+                    <li><a target="_blank" href="https://acorn.firefox.com/latest/">Firefox Photon Design System</a></li>
+                    <li><a target="_blank" href="https://primer.style/">GitHub Primer</a></li>
+                    <li><a target="_blank" href="https://m3.material.io/">Google Material Design</a></li>
+                    <li><a target="_blank" href="https://carbondesignsystem.com/">IBM Carbon</a></li>
+                    <li><a target="_blank" href="https://styleguide.mailchimp.com/">Mailchimp Content Styleguide</a></li>
+                    <li><a target="_blank" href="https://www.microsoft.com/design/fluent/">Microsoft Fluent</a></li>
+                    <li><a target="_blank" href="https://polaris.shopify.com/">Shopify Polaris</a></li>
                 </ul>
 
                 <p>Next, I created a sitemap to focus purely on information and site structure. By this time, my team and I had narrowed down our list of components we wanted to include in the alpha release, so I made sure that the site structure I was planning would be able to accommodate the components we selected, while leaving room for future iterations of new components.</p>
@@ -138,7 +138,7 @@
                     <figcaption>I created a low-fidelity prototype in Figma to explore what the design system site might look like, considering structure and navigation. I sought to create a site that followed the typical conventions of design system sites.</figcaption>
                 </figure>
 
-                <p><a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/znMhyqTKK2CmoKGnDt5nMA/NCR-Design-System-Site-Prototype?node-id=9%3A90&scaling=scale-down-width">Open Figma prototype</a></p>
+                <p><a target="_blank" href="https://www.figma.com/proto/znMhyqTKK2CmoKGnDt5nMA/NCR-Design-System-Site-Prototype?node-id=9%3A90&scaling=scale-down-width">Open Figma prototype</a></p>
 
                 <p>My team used the low-fidelity prototype I created as the basis for the final product. The front-end developers found the designs easy to implement because they were conventional. They were able to use external component libraries to build the site quickly, rather than having to reinvent the wheel.</p>
             </section>
@@ -180,18 +180,19 @@
             <section>
                 <h2>Let's Get in Touch</h2>
                 <p>Email me at <a href="mailto:hello@edwinchoate.com?subject=👋&nbsp;Hi,&nbsp;Edwin!">hello@edwinchoate.com</a>, 
-                    or <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/edwinchoate">connect with me</a> on LinkedIn.</p>
+                    or <a target="_blank" href="https://www.linkedin.com/in/edwinchoate">connect with me</a> on LinkedIn.</p>
             </section>
 
             <section>
                 <h3>Read More</h3>
                 <ul>
-                    <li><a href="/">Projects</a></li>
-                    <ul>
-                        <li><a href="/menu-maker">Menu Maker</a></li>
-                        <li><a href="/self-order-kiosk">Self-Order Kiosk</a></li>
-                        <li>NCR Design System</li>
-                    </ul>
+                    <li><a href="/">Projects</a>
+                        <ul>
+                            <li><a href="/menu-maker">Menu Maker</a></li>
+                            <li><a href="/self-order-kiosk">Self-Order Kiosk</a></li>
+                            <li>NCR Design System</li>
+                        </ul>
+                    </li>
                     <li><a href="/about">About Edwin</a></li>
                 </ul>
             </section>
@@ -206,14 +207,14 @@
         <div>
             <span class="align-left low-contrast">
                 &copy; Edwin Choate &nbsp;
-                <a target="_blank" rel="noreferrer" title="View Source Code on Github" href="https://github.com/edwinchoate/edwinchoate.github.io">&lt;Site by Edwin /&gt;</a>
+                <a target="_blank" title="View Source Code on Github" href="https://github.com/edwinchoate/edwinchoate.github.io">&lt;Site by Edwin /&gt;</a>
             </span>
 
             <span class="align-right">
-                <a target="_blank" rel="noreferrer" href="mailto:hello@edwinchoate.com?subject=👋&nbsp;Hi,&nbsp;Edwin!">
+                <a target="_blank" href="mailto:hello@edwinchoate.com?subject=👋&nbsp;Hi,&nbsp;Edwin!">
                     <img title="Email hello@edwinchoate.com" src="img/icons/email-icon.svg" alt="Email" height="24">
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/edwinchoate">
+                <a target="_blank" href="https://www.linkedin.com/in/edwinchoate">
                     <img title="Connect with Edwin on LinkedIn" src="img/icons/linkedin-icon.svg" alt="LinkedIn" height="24">
                 </a>
             </span>

@@ -1,7 +1,6 @@
 /* General */
 html {
     font-family: 'Red Hat Display', sans-serif;
-    font-display: swap;
     background: #f8f8f8;
     color: #333;
     height: 100%;
@@ -82,10 +81,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .align-left { text-align: left; float: left; }
 .align-right {text-align: right; float: right; }
-.align-center { text-align: center; float: center; }
+.align-center { text-align: center; }
 .low-contrast { color: #666; }
 
-::selection, ::-moz-selection {
+::selection {
     color: white;
     background: #4A51EA;
 }
@@ -163,13 +162,17 @@ nav li a:visited:hover {
 }
 
 
-/* Main Content Section  */
+/* Main Content and Sections  */
 main {
     padding-top: 32px;
     padding-bottom: 128px;
 }
 
-section, .summary {
+section {
+    margin-top: 80px;
+}
+
+section:last-of-type {
     margin-bottom: 80px;
 }
 
@@ -200,7 +203,7 @@ footer img:hover {
 }
 
 /* hiding footer on print, because it was obscuring content  */
-@media print { footer { display: none !important; } }
+@media print { footer { display: none; } }
 
 
 /* Classes */
