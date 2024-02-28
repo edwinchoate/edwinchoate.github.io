@@ -46,10 +46,10 @@ main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']) {
     background-repeat: no-repeat;
 }
 
-main a[href^="mailto"] { background-image: url(../img/icons/email-icon-small.svg); }
+main a[href^="mailto"] { background-image: url(../assets/img/icons/email-icon-small.svg); }
 
 main a:not([href*='edwinchoate.com']):not([href^='#']):not([href^='/']) {
-    background-image: url(../img/icons/external-link-icon.svg);
+    background-image: url(../assets/img/icons/external-link-icon.svg);
 }
 
 
