@@ -59,6 +59,7 @@ button {
     font-weight: 500;
     padding: 12px;
     font-size: 1em;
+    color: #333;
     background-color: #dadaf9;
     border-radius: 4px;
     border: 2px solid #333;
@@ -88,6 +89,8 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background: #4A51EA;
 }
+
+q { font-style: italic; }
 
 mark { background-color: #FFFF90; }
 
