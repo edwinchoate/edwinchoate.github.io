@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Edwin Choate UX
+author: Edwin Choate
 email: hello@edwinchoate.com
 description: >- # this means to ignore newlines until "baseurl:"
   A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an 
@@ -28,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://edwinchoate.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: edwinchoate
 linkedin_username: edwinchoate
-rss: rss
+# rss: rss
 
 google_analytics: UA-113445819-1
 
