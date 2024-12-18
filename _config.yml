@@ -37,6 +37,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - index.md
+  - about.md
+
 # Include in processing.
 # Every file or directory beginning with the following characters: . _ # ~ 
 # in the source directory will not be included in the destination folder. 
