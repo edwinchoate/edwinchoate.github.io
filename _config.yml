@@ -18,22 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Edwin Choate UX
+email: hello@edwinchoate.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A UX designer based out of Atlanta, GA, Edwin Choate focuses on what draws people to use products and why. With an 
+  emphasis on usabilty, Edwin designs research-validated experiences that subjagate the needs of technology to the 
+  needs of the people who use it.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://edwinchoate.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: edwinchoate
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+# Include in processing.
+# Every file or directory beginning with the following characters: . _ # ~ 
+# in the source directory will not be included in the destination folder. 
+# Such paths will have to be explicitly specified to make sure they’re copied over.
+#
 include:
   - .htaccess
 
