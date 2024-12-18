@@ -2,6 +2,7 @@
   "name": "edwinchoate.github.io",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload",
+    "draft": "bundle exec jekyll serve --drafts --livereload",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
