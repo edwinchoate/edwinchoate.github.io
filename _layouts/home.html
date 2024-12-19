@@ -16,7 +16,7 @@ layout: default
           <a class="post-link" href="{{ case_study.url | relative_url }}">
             {{ case_study.title | escape }}
           </a>
-          <span class="post-meta">{{ case_study.summary | escape }}</span>
+          <span class="post-meta">{{ case_study.subtitle | escape }}</span>
         </h3>
         <span class=""></span>
       {%- endfor -%}
