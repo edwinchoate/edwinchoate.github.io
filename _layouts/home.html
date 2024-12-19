@@ -12,13 +12,17 @@ layout: default
 
     {%- if site.case_studies.size > 0 -%}
       {%- for case_study in site.case_studies -%}
-        <h3>
-          <a class="post-link" href="{{ case_study.url | relative_url }}">
+      <div style="display: flex; align-items: center;">
+        {% if case_study.thumbnail %}
+          <img src="{{ case_study.thumbnail }}"style="width: 72px; padding: 16px;"/>
+        {% endif %}
+        <div style="line-height: 16px">
+          <h3><a class="post-link" href="{{ case_study.url | relative_url }}">
             {{ case_study.title | escape }}
-          </a>
-          <span class="post-meta">{{ case_study.subtitle | escape }}</span>
-        </h3>
-        <span class=""></span>
+          </a></h3>
+          <div class="post-meta">{{ case_study.subtitle | escape }}</div>
+        </div>
+      </div>
       {%- endfor -%}
     {%- endif -%}
   
