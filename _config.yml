@@ -33,6 +33,11 @@ linkedin_username: edwinchoate
 
 google_analytics: UA-113445819-1
 
+# Collections
+collections:
+  case_studies:
+    output: true
+
 # Build settings
 theme: minima
 plugins:
