@@ -31,7 +31,9 @@ url: "https://edwinchoate.com" # the base hostname & protocol for your site, e.g
 linkedin_username: edwinchoate
 # rss: rss
 
-google_analytics: UA-113445819-1
+header_pages:
+  - index.md
+  - about.md
 
 # Collections
 collections:
@@ -43,9 +45,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-header_pages:
-  - index.md
-  - about.md
+google_analytics: UA-113445819-1
 
 # Include in processing.
 # Every file or directory beginning with the following characters: . _ # ~ 
