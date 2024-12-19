@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="post">
+
+    <header class="post-header">
+        {% if page.cover_photo %}
+            <img alt="header artwork" src="{{ page.cover_photo }}" />
+        {% endif %}
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    {% if page.summary %}
+    <div>
+        <p><b>Summary: </b> {{ page.summary }}</p>
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <div>
+        <h2>Let's Get in Touch</h2>
+        <p>
+            Email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>, or <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">connect with me on LinkedIn</a>.
+        </p>
+    </div>
+
+    {% if site.case_studies.size > 1 %}
+    <div>
+        <h2>Read More</h2>
+        <ul>
+            {% for case_study in site.case_studies %}
+                <li><a href="{{ case_study.url }}">{{ case_study.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <button onclick="window.location.href='#top'">&uarr; Back to Top</button>
+
+</article>
