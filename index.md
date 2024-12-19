@@ -5,3 +5,5 @@
 layout: home
 title: Projects
 ---
+
+![Edwin Choate, UX designer in ATL](/assets/img/homepage-image.png)
