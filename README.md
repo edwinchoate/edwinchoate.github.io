@@ -24,6 +24,17 @@ And then execute:
 
     $ bundle
 
+## Run Server
+
+```shell
+$ npm start
+```
+
+To see drafts
+
+```shell
+$ npm run draft
+```
 
 ## Contents At-A-Glance
 
