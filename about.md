@@ -98,3 +98,5 @@ I'm continually reading UX books. Here are some of my favorites I've read so far
 **User Experience: The Beginner’s Guide**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-user-experience-the-beginner-s-guide.jpg)
 
 **Design Thinking: The Beginner’s Guide**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-design-thinking-the-beginner-s-guide.jpg)
+
+[&uarr; Back to Top](#top)
