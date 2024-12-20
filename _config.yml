@@ -39,12 +39,6 @@ header_pages:
 collections:
   case_studies:
     output: true
-    order: 
-      - sketchy-wireframe-system.md
-      - taxslayer-pro-design-system.md
-      - menu-maker.md
-      - self-order-kiosk.md
-      - ncr-design-system.md
 
 # Build settings
 theme: minima
