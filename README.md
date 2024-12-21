@@ -26,7 +26,7 @@ $ bundle update
 
 Quickstart (on Windows)
 
-```shell
+```powershell
 > .\run-server.bat
 ```
 
