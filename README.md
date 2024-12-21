@@ -24,6 +24,12 @@ $ bundle update
 
 ## Server
 
+Quickstart (on Windows)
+
+```shell
+> .\run-server.bat
+```
+
 Run server
 
 ```shell
