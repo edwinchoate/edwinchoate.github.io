@@ -33,31 +33,31 @@ Quickstart (on Windows)
 Run server
 
 ```shell
-bundle exec jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Run server with live reload
 
 ```shell
-bundle exec jekyll serve --livereload
+$ bundle exec jekyll serve --livereload
 ```
 
 Run server as if `_draft` posts were regular posts
 
 ```shell
-bundle exec jekyll serve --drafts
+$ bundle exec jekyll serve --drafts
 ```
 
 Build site 
 
 ```shell
-bundle exec jekyll build
+$ bundle exec jekyll build
 ```
 
 Clean build files 
 
 ```shell
-bundle exec jekyll clean
+$ bundle exec jekyll clean
 ```
 
 ## Theme
