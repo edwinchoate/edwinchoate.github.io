@@ -2,7 +2,7 @@
 layout: post
 title:  "Fundamentals of Vim"
 date:   2024-12-23
-categories: vim terminal
+categories: vim
 ---
 
 I like using Vim for simple text editing tasks in the terminal. Once you learn enough of the commands, it becomes a nice way to edit text because it is direct keyboard input without having to leave the terminal. My goal with this post is to draw attention to the most useful Vim commands for beginners, to give the 80% of what you need to be proficient enough in Vim to perform most text-editing tasks. 
