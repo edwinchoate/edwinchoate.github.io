@@ -19,7 +19,7 @@ $ make -v
 ```shell
 $ git clone https://github.com/edwinchoate/edwinchoate.github.io.git
 $ cd edwinchoate.github.io
-$ bundle update
+$ bundle
 ```
 
 ## Server
