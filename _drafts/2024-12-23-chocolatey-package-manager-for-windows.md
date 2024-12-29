@@ -9,7 +9,7 @@ You might be used to the convenience of command line package managers on Unix sy
 
 ## Installing Chocolatey
 
-You should defer to the latest information on [chocolatey.org](https://chocolatey.org/) in case something changed since this writing. Their documentation is very good. 
+You should defer to the latest information on [chocolatey.org](https://chocolatey.org/) in case something changed since this writing. Their documentation is good. 
 
 But, the general process of installing Chocolatey is: 
 
@@ -19,7 +19,7 @@ But, the general process of installing Chocolatey is:
 
 It should look like this:
 
-```powershell
+```shell
 PS C:\WINDOWS\system32> Get-ExecutionPolicy
 Bypass
 ```
@@ -28,8 +28,8 @@ Bypass
 
 4.) Check to make sure chocolatey is installed correctly on your system:
 
-```powershell
-PS C:\WINDOWS\system32> choco -v
+```shell
+> choco -v
 2.4.1
 ```
 
@@ -39,8 +39,8 @@ Similar to npm, chocolatey has a search command that is useful if you're not sur
 
 (I recommend always using chocolatey in an admin Powershell, because it often errors out if you don't have the elevated permissions. It's conceptually similar to always typing `sudo apt-get ...` It's safe to assume you'll need the elevated permisions.)
 
-```powershell
-PS C:\WINDOWS\system32> choco search glow
+```shell
+> choco search glow
 Chocolatey v2.4.1
 decoration 5.5.0 [Approved]
 f.lux 4.120.0 [Approved]
@@ -56,28 +56,34 @@ sauerbraten 2013.2.3.20161112 [Approved] Downloads cached for licensed users
 
 If you run the standard `install` command with no flags, you'll usually need to answer one or more Yes/No prompts. 
 
-```powershell
-PS C:\WINDOWS\system32> choco install glow
+```shell
+> choco install glow
+```
+
+If you want to install a specific version of a package, you can do that with the `--version` flag:
+
+```shell
+> choco install glow --version 1.5.1
 ```
 
 You can pass the `--yes` flag to have the system automatically say yes to all prompts 
 
-```powershell
-PS C:\WINDOWS\system32> choco install glow --yes
+```shell
+> choco install glow --yes
 ```
 
 ## Uninstall a package
 
 You guessed it
 
-```powershell
-PS C:\WINDOWS\system32> choco uninstall glow
+```shell
+> choco uninstall glow
 ```
 
 ## See all packages you have installed on your system
 
-```powershell
-PS C:\WINDOWS\system32> choco list
+```shell
+> choco list
 Chocolatey v2.4.1
 chocolatey 2.4.1
 glow 2.0.0
