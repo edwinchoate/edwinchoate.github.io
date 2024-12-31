@@ -191,6 +191,26 @@ To paste:
 
 > **Note:** Vim has its own clipboard that's separate from the system clipboard. The `y` and `p` commands only work inside of Vim. To use the system clipboard, you use the register commands, `"*y` and `"*p`.
 
+## Settings 
+
+You can customize the settings of your installation of Vim using a file named `.vimrc`. This is a nice opportunity to practice your Vim editing, as the file is a simple text-based config file. 
+
+You need to create a file named `.vimrc` and place it in your root directory (ex: `C:\Users\Username\`). Each line of the file is an individual setting, represented as a command with arguments. 
+
+These are the settings I like to use in my config file: 
+
+```
+set noundofile
+set belloff=all
+syntax on
+set autoindent
+set expandtab
+set tabstop=4
+set shiftwidth=4
+```
+
+I personally find the "undofile" annoying and the system bell sound drives me crazy. The "syntax" setting turns on color syntax highlighting for most programming languages, which I like a lot. The other four settings make it to where I can use the tab key for indentation when writing code and each tab is equivalent to 4 spaces.
+
 ## In sum
 
 Vim is a useful skill to know, because it allows you to write code on any unix machine without having to think twice about what's installed on that machine, and you find yourself prepared if the IDE you're using suddenly launches something in its Vim mode. Below, I've listed all of the commands from this post in one consolidated cheatsheet. 
