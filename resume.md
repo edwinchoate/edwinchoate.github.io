@@ -57,6 +57,8 @@ Georgia Institute of Technology
 
 LinkedIn Learning
 
+- .NET
+    - (In-Progress) C# and .NET Essential Training
 - C#
     - Asynchronous Programming in C# • [Certificate](https://www.linkedin.com/learning/certificates/81174c3a9298c612223808f91bba8ea8bd949cd87dcb2377ea8ff5c784186ddc?trk=share_certificate) • [Notes](https://github.com/edwinchoate/asynchronous-programming-in-c-sharp/blob/main/notes.md)
     - Advanced C#: Object-Oriented Programming • [Certificate](https://www.linkedin.com/learning/certificates/c81ba23b3c7183a9b85119f48223a865b9d668bdb78c9f31618504ef89e4ed16?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-advanced-object-oriented-programming-4406346/blob/main/notes.md)
@@ -70,7 +72,7 @@ LinkedIn Learning
     - Debugging in C# • [Certificate](https://www.linkedin.com/learning/certificates/6508653ef761718f45368f47d755e3adbcdc62c6a2091688008e9b714f52f032?trk=share_certificate) • [Notes](https://github.com/edwinchoate/debugging-in-c-sharp/blob/main/notes.md)
     - Learning C# • [Certificate](https://www.linkedin.com/learning/certificates/1d8eb97bbdb3faafdd8cf2d0178752ac0a13c21e92f339385ec2d753cc683053?trk=share_certificate)
 - SQL Server
-    - (In-Progress) Program Databases with Transact-SQL
+    - Program Databases with Transact-SQL • [Certificate](https://www.linkedin.com/learning/certificates/87ea62254168e572ceab3e26d39e720707cf60c04e70bdebd8a9b69ea1c96ad5?trk=share_certificate) • [Notes](https://github.com/edwinchoate/program-databases-with-t-sql/blob/main/notes.md) 
     - Microsoft SQL Server 2022 Essential Training • [Certificate](https://www.linkedin.com/learning/certificates/5eab9ecedfe5a2819b3dd44f2dd091c881588606534a037e45929811b6ba67dd?trk=share_certificate) • [Notes](https://github.com/edwinchoate/microsoft-sql-server-2022-essential-training/blob/main/notes.md)
     - Learning Microsoft SQL Server 2022 • [Certificate](https://www.linkedin.com/learning/certificates/b4279ca44644d527965221e50958681c5fa4d22f52dd8ff2740780684f794fca?trk=share_certificate) • [Notes](https://github.com/edwinchoate/learning-microsoft-sql-server-2022/blob/main/notes.md)
 - Software Principles
