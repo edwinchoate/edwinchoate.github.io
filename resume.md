@@ -57,9 +57,8 @@ Georgia Institute of Technology
 
 LinkedIn Learning
 
-- .NET
-    - C# and .NET Essential Training • [Certificate](https://www.linkedin.com/learning/certificates/ac5821cc2e8aa2ca845fd01ff1c36e6f8dc2819e9bd99637fc2e1b3627c02cec?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-dot-net-essential-training-2453257/blob/main/notes.md)
 - C#
+    - C# and .NET Essential Training • [Certificate](https://www.linkedin.com/learning/certificates/ac5821cc2e8aa2ca845fd01ff1c36e6f8dc2819e9bd99637fc2e1b3627c02cec?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-dot-net-essential-training-2453257/blob/main/notes.md)
     - Asynchronous Programming in C# • [Certificate](https://www.linkedin.com/learning/certificates/81174c3a9298c612223808f91bba8ea8bd949cd87dcb2377ea8ff5c784186ddc?trk=share_certificate) • [Notes](https://github.com/edwinchoate/asynchronous-programming-in-c-sharp/blob/main/notes.md)
     - Advanced C#: Object-Oriented Programming • [Certificate](https://www.linkedin.com/learning/certificates/c81ba23b3c7183a9b85119f48223a865b9d668bdb78c9f31618504ef89e4ed16?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-advanced-object-oriented-programming-4406346/blob/main/notes.md)
     - C# Algorithms • [Certificate](https://www.linkedin.com/learning/certificates/067a4b450048f25d18e65e2677473f90feb493867019eeeb352775012dcb6744?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-algorithms/blob/main/notes.md)
@@ -77,6 +76,8 @@ LinkedIn Learning
     - Learning Microsoft SQL Server 2022 • [Certificate](https://www.linkedin.com/learning/certificates/b4279ca44644d527965221e50958681c5fa4d22f52dd8ff2740780684f794fca?trk=share_certificate) • [Notes](https://github.com/edwinchoate/learning-microsoft-sql-server-2022/blob/main/notes.md)
 - Software Principles
     - Programming Foundations: Object-Oriented Design • [Certificate](https://www.linkedin.com/learning/certificates/c697ab93cc5b62fe7dd376bc41915c937d0af448181124dc3d71cc2d3fd1a2cf?trk=share_certificate) • [Notes](https://github.com/edwinchoate/programming-foundations-oo-design/blob/main/notes.md)
+- Visual Studio
+    - (In-Progress) Visual Studio Essential Training
 
 MIT OpenCourseWare
 
