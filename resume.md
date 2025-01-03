@@ -58,7 +58,7 @@ Georgia Institute of Technology
 LinkedIn Learning
 
 - .NET
-    - (In-Progress) C# and .NET Essential Training
+    - C# and .NET Essential Training • [Certificate](https://www.linkedin.com/learning/certificates/ac5821cc2e8aa2ca845fd01ff1c36e6f8dc2819e9bd99637fc2e1b3627c02cec?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-dot-net-essential-training-2453257/blob/main/notes.md)
 - C#
     - Asynchronous Programming in C# • [Certificate](https://www.linkedin.com/learning/certificates/81174c3a9298c612223808f91bba8ea8bd949cd87dcb2377ea8ff5c784186ddc?trk=share_certificate) • [Notes](https://github.com/edwinchoate/asynchronous-programming-in-c-sharp/blob/main/notes.md)
     - Advanced C#: Object-Oriented Programming • [Certificate](https://www.linkedin.com/learning/certificates/c81ba23b3c7183a9b85119f48223a865b9d668bdb78c9f31618504ef89e4ed16?trk=share_certificate) • [Notes](https://github.com/edwinchoate/c-sharp-advanced-object-oriented-programming-4406346/blob/main/notes.md)
