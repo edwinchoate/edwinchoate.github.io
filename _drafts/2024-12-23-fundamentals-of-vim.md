@@ -200,7 +200,6 @@ You need to create a file named `.vimrc` and place it in your root directory (ex
 These are the settings I like to use in my config file: 
 
 ```
-set noundofile
 set belloff=all
 syntax on
 set autoindent
@@ -209,7 +208,7 @@ set tabstop=4
 set shiftwidth=4
 ```
 
-I personally find the "undofile" annoying and the system bell sound drives me crazy. The "syntax" setting turns on color syntax highlighting for most programming languages, which I like a lot. The other four settings make it to where I can use the tab key for indentation when writing code and each tab is equivalent to 4 spaces.
+`belloff` turns off the system bell sound. The `syntax` setting turns on color syntax highlighting for most programming languages, which I like a lot. The other four settings make it to where I can use the tab key for indentation when writing code and each tab is equivalent to 4 spaces.
 
 ## In sum
 
