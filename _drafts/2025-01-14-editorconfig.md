@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EditorConfig
+author: Edwin Choate
 date: 2025-01-14
 categories: visualstudio
 ---

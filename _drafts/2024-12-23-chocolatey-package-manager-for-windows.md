@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chocolatey Package Manager for Windows
+author: Edwin Choate
 date: 2024-12-23
 categories: terminal
 ---

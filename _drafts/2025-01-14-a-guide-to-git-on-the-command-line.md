@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Guide to Git on the Command Line
+author: Edwin Choate
 date: 2025-01-14
 categories: git
 ---

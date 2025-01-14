@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fundamentals of Vim"
+author: Edwin Choate
 date:   2024-12-23
 categories: vim
 ---
