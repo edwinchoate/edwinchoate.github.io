@@ -54,10 +54,11 @@ Here's an example of a rule that has the IDE _suggest_ there be a newline before
 
 ```ini
 # C Sharp Files
+[*.cs]
 csharp_new_line_before_finally = true:suggestion
 ```
 
-Say you want to treat the rule with a higher severity. You could have the IDE treat violations of the rule as a warning: 
+Say you want to treat the rule with a higher severity. You could have the IDE treat violations of the rule as a _warning_: 
 
 ```ini
 csharp_new_line_before_finally = true:warning
@@ -83,7 +84,11 @@ This naturally raises the question, is there some exemplar, gold standard .edito
 
 ## Generating an .editorconfig file in Visual Studio
 
-If you've used the Visual Studio settings to set up the code style rules you want, you can have Visual Studio generate an .editorconfig file automatically. To do this, you go to Tools → Options... → Text Editor → C# → Code Styles → General. Click the button that says _Generate .editorconfig file from settings_. From there, you can save a .editorconfig file save a backup, and/or further customize the file as you see fit.
+If you've used the Visual Studio settings to set up the code style rules you want, you can have Visual Studio generate an .editorconfig file automatically. 
+
+To do this, you go to Tools → Options... → Text Editor → C# → Code Styles → General. Click the button that says _Generate .editorconfig file from settings_. 
+
+From there, you can save a .editorconfig file save a backup, and/or further customize the file as you see fit.
 
 ## In sum 
 
