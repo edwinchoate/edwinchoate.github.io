@@ -5,4 +5,4 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-resume.md
+resume.*
