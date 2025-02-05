@@ -18,8 +18,8 @@ This simple post is intended to just be my list of my favorite programs for PC t
 
 * [7-Zip](https://www.7-zip.org/) - _Zip file tool_
 * [Bitwarden](https://bitwarden.com/download/) - _Password manager_
-* [DOSBox](https://www.dosbox.com/) - _DOS emulator_
-* [Everything](https://www.voidtools.com/) - _Fast system-wide file search_
+* [DOSBox](https://www.dosbox.com/download.php?main=1) - _DOS emulator_
+* [Everything](https://www.voidtools.com/downloads/) - _Fast system-wide file search_
 * [Greenshot](https://getgreenshot.org/downloads/) - _Screenshot tool_
 * [Nmap](https://nmap.org/download.html) - _Network mapper_
 * [NVDA](https://www.nvaccess.org/download/) - _Screen reader_
@@ -34,6 +34,7 @@ This simple post is intended to just be my list of my favorite programs for PC t
 
 ## Development Tools
 
+* [Chocolatey](https://chocolatey.org/install) - _Package manager_
 * [Git](https://git-scm.com/downloads) - _Version control system_
 * [MSYS2](https://www.msys2.org/) - _Development toolkit_ 
 * [.NET SDK](https://dotnet.microsoft.com/en-us/download) - _Microsoft runtime_
