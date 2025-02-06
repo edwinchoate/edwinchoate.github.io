@@ -18,7 +18,6 @@ This simple post is intended to just be my list of my favorite programs for PC t
 
 * [7-Zip](https://www.7-zip.org/) - _Zip file tool_
 * [Bitwarden](https://bitwarden.com/download/) - _Password manager_
-* [DOSBox](https://www.dosbox.com/download.php?main=1) - _DOS emulator_
 * [Everything](https://www.voidtools.com/downloads/) - _Fast system-wide file search_
 * [Greenshot](https://getgreenshot.org/downloads/) - _Screenshot tool_
 * [Nmap](https://nmap.org/download.html) - _Network mapper_
@@ -54,6 +53,7 @@ This simple post is intended to just be my list of my favorite programs for PC t
 ## Gaming
 
 * [Discord](https://discord.com/download) - _Gaming communication app_
+* [DOSBox](https://www.dosbox.com/download.php?main=1) - _DOS emulator_
 * [Parsec](https://parsec.app/downloads) - _Remote multiplayer_ 
 * [ScummVM](https://www.scummvm.org/downloads/) - _Classic PC game "emulator"_
 * [Steam](https://store.steampowered.com/about/) - _Game platform_
