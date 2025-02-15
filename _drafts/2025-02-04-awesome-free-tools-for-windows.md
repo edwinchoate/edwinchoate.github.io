@@ -30,6 +30,7 @@ This simple post is intended to just be my list of my favorite programs for PC t
 * [WinMerge](https://winmerge.org/downloads/?lang=en) - _Visual file diff tool_
 * [WinSCP](https://winscp.net/eng/download.php) - _SCP and FTP file transfer tool_
 * [Wireshark](https://www.wireshark.org/download.html) - _Network analysis_
+* [WebExtension.org](https://webextension.org/) - _Collection of open-source browser extensions_
 
 ## Development Tools
 
