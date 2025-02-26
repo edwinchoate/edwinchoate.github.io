@@ -51,6 +51,10 @@ This simple post is intended to just be my list of my favorite programs for PC t
 
 * [Signal](https://signal.org/download/) - _Messaging app_
 
+## News
+
+* [FreshRSS](https://freshrss.org/) - _open source RSS reader_
+
 ## Gaming
 
 * [Discord](https://discord.com/download) - _Gaming communication app_
