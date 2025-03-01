@@ -52,6 +52,10 @@ If you used `-p 8080:80` in the command above (recommended), then you'll navigat
 
 From there, FreshRSS will run you through a couple screens where you will set up your user login credentials and it'll verify that there's nothing wrong with the installation. 
 
+## Using FreshRSS on an ongoing basis
+
+Should you notice the instance is down, it's likely because either Docker isn't running or the container isn't running. All you need to do is launch Docker, press Play on the `freshrss/freshrss` container and then the application should be available again. 
+
 ## In sum 
 
 Once you've got the application up and running, the interface is a pretty straightforward RSS reader interface. You can subscribe to RSS feeds by clicking the + button as per usual. I hope you found this post helpful, and that you're enjoying FreshRSS!
