@@ -168,7 +168,7 @@ The one question I'd pose here is: where are the thousands of videos of people u
 
 ## I tried out Copilot, and it sucked
 
-Let's just say that Cipolit has a long way to go. The most rediculous thing it's done for me so far is it put this file (that it clearly ripped off from some article) into my project: `path\to\your\project.csproj`. It literally put that file in my project.
+Let's just say that Copilot has a long way to go. The most rediculous thing it's done for me so far is it put this file (that it clearly ripped off from some article) into my project: `path\to\your\project.csproj`. It literally put that file in my project.
 
 This could easy be because the tech isn't ready yet. But, I want to point out that the AI tech leaders are all claiming that coders will be replaced in one calendar year. These two things, at the present time, do not square at all.
 
@@ -186,7 +186,7 @@ I'm personally suspicious that all this doom and gloom is a smokescreen.
 
 When you write a post titled _Three Observations_ that transparently contains three _claims_, it's fairly self-evident that you are trying to prop up something that isn't necessarily agreed-upon fact. That's worthy of some suspicion in and of itself. Why not share the amazing progress that is supposedly happening? Wouldn't that be better content? 
 
-A lot of this reminds me of when we were going to get "self-driving cars" within 2 years... and that was said 3 years ago. At the end of the day, that particular lie got Telsa the auto-pilot feature it needed to pull ahead in the market. So, in a sense, it worked. 
+A lot of this reminds me of when we were going to get "self-driving cars" within 2 years... and that was said well more than 2 years ago. At the end of the day, that particular lie got Telsa the auto-pilot feature it needed to pull ahead in the market. So, in a sense, it worked. 
 
 ## Meanwhile, is China playing with us? 
 
