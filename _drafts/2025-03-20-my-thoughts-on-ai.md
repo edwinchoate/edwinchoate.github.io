@@ -52,7 +52,7 @@ We didn't end up getting any of those things. But we _did_ get VR headsets and a
 
 As an aside, I think it's a bit of a shame that we don't get to revel in how awesome VR or auto-pilot is. Those are legitmately futuristic innovations that we've successfully built. We don't take the time we should to appreciate how cool they are. (And we don't do this, because the expectation that was set for them was bigger: auto-pilot is underwhelming compared to an autonomous vehicle.) 
 
-If I'm an investor and you're asking for a bazillion dollars to build some VR headsets, I might not be able to justify that expense. But, if you're telling me that you're building a dytopian virtual society where everyone will live in the future and whoever doesn't get on board now will be left behind, then it'd be a risk _not_ to invest in that, right? Right? 
+If I'm an investor and you're asking for a bazillion dollars to build some VR headsets, I might not be able to justify that expense. But, if you're telling me that you're building a dystopian virtual society where everyone will live in the future and whoever doesn't get on board now will be left behind, then it'd be a risk _not_ to invest in that, right? Right? 
 
 Look, I think Oculus is a really cool product. I have no objections to the idea of a well-made VR headset. What I do object to is not calling a spade a spade. 
 
@@ -72,7 +72,7 @@ If they're not looking at the code, then, think about it... that would be analog
 
 Ask ChatGPT to compose an email to your boss. Copy what it writes. Don't read any of the content of the email. Paste the email into your email client and hit send. 
 
-You mean to tell me that "in the next few years", companies be will be willing to take a risk like that, rolling the dice that the software running their businesses is just coded however the AI decides it should be coded? That's like copy/pasting a ChatGPT thread and sending it to your boss without looking at it, _every_ time you write an email. 
+You mean to tell me that "in the next few years", companies will be willing to take a risk like that, rolling the dice that the software running their businesses is just coded however the AI decides it should be coded? That's like copy/pasting a ChatGPT thread and sending it to your boss without looking at it, _every_ time you write an email. 
 
 Business leaders are really going to be willing to stake their reputations on that? 
 
@@ -203,7 +203,8 @@ It's very difficult to predict the future, and that seems to be a timeless truth
 Here goes... 
 
 * The ChatGPT/LLM hype will die down as we the people, who have remarkably short attention spans, get bored with it
-* The big tech companies will eventually, as the hype dies down, no longer be able to justify pouring in billions of dollars into these products
+* The big tech companies will eventually, as the hype dies down, no longer be able to justify pouring in billions of dollars into these products. This will force the tech companies to make difficult decisions, which they'll figure out. They're smart. 
+* LLMs will be used to power a variety of savvy software features, from sophisticated search to smart in-product help documentation.
 * The "agents" that supposedly are coming soon to take the white collar computer jobs will not actually take the white collar computer jobs. White collar workers will continue doing white collar work.
 * China will start leading when it comes to LLMs
 * A smart auto-complete / code generation featureset will be powered by LLMs and will be refined and put into all the major IDEs. Developers will use these in their work to varying degrees, depending on the problem at hand. It will not replace developers.
