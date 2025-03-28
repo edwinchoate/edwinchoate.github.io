@@ -12,25 +12,25 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 
 * [Audio Player](#audio-player)
 * [Button](#button)
-* [Dialog](#dialog)
-* [Horizontal Rule](#horizontal-rule)
-* [Fieldset](#fieldset)
 * [Checkbox](#checkbox)
 * [Color Picker](#color-picker)
 * [Date Field](#date-field)
 * [Datetime Field](#datetime-field)
+* [Dialog](#dialog)
+* [Fieldset](#fieldset)
 * [File Picker](#file-picker)
+* [Horizontal Rule](#horizontal-rule)
 * [Number Field](#number-field)
 * [Password Field](#password-field)
-* [Radio Buttons](#radio-buttons)
-* [Slider](#slider)
-* [Search Field](#search-field)
-* [Text Field](#text-field)
-* [Time Field](#time-field)
-* [Select Field](#select-field)
 * [Progress Bar](#progress-bar)
+* [Radio Buttons](#radio-buttons)
+* [Search Field](#search-field)
+* [Select Field](#select-field)
+* [Slider](#slider)
 * [Table](#table)
+* [Text Field](#text-field)
 * [Textarea](#textarea)
+* [Time Field](#time-field)
 * [Video Player](#video-player)
 
 ## Audio Player
@@ -49,53 +49,6 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 {% highlight html %}
 <button type="button">Button</button>
 <button disabled type="button">Button</button>
-{% endhighlight %}
-
-## Dialog
-
-<dialog hidden>
-    <p>Dialog</p>
-    <button autofocus>Close</button>
-</dialog>
-
-<a id="show-dialog" href="#">Show dialog</a>
-
-{% highlight html %}
-<dialog hidden>
-    <p>Dialog</p>
-    <button autofocus>Close</button>
-</dialog>
-
-<a id="show-dialog" href="#">Show dialog</a>
-{% endhighlight %}
-
-## Horizontal Rule
-
-<div>
-    <br>
-    <hr>
-    <br>
-</div>
-
-{% highlight html %}
-<hr>
-{% endhighlight %}
-
-## Fieldset
-
-<div>
-    <fieldset>
-        <legend>Fieldset</legend>
-        <!-- inputs go here -->
-    </fieldset>
-    <br>
-</div>
-
-{% highlight html %}
-<fieldset>
-    <legend>Fieldset</legend>
-    <!-- inputs go here -->
-</fieldset>
 {% endhighlight %}
 
 ## Checkbox
@@ -158,6 +111,73 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 </div>
 {% endhighlight %}
 
+## Dialog
+
+<dialog>
+    <p>Dialog</p>
+    <button autofocus>Close</button>
+</dialog>
+<button id="show-dialog">Show dialog</button>
+
+<style>
+    dialog { display: none; }
+    dialog[open] { display: block; }
+</style>
+
+<script>
+    let dialog = document.querySelector('dialog');
+
+    document.querySelector('#show-dialog').addEventListener('click', () => {
+        dialog.showModal();
+    });
+
+    document.querySelector('dialog > button').addEventListener('click', () => {
+        dialog.close();
+    });
+</script>
+
+{% highlight html %}
+<dialog>
+    <p>Dialog</p>
+    <button autofocus>Close</button>
+</dialog>
+<button id="show-dialog">Show dialog</button>
+
+<style>
+    dialog { display: none; }
+    dialog[open] { display: block; }
+</style>
+
+<script>
+    let dialog = document.querySelector('dialog');
+
+    document.querySelector('#show-dialog').addEventListener('click', () => {
+        dialog.showModal();
+    });
+
+    document.querySelector('dialog > button').addEventListener('click', () => {
+        dialog.close();
+    });
+</script>
+{% endhighlight %}
+
+## Fieldset
+
+<div>
+    <fieldset>
+        <legend>Fieldset</legend>
+        <!-- inputs go here -->
+    </fieldset>
+    <br>
+</div>
+
+{% highlight html %}
+<fieldset>
+    <legend>Fieldset</legend>
+    <!-- inputs go here -->
+</fieldset>
+{% endhighlight %}
+
 ## File Picker
 
 <div>
@@ -171,6 +191,18 @@ HTML5 has an implementation of many of the common UI components. In this post, I
     <label for="my-file">File</label>
     <input type="file" id="my-file" />
 </div>
+{% endhighlight %}
+
+## Horizontal Rule
+
+<div>
+    <br>
+    <hr>
+    <br>
+</div>
+
+{% highlight html %}
+<hr>
 {% endhighlight %}
 
 ## Number Field
@@ -200,6 +232,32 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 <div>
     <label for="pass">Password</label>
     <input type="password" id="pass" />
+</div>
+{% endhighlight %}
+
+## Progress Bar
+
+<div>
+    <label>Progress</label>
+    <progress max="100" value="70"></progress>
+    <br><br>
+</div>
+
+<div>
+    <label>Progress</label>
+    <progress></progress>
+    <br><br>
+</div>
+
+{% highlight html %}
+<div>
+    <label>Progress</label>
+    <progress max="100" value="70"></progress>
+</div>
+
+<div>
+    <label>Progress</label>
+    <progress></progress>
 </div>
 {% endhighlight %}
 
@@ -234,21 +292,6 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 </fieldset>
 {% endhighlight %}
 
-## Slider
-
-<div>
-    <label for="my-range">Range</label>
-    <input type="range" id="my-range" />
-    <br><br>
-</div>
-
-{% highlight html %}
-<div>
-    <label for="my-range">Range</label>
-    <input type="range" id="my-range" />
-</div>
-{% endhighlight %}
-
 ## Search Field
 
 <div>
@@ -261,38 +304,6 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 <div>
     <input type="search" id="my-search" placeholder="Search" />
     <button>Go</button>
-</div>
-{% endhighlight %}
-
-## Text Field
-
-<div>
-    <label for="my-textfield">Text field</label>
-    <input type="text" id="my-textfield" placeholder="Hint text" />
-    <small>Help text</small>
-    <br><br>
-</div>
-
-{% highlight html %}
-<div>
-    <label for="my-textfield">Text field</label>
-    <input type="text" id="my-textfield" placeholder="Hint text" />
-    <small>Help text</small>
-</div>
-{% endhighlight %}
-
-## Time Field
-
-<div>
-    <label for="my-timefield">Time field</label>
-    <input type="time" id="my-timefield" />
-    <br><br>
-</div>
-
-{% highlight html %}
-<div>
-    <label for="my-timefield">Time field</label>
-    <input type="time" id="my-timefield" />
 </div>
 {% endhighlight %}
 
@@ -354,49 +365,47 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 </div>
 {% endhighlight %}
 
-## Progress Bar
+## Slider
 
 <div>
-    <label>Progress</label>
-    <progress max="100" value="70"></progress>
-    <br><br>
-</div>
-
-<div>
-    <label>Progress</label>
-    <progress></progress>
+    <label for="my-range">Slider</label>
+    <input type="range" id="my-range" />
     <br><br>
 </div>
 
 {% highlight html %}
 <div>
-    <label>Progress</label>
-    <progress max="100" value="70"></progress>
-</div>
-
-<div>
-    <label>Progress</label>
-    <progress></progress>
+    <label for="my-range">Slider</label>
+    <input type="range" id="my-range" />
 </div>
 {% endhighlight %}
 
 ## Table
 
-<table>
-    <caption>Table</caption>
-    <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-    </tr>
-    <tr>
-        <td>Cell 1</td>
-        <td>Cell 2</td>
-    </tr>
-    <tr>
-        <td>Cell 3</td>
-        <td>Cell 4</td>
-    </tr>
-</table>
+<div>
+    <table id="demo-html-table">
+        <caption>Table</caption>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+    </table>
+    <br>
+</div>
+
+<style>
+    #demo-html-table, #demo-html-table th, #demo-html-table td {
+        all: revert;
+    }
+</style>
 
 {% highlight html %}
 <table>
@@ -414,6 +423,23 @@ HTML5 has an implementation of many of the common UI components. In this post, I
         <td>Cell 4</td>
     </tr>
 </table>
+{% endhighlight %}
+
+## Text Field
+
+<div>
+    <label for="my-textfield">Text field</label>
+    <input type="text" id="my-textfield" placeholder="Hint text" />
+    <small>Help text</small>
+    <br><br>
+</div>
+
+{% highlight html %}
+<div>
+    <label for="my-textfield">Text field</label>
+    <input type="text" id="my-textfield" placeholder="Hint text" />
+    <small>Help text</small>
+</div>
 {% endhighlight %}
 
 ## Textarea
@@ -428,6 +454,21 @@ HTML5 has an implementation of many of the common UI components. In this post, I
 <div>
     <label for="my-textarea">Textarea</label><br>
     <textarea id="my-textarea" placeholder="Write something" cols="48" rows="8"></textarea>
+</div>
+{% endhighlight %}
+
+## Time Field
+
+<div>
+    <label for="my-timefield">Time field</label>
+    <input type="time" id="my-timefield" />
+    <br><br>
+</div>
+
+{% highlight html %}
+<div>
+    <label for="my-timefield">Time field</label>
+    <input type="time" id="my-timefield" />
 </div>
 {% endhighlight %}
 
