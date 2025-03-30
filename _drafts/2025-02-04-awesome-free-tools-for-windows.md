@@ -55,7 +55,7 @@ This simple post is intended to just be my list of my favorite programs for PC t
 
 ## News
 
-* [FreshRSS](https://freshrss.org/) - _Open source RSS reader_
+* [RSS Guard](https://github.com/martinrotter/rssguard) - _RSS reader desktop app_
 
 ## Gaming
 
