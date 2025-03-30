@@ -94,6 +94,32 @@ Server version: Apache/2.4.63 (Win64)
 Apache Lounge VS17 Server built:   Feb  3 2025 10:10:51
 ```
 
+## Installing Apache as a Windows Service (Optional)
+
+You can optionally use `httpd.exe` to install Apache as a Windows Service. To do this, first launch an administrator-level command prompt and then run this command: 
+
+```
+C:\WINDOWS\system32> httpd -k install -n "Apache2.4"
+```
+
+The string you pass to the `-n` flag sets the name you see in Services. If successful, it should look like this: 
+
+```
+C:\WINDOWS\system32> httpd -k install -n "Apache2.4"
+Installing the 'Apache2.4' service
+The 'Apache2.4' service is successfully installed.
+```
+
+You can use `uninstall` as well if you need to remove the service: 
+
+```
+C:\WINDOWS\system32> httpd -k uninstall -n "Apache2.4"
+Removing the 'Apache2.4' service
+The 'Apache2.4' service has been removed successfully.
+```
+
+Now, you can use the Services UI to Start, Restart, Pause, and Stop the service like any other Windows Service.
+
 ## Configuring PHP with php.ini
 
 There might not yet be a `php.ini` file included with your PHP files by default. You might only see two files, `php.ini-production` and `php.ini-development`. These files are essentially templates that you can use. You simply copy whichever you'd like to use, and rename the copied file to `php.ini`. 
@@ -247,14 +273,12 @@ A couple notes on the above:
 
 Now (hopefully), for the fun part! It's time to test and make sure the server works properly. 
 
-To run the server, open a terminal and cd to the `htdocs` directory. Run the `httpd` command. 
+If you didn't install Apache as a Windows Service, you can run the server from the terminal. To do this, run the `httpd` command. 
+
+(If you did install Apache as a Windows Service, you can just make sure the service is running in Services.msc.)
 
 ```
-C:\> cd C:\Apache24\htdocs
-```
-
-```
-C:\Apache24\htdocs> httpd
+C:\> httpd
 ```
 
 When you're running `httpd`, no news is good news. If you don't get any feedback in the terminal, that's a good sign.
@@ -265,15 +289,13 @@ This should run the site on `localhost:80`. Navigate your browser to `localhost`
 
 Next, test some PHP. Add an `index.php` page to `htdocs`. Put some PHP on the page and navigate to `localhost/index.php` in the browser to test it out.
 
-Here's some copypasta PHP you can test with: 
+There's a cool info page that comes with PHP that you can use as a test:
 
 ```php
 // in index.php
 <?php
-    $message = "The PHP works!";
+    phpinfo();
 ?>
-
-<h1><?= $message ?></h1>
 ```
 
 ## In sum
