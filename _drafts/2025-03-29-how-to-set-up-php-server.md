@@ -216,7 +216,7 @@ Make sure the `PHPIniDir` path and the path to `php8apache2_4.dll` match the pat
 
 Also, take note of the version of PHP and Apache you're using. If you're not using PHP 8 and/or Apache 2.4, then update the numbers accordingly.
 
-## Setting your homepage to redirect to index.php
+## Using a .htaccess File
 
 If you're serving up a PHP site and you want to make the homepage file `index.php` rather than `index.html`, then a solution to this is to have requests made to the domain redirect to `index.php`. 
 
@@ -268,6 +268,30 @@ A couple notes on the above:
 
 * `R=301` means redirect with a `301` status code
 * `^$` is essential an empty regex, which corresponds to nothing after the domain in the request.
+
+## Using Environmental Variables
+
+Sometimes, you want to reference environmental variables instead of putting values straight into the code. For instance, if you've got the password to a database, you don't want to put the password in your PHP files for security reasons. 
+
+You can use environmental variables that live at the Apache/server level. 
+
+First, define the variable and its value in the `http.conf` file. 
+
+Example: 
+
+```conf
+SetEnv DB_PASSWORD 12345
+PassEnv DB_PASSWORD
+```
+
+`SetEnv` actually creates the var and sets it to a value, whereas `PassEnv` is what makes it available in your PHP.
+
+In your PHP code, you can access env vars by using the `getenv()` function, like so:
+
+```php
+$password = getenv("DB_PASSWORD");
+// 12345... amazing! I've got the same combination on my luggage!
+```
 
 ## Test the Server
 
