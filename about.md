@@ -20,15 +20,15 @@ Résumé &mdash; Available upon request
 
 ## Recommendations
 
-> &OpenCurlyDoubleQuote;I wholeheartedly recommend Edwin for any UX design role – his blend of hard work, knowledge, and positivity is truly unique.&CloseCurlyDoubleQuote;
+> "I wholeheartedly recommend Edwin for any UX design role – his blend of hard work, knowledge, and positivity is truly unique."
 > 
 > &mdash;Jesse Nichols, UX Manager at TaxSlayer
 
-> &OpenCurlyDoubleQuote;[Edwin] is a good team player and has always been the go to guy in our group for any questions... He was instrumental in making our team user centric and research focused.&CloseCurlyDoubleQuote;
+> "[Edwin] is a good team player and has always been the go to guy in our group for any questions... He was instrumental in making our team user centric and research focused."
 > 
 > &mdash;Saaikishore Rathinasamy, Senior Product Designer at Ford
 
-> &OpenCurlyDoubleQuote;Edwin sought to deeply understand the business requirements and user pain points... Edwin was a vital part of our product development team.&CloseCurlyDoubleQuote;
+> "Edwin sought to deeply understand the business requirements and user pain points... Edwin was a vital part of our product development team."
 > 
 > &mdash;Sri Jackson, Product Manager at Microsoft
 
