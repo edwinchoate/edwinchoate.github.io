@@ -57,7 +57,7 @@ I'm continually reading UX books. Here are some of my favorites I've read so far
     } 
 </style>
 
-<img class="book" src="/assets/img/books/build-better-products.jpg" alt="">
+<img class="book" src="/assets/img/books/build-better-products.jpg" alt="Build Better Products by Laura Klein">
 <img class="book" src="/assets/img/books/orchestrating-experiences.jpg" alt="Orchestrating Experiences by Chris Risdon">
 <img class="book" src="/assets/img/books/alone-together.jpg" alt="Alone Together by Sherry Turkle">
 <img class="book" src="/assets/img/books/design-of-everyday-things.jpg" alt="The Design of Everyday Things by Don Norman">
