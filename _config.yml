@@ -33,6 +33,7 @@ linkedin_username: edwinchoate
 
 header_pages:
   - index.md
+  - blog.md
   - about.md
 
 # Collections
