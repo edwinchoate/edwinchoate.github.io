@@ -57,21 +57,21 @@ I'm continually reading UX books. Here are some of my favorites I've read so far
     } 
 </style>
 
-<img class="book" src="/assets/img/books/build-better-products.jpg" alt="Build Better Products by Laura Klein">
-<img class="book" src="/assets/img/books/orchestrating-experiences.jpg" alt="Orchestrating Experiences by Chris Risdon">
-<img class="book" src="/assets/img/books/alone-together.jpg" alt="Alone Together by Sherry Turkle">
-<img class="book" src="/assets/img/books/design-of-everyday-things.jpg" alt="The Design of Everyday Things by Don Norman">
-<img class="book" src="/assets/img/books/hooked.jpg" alt="Hooked by Nir Eyal">
-<img class="book" src="/assets/img/books/practical-empathy.jpg" alt="Practical Empathy by Indi Young">
-<img class="book" src="/assets/img/books/refactoring-UI.jpg" alt="Refactoring UI by Adam Wathan and Steve Schoger">
-<img class="book" src="/assets/img/books/design-for-emotion.jpg" alt="Designing for Emotion by Aarron Walter">
-<img class="book" src="/assets/img/books/100-things.jpg" alt="100 Things Every Designer Needs to Know About People by Susan Weinschenk">
-<img class="book" src="/assets/img/books/dont-make-me-think.jpg" alt="Don't Make Me Think by Steve Krug">
-<img class="book" src="/assets/img/books/information-architecture.jpg" alt="Information Architecture for the World Wide Web by Louis Rosenfeld">
-<img class="book" src="/assets/img/books/lean-ux.jpg" alt="Lean UX by Jeff Gothelf">
-<img class="book" src="/assets/img/books/measuring-the-ux.jpg" alt="Measuring the User Experience by Tom Tullis">
-<img class="book" src="/assets/img/books/reclaiming-conversation.jpg" alt="Reclaiming Conversation by Sherry Turkle">
-<img class="book" src="/assets/img/books/thinking-fast-and-slow.jpg" alt="Thinking Fast and Slow by Daniel Kahneman">
+<img class="book" src="/assets/img/books/build-better-products.jpg" title="Build Better Products by Laura Klein">
+<img class="book" src="/assets/img/books/orchestrating-experiences.jpg" title="Orchestrating Experiences by Chris Risdon">
+<img class="book" src="/assets/img/books/alone-together.jpg" title="Alone Together by Sherry Turkle">
+<img class="book" src="/assets/img/books/design-of-everyday-things.jpg" title="The Design of Everyday Things by Don Norman">
+<img class="book" src="/assets/img/books/hooked.jpg" title="Hooked by Nir Eyal">
+<img class="book" src="/assets/img/books/practical-empathy.jpg" title="Practical Empathy by Indi Young">
+<img class="book" src="/assets/img/books/refactoring-UI.jpg" title="Refactoring UI by Adam Wathan and Steve Schoger">
+<img class="book" src="/assets/img/books/design-for-emotion.jpg" title="Designing for Emotion by Aarron Walter">
+<img class="book" src="/assets/img/books/100-things.jpg" title="100 Things Every Designer Needs to Know About People by Susan Weinschenk">
+<img class="book" src="/assets/img/books/dont-make-me-think.jpg" title="Don't Make Me Think by Steve Krug">
+<img class="book" src="/assets/img/books/information-architecture.jpg" title="Information Architecture for the World Wide Web by Louis Rosenfeld">
+<img class="book" src="/assets/img/books/lean-ux.jpg" title="Lean UX by Jeff Gothelf">
+<img class="book" src="/assets/img/books/measuring-the-ux.jpg" title="Measuring the User Experience by Tom Tullis">
+<img class="book" src="/assets/img/books/reclaiming-conversation.jpg" title="Reclaiming Conversation by Sherry Turkle">
+<img class="book" src="/assets/img/books/thinking-fast-and-slow.jpg" title="Thinking Fast and Slow by Daniel Kahneman">
 
 ## UX Certificates
 
