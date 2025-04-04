@@ -103,23 +103,32 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: $text-color;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: $brand-color-light;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    text-decoration-color: $brand-color-alt;
+
+    &:hover {
+      color: $brand-color-alt;
+    }
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $brand-color;
+    text-decoration: none;
   }
+}
 
-  .social-media-list &:hover {
+header {
+  a {
     text-decoration: none;
 
-    .username {
-      text-decoration: underline;
+    &:visited:hover {
+      color: $text-color;
     }
   }
 }
