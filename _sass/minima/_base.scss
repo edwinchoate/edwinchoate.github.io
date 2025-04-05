@@ -232,6 +232,13 @@ pre {
 }
 
 
+/**
+ * Highlighter
+ */
+mark {
+  background-color: $highlighter-color;
+}
+
 
 /**
  * Tables
