@@ -33,13 +33,9 @@ _"Edwin sought to deeply understand the business requirements and user pain poin
 
 **Georgia Institute of Technology**
 
-B.S. [Computational Media](https://catalog.gatech.edu/programs/computational-media-bs/)
+B.S. [Computational Media](https://catalog.gatech.edu/programs/computational-media-bs/), Concentration in Interaction Design
 
-Concentration in Interaction Design
-
-Relevant Courses:
-
-Interaction Design, User Interface Design, Information Design, Visual Design, Information Visualization, Cognitive Science, Research Methods, Human Development, Object-Oriented Programming, Database Systems
+Relevant Courses: Interaction Design, User Interface Design, Information Design, Visual Design, Information Visualization, Cognitive Science, Research Methods, Human Development, Object-Oriented Programming, Database Systems
 
 ![](/assets/img/squiggle-books.png)
 
