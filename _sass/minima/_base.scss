@@ -134,6 +134,7 @@ header {
 }
 
 
+
 /**
  * Blockquotes
  */
@@ -231,12 +232,40 @@ pre {
 }
 
 
+
+/**
+ * Buttons
+ */
+
+button {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: $base-font-weight + 100;
+  padding: $spacing-unit / 2.8;
+  font-size: $base-font-size;
+  color: $text-color;
+  background-color: $button-color;
+  border-radius: 4px;
+  border: 2px solid $text-color;
+  box-shadow: $text-color 2px 2px;
+}
+
+button:hover {
+  background: $button-color-hover;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+button:active { box-shadow: none; }
+
+
+
 /**
  * Highlighter
  */
 mark {
   background-color: $highlighter-color;
 }
+
 
 
 /**
