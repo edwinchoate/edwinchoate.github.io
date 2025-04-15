@@ -156,24 +156,29 @@ I realized I needed to make a set of visuals that accomplished these things:
     <figcaption>I made a set of product thumbnails that would differentiate between the package levels and show the difference between initial purchase and renewals.</figcaption>
 </figure>
 
-I mocked up a dozen different ideas for these thumbnails. I just kept going until I got it right. I ultimately went with a simple TaxSlayer Pro logo with a stripe down the side and a different color for each package level. Up to this point, no one had ever taken just the word "PRO" from the main wordmark and put it underneath the icon. That was new thing I started here. There was a rhyme and reason to the colors I choose. I used the colors from the main color palette in the design system ([Article: TaxSlayer Pro Design System](/articles/taxslayer-pro-design-system/)). I chose blue for the _Pro Web_ package, because blue is the main brand color, and that package is your most common option. I chose grey for the _Classic_ package because it's your more basic option. I chose gold for _Premium_ as is often the convention. 
+I mocked up a dozen different ideas for these thumbnails. I just kept going until I got it right. I ultimately went with a simple TaxSlayer Pro logo with a stripe down the side and a different color for each package level. Up to this point, no one had ever taken just the word "PRO" from the main wordmark and put it underneath the icon. That was new thing I started here. There was a rhyme and reason to the colors I chose. I used the colors from the main color palette in the design system that I built and maintain ([Article: TaxSlayer Pro Design System](/articles/taxslayer-pro-design-system/)). I chose blue for the _Pro Web_ package, because blue is the main brand color, and that package is your most common option. I chose grey for the _Classic_ package because it's your more basic option. I chose gold for _Premium_ as is often the convention. 
 
 Again, no one was asking for this but I knew it'd help users understand what was going on if the renewal items looked different. The renewals are a separate SKU, and I saw it as important to help the user understand that.
 
 ## Finishing Touches 
 
-As I converged on a final design, I began to see the theme of what I was changing: simplification. I was simplifying wherever possible. And this was a goal, because we know from the multitude of research out there that the shorter your can make your checkout process, the better it performs. 
+As I converged on a final design, I began to see the theme of what I was changing: simplification. I was simplifying wherever possible. And this was an intentional goal, because we know from research that the shorter you can make your checkout process, the better it performs. 
 
-I continuing trimming things were I could, removing or auto-populating inputs, shortening the page, and so on. 
+I continued trimming things where I could, removing or auto-populating inputs, shortening the page, and so forth. 
 
 <figure>
-    <img alt="" src="/assets/img/taxslayer-pro-ecommerce/finished-design.png">
-    <figcaption></figcaption>
+    <img alt="the finished design, with three screens: Choose Package, Payment, and Order Confirmation" src="/assets/img/taxslayer-pro-ecommerce/finished-design.png">
+    <figcaption>The finished design was simpler than all of its predecessors, with just three screens from the Buy button to the Place Order button.</figcaption>
 </figure>
 
-![]()
+<figure>
+    <img alt="the finished renewal flow, with the same screens as the new-purchase flow" src="/assets/img/taxslayer-pro-ecommerce/finished-design-renewal.png">
+    <figcaption>The renewal design became much simpler as well once it matched the main purchase flow. Here, with the different thumbnails and product names, you can tell what you're ringing up, a renewal rather than a first-time purchase.</figcaption>
+</figure>
 
-![](/assets/img/taxslayer-pro-ecommerce/finished-design-renewal.png)
+The renewal flow became even simpler. Once I incorporated a pattern for a "saved" payment method, it became a zero- or one-click screen.
+
+Even more importantly, by not having a cart, **we instead had the application redirect to the renewal experience automatically, even if the user erroneously tried to ring up a first-time purchase**. This design prevented a number of frustrating errors. Could you imagine paying over a thousand dollars only to realize you bought the wrong thing?! This forcing function of redirecting the user to the correct checkout flow seamlessly - this is one of the things I'm most proud of in this project. It is a totally invisible, yet vital piece of usability. 
 
 ## Usability Testing
 
