@@ -11,7 +11,6 @@ layout: default
     </header>
 
     {%- if site.case_studies.size > 0 -%}
-      <div style="margin-bottom: 24px;">
         {%- for case_study in site.case_studies -%}
         <div style="display: flex; align-items: center; margin-bottom: 32px;">
           {% if case_study.thumbnail %}
@@ -25,7 +24,6 @@ layout: default
           </div>
         </div>
         {%- endfor -%}
-      </div>
     {%- endif -%}
   
 </div>
