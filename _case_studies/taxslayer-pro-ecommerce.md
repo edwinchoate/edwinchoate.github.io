@@ -7,7 +7,7 @@ thumbnail: /assets/img/taxslayer-pro-ecommerce/ecommerce-thumbnail.png
 subtitle: Enabling buying TaxSlayer Pro online
 
 cover_photo: /assets/img/taxslayer-pro-ecommerce/ecommerce-cover-header.png
-summary: 
+summary: In a market-leading effort to bring self-serve software purchasing online, TaxSlayer Pro built a custom interface to connect to their pre-existing backoffice transaction system. I was the sole designer on this project, doing everything from information architecture to high-fidelity user interface design. I conducted usability testing on the production software. When the solution was scaled out, it got real-world usage immediately, in higher volume than expected.
 ---
 
 
@@ -41,7 +41,7 @@ The team kicked off the project with a brainstorming workshop. The product stake
 
 For the most part, we brainstormed feature ideas. This was helpful for me, to get a sense of what the other stakeholders had in mind going in to this project. 
 
-### Talking it Over
+### Talking Through It
 
 I took the ideas from the workshop, ideas that I gathered from research online, and ideas I came up with myself, and I mapped out a flow chart of an ecommerce user flow. 
 
@@ -78,7 +78,7 @@ As I mocked up these early concepts, I synced with product and sales to ask them
 
 Each one of these questions is its own conversation really. Depending on the answers to these questions, it affects what the ideal design would be. 
 
-## Futher Iterations: Working Out More of the Details
+## Futher Iterations
 
 As the bigger picture pieces started to fall into place, I focused the next iterations on smaller, more detailed problems. 
 
@@ -182,22 +182,90 @@ Even more importantly, by not having a cart, **we instead had the application re
 
 ## Usability Testing
 
-### The Testing Plan
+The business stakeholders planned to slowly introduce the feature, making it only visible to a small audience at first. This gave us time to test the usability of the real thing, before scaling its usage out to many people.
+
+I socialized the idea that the main objective was to perform a "smoke test". My main concerns surrounded the unanticipated unknowns... navigational or informational user needs going unmet or unforeseen technical hurdles with the brand-new frontend. I saw much more value in testing the _real, live system_ as opposed a click-thru prototype. Ecommerce interfaces are so conventional that I felt confident it would be familiar to people. We didn't need to validate the interface design; we needed to accelerate the discovery of unforeseen issues, the unknowns. I put together a test plan that would be ready to run as soon as we got the system running in a production environment.
+
+### The Test Plan
+
+The goals of the study were threefold:
+
+1. Smoke test the usability of the solution
+2. Understand how the current website affects users who are trying to find where to go to buy online
+3. Identify opportunities for improvement
+
+I ran the test on UserTesting.com and I had a sample size of N = 16.
+
+The test had the users perform six tasks, spanning from browsing the website to finishing a purchase.
+
+Each tasks measured ease (on a scale from 1-5), time on task, path analysis, and collected qualitative written feedback. Each participants' session was recorded as a video, and I watched each session, noting spoken quotes and observable evidences as they interacted with the software.
 
 ### The Test Results
 
-![](/assets/img/taxslayer-pro-ecommerce/research-slides.png)
+The test showed that there were no major issues with the primary concern: the ecommerce flow. This is of course always the answer you'd like to see. There's no way to know until you test, however.
 
-## Support Adjacent Functionality 
+The test led to a few interesting insights: 
 
-![](/assets/img/taxslayer-pro-ecommerce/auto-renew-card-mgmt.png)
+* There were some navigational issues finding product information
+* Users wanted to read more information about the products
+* People gravitate to comparison charts, a lot. (Maybe this is already a known thing, but it was new to me.)
 
-![](/assets/img/taxslayer-pro-ecommerce/demo-create-acct-step.png)
+<figure>
+    <img alt="three slides from a research deck showing good results: straightforward paths, high ease of use ratings, and a pie chart showing that most users are satisfied with how long the process is" src="/assets/img/taxslayer-pro-ecommerce/research-slides.png">
+    <figcaption>We uncovered some tangential opportunities to improve navigation on the website, but the main ecommerce flow was making sense and working for participants. It was good to see that the process was about as lengthy as users expected it to be.</figcaption>
+</figure>
 
-## The Finished, Launched Product (v1)
+## Supporting Features: Card on File & Auto-Renew
 
-![](/assets/img/taxslayer-pro-ecommerce/built-version.png)
+To bring purchasing online, there were a few other things that need to change in the system.
 
-## Successful Results: Volume of Usage Exceeds Expectations
+<figure>
+    <img alt="a card management screen with a stored credit card and an option to enroll in automatic renewal" src="/assets/img/taxslayer-pro-ecommerce/auto-renew-card-mgmt.png">
+    <figcaption>We needed to support storing a card on file as well as the option to enroll in automatical renewable, like a subscription.</figcaption>
+</figure>
+
+I knew we need to make it possible for the system to renew their software automatically, but we hadn't figured out how to present this exactly, what we would called it, or how to treat it on screen. I coined the term "Auto-Renewal", which to my surprise stuck. I made an icon and put it in a card to give it a visual identity. Then, I took this card and placed in a few places in the experience so that it would be familiar to the user across contexts. The last piece of that puzzle was to draw a clear line between the card (storing the card information) and the enrollment (do you want to participate in auto-renewal or not). By putting a clear demarkation there, it made the experiences that use these concepts simpler to understand.
+
+(I particularly enjoyed taking a gray rectangle and some monospace text, and making it look like a credit card in the UI. Stakeholders enjoyed it when I showed them this design.)
+
+<figure>
+    <img alt="a slightly different version of the create account screen titled Finish Creating Your Account" src="/assets/img/taxslayer-pro-ecommerce/demo-create-acct-step.png">
+    <figcaption>It simplied things to have an alternate version of the Create Account page, <i>Finish Creating Your Account</i>, specifically designed for users with demo accounts. This was another example of simplifying the flow, reducing the number of steps required to complete a purchase.</figcaption>
+</figure>
+
+## What Was Built
+
+In all, I'm proud of how similar the actual, built software was to the intended design. This is both a testament to the engineering team, as well as a testament to the simplicity of the design.
+
+<figure>
+    <img alt="screenshots of the built version of the software: the Creat Account screen, the product selection screen, and the Payment Screen" src="/assets/img/taxslayer-pro-ecommerce/built-version.png">
+    <figcaption>This is what the software looks like as of this writing. It's a v1, and there's room to tweak and improve it, but overall its satisfyingly similar to the intended design.</figcaption>
+</figure>
+
+## Successful Results
+
+Once we got everything in place, tested the experience, and felt confident in it, we began to make it more prominent on the website. Users took to it quickly, and in larger numbers than I personally expected. 
+
+As of this writing, in less than one tax season, there have been: 
+
+* **3 digits of new sales** use the new ecommerce experience
+* **4 digits of renewals** go through the new ecommerce experience
+* **3 digits of auto-renewals** set up through the new experience
+* **3 digits of stored cards on file** set up through the new experience
+
+## My Role
+
+**On this project, I was the sole UX designer.** I created every artifact pictured in this article. I worked with a product manager and a product owner, and a team of a few software developers (most of whom were backend developers, and one frontend developer). I did the entirely of the usability test plan and running the testing.
+
+Hats I wore in this project:
+
+* Interaction designer
+* UI designer
+* Faciliator during definition sessions
+* Usability researcher
+
+I also populated and managed a design backlog for this project, which I used to organize design work items into v1, v2, and v3 buckets to make sure we didn't forget the more future-oriented ideas that didn't make it into v1.
 
 ## Conclusion
+
+While the user interface aspects of this project are not novel, I was honored that the company trusted me to create an experience that would process a high volume of mission-critical transactions. It was thrilling to play such a large design role in this project, and I felt a genuine self of pride when I saw engineering demo the built version of the software. One of the things this project showed me is that going through multiple design iterations upfront immediately pays off. I got to see that in action. If we had tried to push earlier iterations (which weren't as simple), there's no gaurantee that code, testing, and adoption would've have been as smooth or as successful as they were.
