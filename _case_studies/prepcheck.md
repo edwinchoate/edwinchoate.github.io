@@ -32,14 +32,14 @@ Perhaps a chatbot is the ideal UX for the users' needs here. But, without more u
 
 ## Making It Intuitive: Building on What Users Already Know
 
-In the book _Make It So: Interaction Design Lessons from Science Fiction_, authors Shedroff and Noessel describe an effective way of making something intuitive: _build on what users already know_. I sought to use conventions users already know from messaging apps. Everyone is using messaging apps, so this casts a very wide net. This project was a quick-turnaround, single-sprint kind of project. I just had a few days to produce the design, so there wasn't much time for research or deliberation. I set out to produce a user interface that would be familiar at first use.
+In the book _Make It So: Interaction Design Lessons from Science Fiction_, authors Shedroff and Noessel describe an effective way of making something intuitive: build on what users already know. **I sought to use conventions users already know from messaging apps**. Everyone is using messaging apps, so this casts a very wide net. This project was a quick-turnaround, single-sprint kind of project. I just had a few days to produce the design, so there wasn't much time for research or deliberation. I set out to produce a user interface that would be familiar at first use.
 
 <figure>
     <img alt="a chat interface where the user is asking a question about accounting periods and an AI responds with a quote from the IRS" src="/assets/img/prepcheck/og-metadata-concept.png">
     <figcaption>The interface is designed to be like a messaging application. It uses familiar conventions like typing indicators and a "Sending..." metaphor to be instantly familiar to first-time users.</figcaption>
 </figure>
 
-## Push the Envelope for the User
+## Pushing the Envelope for the User
 
 At its core, this was going to be a basic chat interface, but I sought to think about ways we could push the envelope. I added a few feature ideas into the prototype as food-for-thought for the stakeholders.
 
@@ -63,8 +63,10 @@ When I design, I often first consider the more complicated, feature-rich design,
 
 <figure>
     <img alt="a chat thread interface with a side panel expanding, showing a list of all of the past chats" src="/assets/img/prepcheck/finished-design.png">
-    <figcaption>I was intentional about making the Past Chats feature a modular part of the design that it could be added on later (or not), because I knew it wasn't considered a requirement for the initial launch. I sought to make the design hold up in either case, whether or not we made past chats navigable. By reserving the space on the left side of the screen for a potential navigation drawer, the feature was solved for in the future case, and the interface had a minimalist aesthetic with plenty of whitespace in the immediate term. A win-win.</figcaption>
+    <figcaption>I was intentional about making the Past Chats feature a modular part of the design so that it could be added on later (or not), because I knew it wasn't considered a requirement for the initial launch. I sought to make the design hold up in either case, whether or not we made past chats navigable.</figcaption>
 </figure>
+
+By reserving the space on the left side of the screen for a potential navigation drawer, the feature was solved for in the future case, and the interface had a minimalist aesthetic with plenty of whitespace in the immediate term.
 
 A nice benefit of keeping the interface uncluttered and minimal in the desktop view was that when it came time to work out the responsive layouts for mobile and tablet, very little of the interface needed to be rearranged to get it to work on smaller screen sizes.
 
@@ -75,15 +77,9 @@ A nice benefit of keeping the interface uncluttered and minimal in the desktop v
 
 ## Designing the Logo
 
-Creating a logo for the product wasn't a requirement. No one was asking for a logo, but I felt this product needed one. But before I did the logo, there was some important collaboration to do with the marketing department first. 
+I met with marketing to describe the project, and they set off to come up with the official name for the product. I waited until I got the official name from marketing before working on the logo, because I wanted the logo to tie in with the product name, as well as create a wordmark containing the product name. 
 
-Up to this point, I had titled this project _Tax Talk_. This was just a working title I came up with to have something to put in the mockups. I met with marketing to describe the project, and they set off to come up with the official name for the product. 
-
-I waited until I got the official name from marketing before working on the logo, because I wanted the logo to tie in with the product name, as well as create a wordmark containing the product name. 
-
-Once marketing got back to me with the official name, PrepCheck, I had what I needed to work on the logo. 
-
-I embarked on an ideation exercise where I worked up several options. The final logo incorporates the shape of a checkmark into the shape of a chat bubble. The most time-consuming part of creating this logo was getting the proportions right. It required fine-tuning to get the checkmark shape and the chat bubble shape to both look right at the same time. 
+I embarked on an ideation exercise where I worked up several options. The final logo incorporates the shape of a checkmark within the shape of a chat bubble. The most time-consuming part of creating this logo was getting the proportions right. It required fine-tuning to get the checkmark shape and the chat bubble shape to both look right at the same time. 
 
 <figure>
     <img alt="a PrepCheck logo kit containing several color variations" src="/assets/img/prepcheck/logo-kit.png">
@@ -91,8 +87,8 @@ I embarked on an ideation exercise where I worked up several options. The final 
 </figure>
 
 * I incorporated the checkmark to clarify that the word _check_ means "checking your work" (as opposed to other uses of the word like "writing a check")
-* The omission of AI in the logo (and name) was intentional, so as to future-proof the product in case we pivoted
-* I incorporated the chat bubble shape to clarify that this is a chat tool, since the "PrepCheck" doesn't reference chatting
+* The omission of AI from the logo was intentional, so as to future-proof the product in case we pivoted
+* I incorporated the chat bubble shape to clarify that this is a chat tool, since the name "PrepCheck" doesn't reference chatting
 
 ## Designing the Beta Version
 
@@ -120,4 +116,4 @@ For this project, **I mostly acted as a UI designer**. I didn't do much in the w
 
 ## Conclusion
 
-This quick project was an opportunity to design for AI. I sought to make the experience intuitive by _building on what users already know_: messaging apps. I was able to exercise my UI design skills on this project and perform a quick turnaround.
+This quick project was an opportunity to design for AI. I sought to make the experience intuitive by _building on what users already know_: messaging apps. I was able to exercise my UI design skills on this project to perform a quick turnaround.
