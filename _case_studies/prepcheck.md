@@ -7,12 +7,16 @@ thumbnail: /assets/img/prepcheck/prepcheck-thumbnail.png
 subtitle: AI chat bot for asking tax questions
 
 cover_photo: /assets/img/prepcheck/prepcheck-header.png
-summary: 
+summary: I designed a user interface for an AI chatbot geared around asking tax questions. I used conventions that users are already familiar with from messaging applications to make the experience intuitive and familiar. I mostly focused on user interface design for this project, and I designed the logo.
 ---
 
 ## The Ask
 
 I was asked to design an AI chat bot that enables users to ask tax questions and get quick answers from reliable sources. Within the constraint of it being a chat bot, there was some room to ideate on feature ideas, because this was more of an innovation kind of project.
+
+## The User
+
+The target user for this product is a **tax preparer**, someone who puts together tax returns for a living and who possesses a foundation of tax knowledge. The intended use of this product is for preparers to ask tax questions to quickly double-check their work, as they work on preparing tax returns.
 
 ## What If It Doesn't Have to Be a Chat Bot?
 
@@ -59,10 +63,10 @@ When I design, I often first consider the more complicated, feature-rich design,
 
 <figure>
     <img alt="a chat thread interface with a side panel expanding, showing a list of all of the past chats" src="/assets/img/prepcheck/finished-design.png">
-    <figcaption>I was intentional about making the Past Chats feature a modular part of the design that could be added on later (or not), because I knew it wasn't considered a requirement for the initial launch. I sought to make the design hold up in either case, whether or not we made past chats navigable. By reserving the space on the left side of the screen for a potential navigation drawer, the feature was solved for in the future case, and the interface had a minimalist aesthetic with plenty of whitespace in the immediate term. A win-win.</figcaption>
+    <figcaption>I was intentional about making the Past Chats feature a modular part of the design that it could be added on later (or not), because I knew it wasn't considered a requirement for the initial launch. I sought to make the design hold up in either case, whether or not we made past chats navigable. By reserving the space on the left side of the screen for a potential navigation drawer, the feature was solved for in the future case, and the interface had a minimalist aesthetic with plenty of whitespace in the immediate term. A win-win.</figcaption>
 </figure>
 
-A benefit of keeping the interface uncluttered and minimal was that when it came time to work around the mobile responsive layouts, there was little-to-no spatial crunch. These were some of the most straightforward responsive layouts I've had to do.
+A nice benefit of keeping the interface uncluttered and minimal in the desktop view was that when it came time to work out the responsive layouts for mobile and tablet, very little of the interface needed to be rearranged to get it to work on smaller screen sizes.
 
 <figure>
     <img alt="" src="/assets/img/prepcheck/responsive-layouts.png">
@@ -71,7 +75,7 @@ A benefit of keeping the interface uncluttered and minimal was that when it came
 
 ## Designing the Logo
 
-This was fun. No one asked for a logo, but I felt this product needed one. But before I did the logo, there was some important collaboration to do with the marketing department first. 
+Creating a logo for the product wasn't a requirement. No one was asking for a logo, but I felt this product needed one. But before I did the logo, there was some important collaboration to do with the marketing department first. 
 
 Up to this point, I had titled this project _Tax Talk_. This was just a working title I came up with to have something to put in the mockups. I met with marketing to describe the project, and they set off to come up with the official name for the product. 
 
@@ -86,28 +90,28 @@ I embarked on an ideation exercise where I worked up several options. The final 
     <figcaption>To support a variety of present and future product needs, I created a logo kit that contained several size & color combinations of the logo (wordmark and icon) to have the bases covered.</figcaption>
 </figure>
 
-There were several reasons for this logo: 
-
-* I wanted to use a checkmark to clarify what the word _check_ means (checking your work, as opposed to depositing a check at a bank)
+* I incorporated the checkmark to clarify that the word _check_ means "checking your work" (as opposed to other uses of the word like "writing a check")
 * The omission of AI in the logo (and name) was intentional, so as to future-proof the product in case we pivoted
-* The chat bubble shape sets the expectation that this is a chat interface
+* I incorporated the chat bubble shape to clarify that this is a chat tool, since the "PrepCheck" doesn't reference chatting
 
-## Initial Lauch - the Beta Version
+## Designing the Beta Version
 
-Copying the full-featured prototype, I made a second prototype artifact for the initial release: the beta version of the product. After talking with stakeholders, we liked the idea of explicitly labeling the software as a beta version somewhere in the interface.
+I made a simplified prototype artifact for the initial release: the beta version of the product. After talking with stakeholders, we liked the idea of explicitly labeling the software as a beta version somewhere in the interface.
 
 I worked out the bare-minimum MVP design for the product and reworked the header of the UI to reflect that it's in beta.
 
 <figure>
-    <img alt="a simplied version of the design for a beta version of the software" src="/assets/img/prepcheck/prepcheck-beta-ui.png">
-    <figcaption>The design artifact I made for the launch (Beta) version of the software was as simplified as possible.</figcaption>
+    <img alt="a simplified version of the design for a beta version of the software" src="/assets/img/prepcheck/prepcheck-beta-ui.png">
+    <figcaption> The design artifact I made for the launch (Beta) version of the software was as simplified as possible.</figcaption>
 </figure>
+
+## What Was Built
 
 The engineering team took up the work to build the Beta design, and I consulted with them as they had questions. They were able to build essentially all of the features from the Beta design without any hiccups.
 
 <figure>
     <img alt="the coded version of the Beta design" src="/assets/img/prepcheck/built-version.png">
-    <figcaption>Engineering was able to implement the built product in close accordance with the design I provided.</figcaption>
+    <figcaption>This is what the built software looked like. Engineering was able to implement the built product in close accordance with the design I provided.</figcaption>
 </figure>
 
 ## My Role
