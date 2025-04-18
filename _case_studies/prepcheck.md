@@ -112,7 +112,7 @@ The engineering team took up the work to build the Beta design, and I consulted 
 
 ## My Role
 
-For this project, **I mostly acted as a UI designer**. I didn't do much in the way of user research or UX architecture here, partially due to the assignment and partially due to the time frame (1 sprint).
+For this project, **I mostly acted as a UI designer**. I was the sole designer on the project. I didn't do much in the way of user research or UX design here, partially due to the assignment and partially due to the time frame (one sprint).
 
 ## Conclusion
 
