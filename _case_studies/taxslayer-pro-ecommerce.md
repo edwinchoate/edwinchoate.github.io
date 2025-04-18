@@ -257,7 +257,7 @@ As of this writing, in less than one tax season, there have been:
 
 ## My Role
 
-**On this project, I was the sole UX designer.** I worked with a product manager, a product owner, and a team of a few software developers (most of whom were backend developers, and one frontend developer). I wrote the usability test plan and ran the research on UserTesting.com.
+**On this project, I was the sole designer.** I performed the UX design, UI design, and user research. I worked with a product manager, a product owner, and a team of a few software developers (most of whom were backend developers, and one frontend developer).
 
 Hats I wore in this project:
 
