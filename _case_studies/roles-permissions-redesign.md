@@ -16,9 +16,13 @@ summary:
 
 ![](/assets/img/roles-permissions-redesign/view-permissions-new-old.png)
 
+demo-view-a-users-permissions.mp4
+
 ![](/assets/img/roles-permissions-redesign/edit-role-new-old.png)
 
 ![](/assets/img/roles-permissions-redesign/tooltip-reference.png)
+
+expanding-some-tooltips.mov
 
 ![](/assets/img/roles-permissions-redesign/all-users.png)
 
