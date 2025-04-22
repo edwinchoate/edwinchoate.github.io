@@ -219,22 +219,6 @@ The test led to a few interesting insights:
     <figcaption>I uncovered some tangential opportunities to improve navigation on the website, but the main ecommerce flow was making sense and working for participants. It was good to see that the purchase process was about as effortful as users expected it to be.</figcaption>
 </figure>
 
-## Supporting Features: Card on File & Auto-Renew
-
-To bring purchasing online, there were a few other things that needed to change in the system.
-
-<figure>
-    <img alt="a card management screen with a stored credit card and an option to enroll in automatic renewal" src="/assets/img/taxslayer-pro-ecommerce/auto-renew-card-mgmt.png">
-    <figcaption>We needed to support storing a card on file as well as the option to enroll in an automatic renewal. I particularly enjoyed taking a gray rectangle and some monospace text, and making it look like a credit card in the UI. Stakeholders enjoyed it when I showed them this design.</figcaption>
-</figure>
-
-We needed to make it possible to renew the software automatically, but we hadn't figured out how to present this exactly, what we would call it, or how to treat it on screen. I coined the term "Auto-Renewal", which to my surprise stuck. I made an icon and put it in a card to give it a visual identity. Then, I took this card and placed it in a few places in the experience so that it would be familiar to the user across contexts. The last piece of that puzzle was to draw a clear line between the card (storing the card information) and the enrollment (participating in auto-renewal).
-
-<figure>
-    <img alt="a slightly different version of the create account screen titled Finish Creating Your Account" src="/assets/img/taxslayer-pro-ecommerce/demo-create-acct-step.png">
-    <figcaption>It simplified things to have an alternate version of the Create Account page, <i>Finish Creating Your Account</i>, specifically designed for users with demo accounts. This was another example of simplifying the flow, reducing the number of steps required to complete a purchase.</figcaption>
-</figure>
-
 ## What Was Built
 
 In all, I'm proud of how similar the actual, built software was to the intended design. This is both a testament to the engineering team, as well as a testament to the simplicity of the design.
