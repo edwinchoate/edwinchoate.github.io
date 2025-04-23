@@ -7,18 +7,18 @@ thumbnail: /assets/img/roles-permissions-redesign/roles-permissions-thumbnail.pn
 subtitle: Fixing usability of a core config system
 
 cover_photo: /assets/img/roles-permissions-redesign/roles-permissions-header.png
-summary: The roles & permissions configuration experience had become unusable after several years of feature creep. I analyzed the existing interface and redesigned, re-labeling all of the permissions while validating the changes with stakeholders. Upon launch, we got very positive user feedback that we'd accomplished exactly what we'd set out to do.
+summary: The roles & permissions configuration interface had become unusable after several years. I analyzed the existing interface and redesigned it, re-labeling all of the permissions while validating the changes with stakeholders. Upon launch, we received positive feedback that we'd accomplished exactly what we'd set out to do.
 ---
 
 ## The Problem I Was Trying to Solve
 
-This project was one of those hairy monsters that nobody wanted to touch with a ten-foot pole. Multiple people around the org were aware of the problem: **the roles & permissions configuration experience was a mess. It sufferred from years of adding just one more setting, without anybody going in keeping it organized.** People were busy, customers needed a new setting, and they needed it yesterday. This project was about going in, with gloves pulled up to my elbows, and cleaning up the mess. 
+This project was one of those hairy monsters that nobody wanted to touch with a ten-foot pole. Multiple people around the org were aware of the problem: **the roles & permissions configuration experience was a mess. It suffered from years of adding just one more setting, without anybody going in keeping it organized.** People were busy, customers needed a new setting, and they needed it yesterday. This project was about going in, with gloves pulled up to my elbows, and cleaning up the mess. 
 
 I came to realize that <mark>difficult-to-decipher labels, in combination with the lack of an organizational schema, were making it very difficult for people to understand the interface</mark> and feel confident using it.
 
 ## Performing a UX Audit
 
-Roles & permissions was just one part of the broader configuration suite (one of many modules). I started by screenshotting the entire configuration suite and putting it into a Miro board. From there, I took a look at the architecture of how everything was laid out. I saw what others were telling me: that the roles & permissions module in particular was in need of an overhaul. 
+The roles & permissions module was just one part of the broader configuration suite (one of many modules). I started by screenshotting the entire configuration suite and putting it into a Miro board. From there, I took a look at the architecture of how everything was laid out. I saw what others were telling me: that the roles & permissions module in particular was in need of an overhaul. 
 
 <figure>
     <img alt="a flowchart of the configuration app with arrows connecting each screen and sticky notes annotating my thoughts as I did a UX audit" src="/assets/img/roles-permissions-redesign/flow-map.png">
@@ -83,7 +83,7 @@ To my surprise, there was not a way in the previous design to allow you to view 
 
 ## Upgrading the UI - Using Best Practices
 
-There were several places in the experience where there was technically an interface that met the user need, but it didn't follow ordinary UI conventions. I went through the existing interface and redesigned it, cutting none of the existing functionality and adding in features that would enhance the interface.
+There were several places in the experience where there was technically an interface that met the user's needs, but it didn't follow ordinary UI conventions. I went through the existing interface and redesigned it, cutting none of the existing functionality and adding in features that would enhance the interface.
 
 I used the components from the design system that I built and actively maintain when building out the prototype for this project ([Article: TaxSlayer Pro Design System](/articles/taxslayer-pro-design-system/)).
 
@@ -92,7 +92,7 @@ I used the components from the design system that I built and actively maintain 
     <figcaption>The old way of assigning roles (left) was functional, but used odd user interface elements. In the new design (right), I used more conventional elements and added in UI controls that should've been in the experience, like a Select All control, a filter for Inactive Users, and an indicator of how many people you've selected. By making this action a modal, it fits better into the experience and is accessible from more than one context.</figcaption>
 </figure>
 
-In addition to re-evaluating the on-screen components, it was important to re-evaluate the overall strucuture of flow of the featureset. Above, I realized we were using a full page when it should've been a dialog. Below, I realized we were using a full page when it could've been an overlay. By improving the experience at the structural level, it improves the usability of the experience.
+In addition to re-evaluating the on-screen components, it was important to re-evaluate the overall structure of flow of the featureset. Above, I realized we were using a full page when it should've been a dialog. Below, I realized we were using a full page when it could've been an overlay. By improving the experience at the structural level, it improves the usability of the experience.
 
 <figure>
     <img alt="the old way of seeing a users permissions which was a full page juxtaposed next to the new way of seeing a users permissions which is now a side drawer" src="/assets/img/roles-permissions-redesign/view-permissions-new-old.png">
@@ -113,18 +113,16 @@ In addition to re-evaluating the on-screen components, it was important to re-ev
 
 ## Better Explaining How the Admin Role Works
 
-When talking with stakeholders, it became clear to me that the Admin role had some special logic which made it work differently than the other roles, but the user interface wasn't doing a good job of explaining to first-time users how this works, which was causing confusing and errors.
+When talking with stakeholders, it became clear to me that the Admin role had some special logic which made it work differently than the other roles, but the user interface wasn't doing a good job of explaining to first-time users how this works, which was causing confusion and errors.
 
 <figure>
     <img alt="a side-by-side showing the difference between a regular Role and the Admin role, which you can't edit" src="/assets/img/roles-permissions-redesign/roles-screens.png">
-    <figcaption>Part of the logic involved the fact that you can't alter an Admin's permissions. The admin automatically has everything turned on. So, I made a distinct design for the Admin role's page specifically and added some explicitly communication in the interface to explain to users how this works.</figcaption>
+    <figcaption>Part of the logic involved the fact that you can't alter an Admin's permissions. The admin automatically has everything turned on. So, I made a distinct design for the Admin role's page specifically and added some explicit communication in the interface to explain to users how this works.</figcaption>
 </figure>
 
 ## Making It Easier to Copy Roles (Saving Work)
 
 **One piece of feedback I kept hearing from stakeholders was that people have to spend too much time clicking every time they create a new role**. Each time they make a new role, they have to start from scratch and go through every single permission and click, click, click, click... until they've got the role set up to their liking. And then they've got to do this all over again if they want to create another role. 
-
-The main for this was simply the the New Role page defaulted to all of the permissions unclicked, every time you used it.
 
 <figure>
     <img alt="a dialog presenting the user with options to copy the new role from an existing one, or create the new role from a pre-defined template" src="/assets/img/roles-permissions-redesign/role-templates.png">
@@ -141,9 +139,9 @@ In addition to letting the user copy an existing role when creating a new one, I
     <figcaption>There were a few opportunities to improve how the software helps the user understand what they are about to do. For example, if a user is about to edit or delete many users at once, the software lists the affected users so that the user can preview the action before executing it. The idea is that this might help prevent errors if the user sees a number or list they didn't expect.</figcaption>
 </figure>
 
-## Successful Luanch
+## Successful Launch
 
-With an interface with this many consequential settings, there was a good change we'd missed something. The team was able to be thorough, however. When the new interface launch, there were a couple permissions that we needed to tweak and fix (I anticipated this and made myself available to alter the design as a follow up). But, for the most, part the vast majority of the changes when over very smoothly! This was a testiment to the team's attention to detail.
+With an interface with this many consequential settings, there was a good chance we'd missed something. The team was able to be thorough, however. When the new interface launched, there were a couple permissions that we needed to tweak and fix (I anticipated this and made myself available to alter the design as a follow up). The vast majority of the changes went smoothly. This was a testament to the team's attention to detail.
 
 ## Positive User Feedback
 
@@ -157,7 +155,7 @@ It's always nice to see feedback like this, especially when it's articulating pr
 
 ## My Role
 
-**I was the sole designer** on this project, doing all of the UX design and UI design. I conducted interviews with stakeholders such as product managers, software engineers, and QA testers to learn what I needed to learn about the permissions and what they did so that I could re-write the labels and validate the changes.
+**I proactively initiated this project; I was not asked to do this.** I was the sole designer on this project, doing all of the UX design and UI design. I conducted interviews with stakeholders such as product managers, software engineers, and QA testers to learn what I needed to learn about the permissions and what they did so that I could rewrite the labels and validate the changes.
 
 ## Conclusion
 
