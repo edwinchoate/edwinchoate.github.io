@@ -77,7 +77,7 @@ A nice benefit of keeping the interface uncluttered and minimal in the desktop v
 
 ## Designing the Logo
 
-I met with marketing to describe the project, and they set off to come up with the official name for the product. I waited until I got the official name from marketing before working on the logo, because I wanted the logo to tie in with the product name, as well as create a wordmark containing the product name. 
+I'd originally titled this project _Tax Talk_ in the design artifacts, but this was just a placeholder title so that I had something to put in the designs. I felt that this was a product that needed to have a brand identity so I brought this to marketing's attention so that they could work on a product name. I waited until I got the official name from marketing before working on the logo, because I wanted the logo to tie in with the product name, as well as create a wordmark containing the product name. 
 
 I embarked on an ideation exercise where I worked up several options. The final logo incorporates the shape of a checkmark within the shape of a chat bubble. The most time-consuming part of creating this logo was getting the proportions right. It required fine-tuning to get the checkmark shape and the chat bubble shape to both look right at the same time. 
 
