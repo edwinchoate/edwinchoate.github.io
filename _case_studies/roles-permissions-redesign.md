@@ -12,9 +12,9 @@ summary: The roles & permissions configuration interface had become unusable aft
 
 ## The Problem I Was Trying to Solve
 
-This project was one of those hairy monsters that nobody wanted to touch with a ten-foot pole. Multiple people around the org were aware of the problem: **the roles & permissions configuration experience was a mess. It suffered from years of adding just one more setting, without anybody going in keeping it organized.** People were busy, customers needed a new setting, and they needed it yesterday. This project was about going in, with gloves pulled up to my elbows, and cleaning up the mess. 
+This project was one of those hairy monsters that nobody wanted to touch with a ten-foot pole. Multiple people around the org were aware of the problem: <mark>the experience had become a mess. It suffered from years of adding just one more setting, without anybody going in making it organized.</mark> People were busy, customers needed a new setting, and they needed it yesterday. This project was about going in, with gloves pulled up to my elbows, and cleaning up the mess. 
 
-I came to realize that <mark>difficult-to-decipher labels, in combination with the lack of an organizational schema, were making it very difficult for people to understand the interface</mark> and feel confident using it.
+I came to realize that **difficult-to-decipher labels, in combination with the lack of an organizational schema, were making it very difficult for people to understand the interface** and feel confident using it.
 
 ## Performing a UX Audit
 
@@ -100,7 +100,7 @@ In addition to re-evaluating the on-screen components, it was important to re-ev
 </figure>
 
 <figure>
-    <video width="100%" controls poster="/assets/img/roles-permissions-redesign/all-users.png">
+    <video width="100%" controls>
         <source src="/assets/img/roles-permissions-redesign/demo-view-a-users-permissions.mp4" >
     </video>
     <figcaption>An interactive prototype showing how the user can scroll through the list of users and previous each user's permissions in quick succession</figcaption>
@@ -126,7 +126,7 @@ When talking with stakeholders, it became clear to me that the Admin role had so
 
 <figure>
     <img alt="a dialog presenting the user with options to copy the new role from an existing one, or create the new role from a pre-defined template" src="/assets/img/roles-permissions-redesign/role-templates.png">
-    <figcaption>I introduce the option to start the checkboxes of your new role based on a copy of an existing role. This way, at least the user would have a starting place that wasn't everything unchecked. There'd be, potentially, a lot less work for them to do to get to the new role they wanted.</figcaption>
+    <figcaption>I introduced an option to create a new role based on a copy of an existing role. This way, at least the user would have a starting place that wasn't everything unchecked. There'd be, potentially, a lot less work for them to do to get to the new role they wanted.</figcaption>
 </figure>
 
 In addition to letting the user copy an existing role when creating a new one, I introduced this concept of a _Template_. The template represented four roles that we commonly see in our domain. I pitched this to the engineering team as a low-effort thing: all this is is stock data in the database that comes with the application. It's a set of hard-coded _suggestions_, four roles that somebody who knows what they are doing in the domain has pre-made for you, take them or leave them. Or, you could use them as a base and customize from there, potentially saving work. 
@@ -136,7 +136,7 @@ In addition to letting the user copy an existing role when creating a new one, I
 
 <figure>
     <img alt="dialogs showing the user they are about to affect 99 users and displaying the list of users to get confirmation before taking the action" src="/assets/img/roles-permissions-redesign/mass-actions.png">
-    <figcaption>There were a few opportunities to improve how the software helps the user understand what they are about to do. For example, if a user is about to edit or delete many users at once, the software lists the affected users so that the user can preview the action before executing it. The idea is that this might help prevent errors if the user sees a number or list they didn't expect.</figcaption>
+    <figcaption>There were a few opportunities to improve how the software helps the user understand what they are about to do. For example, if a user is about to edit or delete many users at once, the software lists the affected users so that the user can preview the action before executing it.</figcaption>
 </figure>
 
 ## Successful Launch
@@ -147,11 +147,7 @@ With an interface with this many consequential settings, there was a good chance
 
 > _"Taxslayer has updated the Roles & Permissions menu—I really like the way they grouped things now—so much easier to navigate."_<br>—User
 
-After the changes went live in the software, I found a pleasant surprise in my email inbox.
-
-![](/assets/img/roles-permissions-redesign/nice-feedback.png)
-
-It's always nice to see feedback like this, especially when it's articulating precisely the goal of the project.
+After the changes went live in the software, I found a pleasant surprise in my email inbox. A user had written this feedback and asked that it be forwarded along to the team that worked on this project. It's always nice to see feedback like this, especially when it's articulating precisely the goal of the project.
 
 ## My Role
 
