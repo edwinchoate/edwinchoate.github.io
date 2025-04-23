@@ -7,12 +7,14 @@ thumbnail: /assets/img/speeddialer-ai/speeddialer-thumbnail.png
 subtitle: A hackathon project
 
 cover_photo: /assets/img/speeddialer-ai/speeddialer-header.png
-summary: 
+summary: I was the team's designer for a 24-hour company hackathon. Our team of eight imagined how we might improve the lives of internal sales reps by using AI to more intelligently process customer call data.
 ---
 
 ## Context: A Company Hackathon
 
 This project was created for an optional company hackathon. The prompt for the hackathon was open-ended, allowing for creativity and innovation. The central theme of the hackathon was _collaboration_. **We were tasked with creating a collaboration tool of some kind**. What exactly that looked like was totally up to us. It was not prescribed in the prompt to use AI for our project; that's something we opted in to.
+
+What is a hackathon? [Article: wikipedia.org/wiki/Hackathon](https://en.wikipedia.org/wiki/Hackathon)
 
 For this hackathon, <mark>we had 24 hours</mark> to come up with our solution, build it, and put together the presentation.
 
