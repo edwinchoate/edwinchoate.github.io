@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \"UX Maturity\" Doesn't Make Sense
+title: UX Maturity
 author: Edwin Choate
 date: 2025-05-05
 ---
@@ -24,3 +24,5 @@ This is where the "maturity" metaphor breaks down.
 Real maturity (in life) is something that sticks with you for the rest of your life. When a person has achieved maturity, they remain mature.
 
 Maturity in life comes with an understanding of the world and what it means to make good decisions. It involves having internalized guiding principles that serve you no matter the circumstance. Hardships (such as an economic recession) only serve to highlight the presence of maturity. Hardships don't make real maturity recede or disappear.
+
+“Maturity” appears to be the wrong metaphor. I might instead call it _UX Investment_. That’s what we’re really talking about. Investment can ebb and flow over time, based on how much you can afford to invest. And that's okay. That's just how the world works.
