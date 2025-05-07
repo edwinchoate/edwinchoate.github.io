@@ -41,14 +41,14 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 
 ## UX Books I've Read
 
-(On desktop, long-hover with your mouse to see the title & author.)
-
 <style> 
     .book { 
         width: 72px; 
         margin: 4px;
-    } 
+    }
 </style>
+
+<p class="mouse-only">Long-hover with your mouse to see the title & author.</p>
 
 <img class="book" src="/assets/img/books/build-better-products.jpg" title="Build Better Products by Laura Klein">
 <img class="book" src="/assets/img/books/orchestrating-experiences.jpg" title="Orchestrating Experiences by Chris Risdon">
