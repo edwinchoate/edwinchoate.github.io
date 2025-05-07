@@ -39,9 +39,9 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 
 ![](/assets/img/squiggle-books.png)
 
-## UX Reading
+## UX Books I've Read
 
-I'm continually reading UX books. Here are some of my favorites I've read so far...
+(On desktop, long-hover with your mouse to see the title & author.)
 
 <style> 
     .book { 
