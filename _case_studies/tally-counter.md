@@ -59,18 +59,7 @@ I placed the reset button near the top of the screen which accomplished two thin
 
 I built the app with [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui). I was considering publishing it to both iOS and Android app stores, however, without another reason to have an Apple developer account, I couldn't justify paying $100/year to publish this simple app. So I opted to just publish the Android app to Google Play.
 
-In the same way that it was simple to design this app, it was also simple to code.
-
-The count was implement as a private field on the Main page. 
-
-{% highlight c# %}
-public partial class MainPage : ContentPage
-{
-    private int _count = 0;
-
-    ...
-}
-{% endhighlight %}
+#### Handling Input
 
 The click handlers for the buttons were straightforwardly simple to implement as well, another byproduct of the simplicity of the app overall.
 
@@ -104,3 +93,82 @@ private void ButtonPressFeedback()
     SemanticScreenReader.Announce(count.ToString());
 }
 {% endhighlight %}
+
+#### Color System
+
+I discovered that .NET MAUI has a nice color system similar to Sass/CSS variables or color variables in Figma. 
+
+You set the values in `/Resources/Styles/Colors.xaml`:
+
+{% highlight xml %}
+<Color x:Key="Primary">#3C3F4C</Color>
+<Color x:Key="Secondary">#191B26</Color>
+<Color x:Key="Tertiary">#252731</Color>
+<Color x:Key="White">White</Color>
+<Color x:Key="Black">Black</Color>
+<Color x:Key="Gray100">#E1E1E1</Color>
+<Color x:Key="Gray200">#C8C8C8</Color>
+<Color x:Key="Gray300">#ACACAC</Color>
+...
+{% endhighlight %}
+
+and then you reference those values in your views. In `MainPage.xaml`:
+
+{% highlight xml %}
+<Button x:Name="resetBtn" 
+    Text="Reset"
+    TextColor="{StaticResource Gray600}"
+    BackgroundColor="{StaticResource Gray100}"
+    BorderColor="{StaticResource Gray300}" />
+{% endhighlight %}
+
+#### Layout
+
+And then to get the layout to resize properly I used the `StackLayout` and `AbsoluteLayout` classes in combination. 
+
+In `MainPage.xaml`:
+
+{% highlight xml %}
+    <StackLayout Padding="30, 90, 30, 60" Spacing="35">
+        <StackLayout HorizontalOptions="Center">
+            <AbsoluteLayout>
+                <Label x:Name="countLabel"
+                        Text="0000"
+                        AbsoluteLayout.LayoutBounds="74, 36"
+                        ZIndex="1"
+                        HorizontalTextAlignment="Center" />
+                <Image ZIndex="0" Source="frame.png" />
+            </AbsoluteLayout>
+        </StackLayout>
+        <Button x:Name="resetBtn" 
+                Text="Reset"
+                WidthRequest="260"
+                HeightRequest="60" />
+        <StackLayout VerticalOptions="FillAndExpand"></StackLayout>
+        <StackLayout Spacing="20">
+            <Button x:Name="incrementBtn"
+                Text="+"
+                WidthRequest="260"
+                HeightRequest="100" />
+            <Button x:Name="decrementBtn"
+                Text="–"
+                WidthRequest="260"
+                HeightRequest="100" />
+        </StackLayout>
+    </StackLayout>
+{% endhighlight %}
+
+I used `AbsoluteLayout` to position the counter text precisely over the right spot in the SVG graphic, and then `StackLayout` took care of the horizontal centering of everything on the page as well as expanding the middle section of the page such that the +/- buttons are at the bottom of the screen.
+
+#### Haptic Feedback
+
+
+
+<figure>
+    <img alt="a screenshot of the coded version of the app" src="/assets/img/tally-counter/built-app.png" />
+    <figcaption>This is what the app looked like once I coded it.</figcaption>
+</figure>
+
+## Publishing the App
+
+Then, for the finale: publishing the app to the Google Play Store.
