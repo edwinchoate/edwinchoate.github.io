@@ -12,9 +12,9 @@ summary:
 
 ## The Goal
 
-This project was just for learning purposes (and for fun). The idea of this project was to go from an idea to a published app on the app store and do every step in between myself from scratch. **I wanted to mount the learning curve of bumping into all of the unexpected things I'd encounter along the way**. To accelerate this project, I gave myself a constraint: I must create literally the simplest app that I can think of, and the app must be _complete_ solution to some problem.
+This project was just for learning purposes (and for fun). The idea of this project was to go from an idea to a published app on the app store and do every step in between myself from scratch. **I wanted to mount the learning curve of bumping into all of the unexpected things I'd encounter along the way**. To accelerate this project, I gave myself a constraint: I must create the simplest app that I can think of, and the app must be a complete solution to some problem.
 
-I did not use any AI tools for this project.
+(I did not use any AI tools for this project.)
 
 After brainstorming, I decided a tally counter app met my criteria. 
 
@@ -160,10 +160,6 @@ In `MainPage.xaml`:
 
 I used `AbsoluteLayout` to position the counter text precisely over the right spot in the SVG graphic, and then `StackLayout` took care of the horizontal centering of everything on the page as well as expanding the middle section of the page such that the +/- buttons are at the bottom of the screen.
 
-#### Haptic Feedback
-
-
-
 <figure>
     <img alt="a screenshot of the coded version of the app" src="/assets/img/tally-counter/built-app.png" />
     <figcaption>This is what the app looked like once I coded it.</figcaption>
@@ -171,4 +167,25 @@ I used `AbsoluteLayout` to position the counter text precisely over the right sp
 
 ## Publishing the App
 
-Then, for the finale: publishing the app to the Google Play Store.
+One of the main reasons I wanted to do this small project was to learn what it's like to publish an app to one of the app stores. I chose Google Play just because it is the free option. 
+
+[Tally Counter on Google Play](https://play.google.com/store/apps/details?id=com.edwinchoate.tallycounter)
+
+Through the process of publishing the app, I learned: 
+
+* You must have a customer support email address
+* How to write a privacy policy for an app
+* Man, do they make you fill out a lot of paperwork!
+* How to cut a release build and sign it 
+* Managing target frameworks and versioning with release builds
+
+I hadn't done much of that before so that was interesting to learn.
+
+<figure>
+    <img alt="Google Play store page for the Tally Counter app by Edwin Choate" src="/assets/img/tally-counter/app-store-page.png" />
+    <figcaption>The app is published to the <a href="https://play.google.com/store/apps/details?id=com.edwinchoate.tallycounter">Google Play store</a>.</figcaption>
+</figure>
+
+## Conclusion
+
+It was fun to take every step from idea to published app to see what this entails. I like to use .NET Core in personal projects, but those are usually ASP.NET web application, so I'd never published anything to the mobile app stores before doing this. It was fun to change hats from designer to product to developer to QA tester over the course of this project and touch the handoff from one step to the next on a tiny-scale low-stakes project.
