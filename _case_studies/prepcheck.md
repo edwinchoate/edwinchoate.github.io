@@ -4,19 +4,19 @@ title: PrepCheck
 permalink: /articles/prepcheck/
 
 thumbnail: /assets/img/prepcheck/prepcheck-thumbnail.png
-subtitle: AI chat bot for asking tax questions
+subtitle: AI chat app for asking tax questions
 
 cover_photo: /assets/img/prepcheck/prepcheck-header.png
-summary: I designed a user interface for an AI chatbot geared around asking tax questions. I used conventions that users are already familiar with from messaging applications to make the experience intuitive and familiar. I mostly focused on user interface design for this project, and I designed the logo.
+summary: I designed an AI-powered chat application for asking tax questions. I used conventions that users are already familiar with from messaging apps to make the experience familiar. I mostly focused on user interface design for this project, and I designed the logo.
 ---
 
 ## The Ask
 
-I was asked to design an AI chat bot that enables users to ask tax questions and get quick answers from reliable sources. Within the constraint of it being a chat bot, there was some room to ideate on feature ideas, because this was more of an innovation kind of project.
+I was asked to design an AI chat bot that enables tax preparers to ask tax-related questions and get quick answers from reliable sources (mostly the IRS). Within the constraint of it being a chat bot, there was some room to ideate on feature ideas, because this was more of an innovation kind of project.
 
 ## The User
 
-The target user for this product is a **tax preparer**, someone who puts together tax returns for a living and who possesses a foundation of tax knowledge. The intended use of this product is for preparers to ask tax questions to quickly double-check their work, as they work on preparing tax returns.
+The target user for this product is a **tax preparer**, someone who puts together tax returns for a living and has an understanding of tax. The intended use of this product is for preparers to ask tax questions to quickly double-check their work, as they work on preparing tax returns.
 
 ## What If It Doesn't Have to Be a Chat Bot?
 
