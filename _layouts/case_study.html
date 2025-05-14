@@ -31,10 +31,17 @@ layout: default
     {% if site.case_studies.size > 1 %}
     <div>
         <h2>Read More</h2>
+
+        <p><b>Only got a minute?</b> Check out the <a href="/showcase">showcase</a>.</p>
+
         <ul>
-            {% for case_study in site.case_studies %}
-                <li><a href="{{ case_study.url }}">{{ case_study.title }}</a></li>
-            {% endfor %}
+            <li><a href="{{ "/" | relative_url }}">Projects</a>
+                <ul>
+                    {% for case_study in site.case_studies %}
+                        <li><a href="{{ case_study.url }}">{{ case_study.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
         </ul>
     </div>
     {% endif %}

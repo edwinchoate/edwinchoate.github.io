@@ -10,6 +10,8 @@ layout: default
       <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 
+    <p><b>Only got a minute?</b> Check out the <a href="/showcase">showcase</a>.</p>
+
     {%- if site.case_studies.size > 0 -%}
         {%- for case_study in site.case_studies -%}
         <div style="display: flex; align-items: center; margin-bottom: 32px;">
@@ -25,5 +27,7 @@ layout: default
         </div>
         {%- endfor -%}
     {%- endif -%}
+
+    <a href="#top">&uarr; Back to Top</a>
   
 </div>
