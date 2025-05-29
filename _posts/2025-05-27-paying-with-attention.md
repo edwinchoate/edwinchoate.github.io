@@ -19,7 +19,7 @@ If, in the aggregate, thousand or millions of people pay attention to something 
 
 I think this is the case because time is money. Time can be converted into money, and vice versa. Attention can also be converted into money. However, the attention-to-money exchange is not as salient to us.
 
-You could imagine Bob going to work and earning some money. When he leaves the job, he takes some of that money and converts it into something of inherent value, like a meal or a ticket to a show. The fact that Bob can do this is evidence that his time has inherent value. 
+You could imagine Bob going to work and earning some money. When he leaves the job, he takes some of that money and converts it into something of inherent value, like a meal or a pair of gloves. The fact that Bob can do this is evidence that his time has inherent value.
 
 The attention economy works by short-circuiting the first step. Instead of Bob converting his time into money and then subsequently converting the money into what he wants, in the attention economy, **Bob simply converts his time into what he wants**. This is possible because, as we've already established, Bob's time has some non-zero, inherent value.
 
