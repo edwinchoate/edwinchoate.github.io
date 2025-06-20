@@ -115,7 +115,7 @@ As for me, these are the reasons why I limit my screen time:
 * More time to spend with people
 * Higher quality and quantity of sleep 
 * Time to read books
-* Time to be in natural and to exercise
+* Time to be in nature and to be physically active
 * Getting all my chores done on time
 * Time to watch excellent movies should I chose to do that (which I like much better than social media) 
 * Time to journal should I chose to do that
