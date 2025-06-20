@@ -76,7 +76,7 @@ The reason why this is effective is it reverses what I call the _Bright, Shiny C
 
 Here are some things I tell myself: 
 
-* If you need to see colors on your screen because of something you're doing (like ordering a t-shirt), that's fine. Just turn it back to black-and-white when you're done with that task
+* If you need to see colors on your screen because of something you're doing (like ordering a t-shirt), that's fine. Just turn it back to greyscale when you're done with that task
 * Keep it in black and white when you watch videos, unless there's an actual reason you need to perceive the colors
 
 ## Step 5. Put Do Not Disturb on an Automatic Schedule
@@ -110,7 +110,7 @@ You can easily make all of the above changes to your phone and still not be succ
 
 Once you internalize why you are doing this and why it is better than the alternative, then you'll start to experience the success. 
 
-As for me, these are the reason why I limit my screen time:
+As for me, these are the reasons why I limit my screen time:
 
 * More time to spend with people
 * Higher quality and quantity of sleep 
