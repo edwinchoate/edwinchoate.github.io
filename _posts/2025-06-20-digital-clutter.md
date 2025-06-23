@@ -53,6 +53,7 @@ In addition to the above list, there are a few more apps worth considering:
 * AI chat app (ex: ChatGPT)
 * News (ideally an app without an infinite feed, OR a plan to stay away from its infinite feed)
 * Password manager
+* Rideshare app (ex: Uber)
 * Sports scores (ideally one without an infinite feed such as Apple Sports)
  
 What remains - which is a difficult consideration - is what to do with the web browser. On the one hand, the web browser is clearly useful at times. You can use it to fill out a medical form or look at a restaurant's menu. On the other hand, the web browser is clearly something that gives you access to _everything_ (almost by definition). Maybe in the future, we will develop a sophisticated way of getting what's useful out of web browsers while at the same time not opening the door wide open to all possible clutter. 
