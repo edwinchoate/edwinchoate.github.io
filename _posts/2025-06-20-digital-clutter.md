@@ -24,6 +24,8 @@ I can see no reason why pursuing a more minimalist approach wouldn't be prudent,
 The natural response to this is to attempt to do something to reduce the waste and reclaim the lost time and attention. In the language of minimalism, you would call this a "decluttering" - the act of taking everything out of the space, re-evaluating what truly belongs there, and putting back only those things that belong.
  
 > _"You can't have everything. Where would you put it?"_
+> 
+> -Steven Wright
 
 As an exercise, I asked myself what apps I consider truly essential when it comes to the smartphone. I'd imagine each person's list would be slightly different, but there would be major overlaps. Here's the list I came up with:
 
