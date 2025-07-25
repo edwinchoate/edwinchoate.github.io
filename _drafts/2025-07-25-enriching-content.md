@@ -13,7 +13,7 @@ Here are some categories I particularly care about alongside specific channels:
 
 * Art, Culture & History
 	* [Ken Burns](https://www.pbs.org/franchise/ken-burns/)
-	* [Rick Steve's Europe](https://www.ricksteves.com/)
+	* [Rick Steves' Europe](https://www.ricksteves.com/)
 * Books
 	* [Project Gutenberg](https://gutenberg.org/)
 * Classical Music
