@@ -19,6 +19,6 @@ Da Vinci said, _"Simplicity is the ultimate sophistication."_ What did he mean b
 
 This is not an easy task, which is why it requires sophistication. Such sophistication, if achieved, can make the process of simplification look easier than it really is. 
 
-One of the challenges is that the bare minimum amount of complexity in itself _changes over time_. There was a time when most Americans needed to know about the gears of the car - when everyone drove manual cars. Now, with most Americans driving automatics, most of that complexity can be hidden. In the future, it might make sense to hide the steering wheel, for the same reason. 
+One of the challenges is that the bare minimum amount of complexity in itself _changes over time_. There was a time when most Americans needed to know about the gears of the car - when everyone drove manual cars. Now, with most Americans driving automatics, most of that complexity can be hidden. In the future, it might make sense to fundamentally alter the steering wheel, for a similar reason. 
 
 To deeply understand all of the facets of something and then to strip away what is necessary implies that you have full understanding of the domain, understanding of the target audience, and then, after acquiring this knowledge, are able to apply the self-discipline to resist the temptation to expose your expertise (which seems helpful to you, but won't be helpful to others). All of these things must be held in a delicate, sophisticated balance.
