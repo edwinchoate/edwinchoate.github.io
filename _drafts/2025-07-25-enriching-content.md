@@ -18,7 +18,7 @@ Here are some categories I particularly care about alongside specific low-cost c
 	* [Project Gutenberg](https://gutenberg.org/)
 * Classical Music
 	* [ClassicCat.net](https://www.classiccat.net/)
-	* [WABE Classical](https://www.wabe.org/classical/)
+	* [WFMT Classical](https://www.wfmt.com/listen)
 * Folk Music
 	* [Folk Alley](https://folkalley.com/)
 * Science 
