@@ -188,4 +188,4 @@ I hadn't done much of that before so that was interesting to learn.
 
 ## Conclusion
 
-It was fun to take every step from idea to published app to see what this entails. I like to use .NET Core in personal projects, but those are usually ASP.NET web application, so I'd never published anything to the mobile app stores before doing this. It was fun to change hats from designer to product to developer to QA tester over the course of this project and touch the handoff from one step to the next on a tiny-scale low-stakes project.
+It was fun to take every step - from idea to published app - to see what the process entails. This project gave me exposure to .NET MAUI and a more native-app way of building interfaces (as opposed to building web applications), which I found interesting. I'd never packaged an app and deployed it to the app store before, so this project elucidated that for me. I'm glad I did this project because it gave me greater perspective.
