@@ -100,7 +100,7 @@ At this point, I was considering questions like:
 
 After discussions with stakeholders, I realized it would be adding significant technical effort to introduce a shopping cart. Since the user would likely only have one thing to purchase, the software, there wasn't much value in having a cart: it'd be a cart that'd always hold just one item. So, I decided it'd be best to simplify the whole thing and have the choice of product package be integrated into the purchase flow, removing the need to have a cart.
 
-Among other things, removing the cart solved an important risk: the possibility of users adding a first-time purchase to their cart, not realizing the renewal was technically a separate SKU.
+Among other things, removing the cart mitigated an important risk: the risk of an existing customer thinking the way they're supposed to renew their software is to repurchase it online (which is not correct). We were able to work out a flow that did the proper routing automatically to prevent this error scenario.
 
 <figure>
     <img alt="a page titled Review Your Order showing the contents of the customer's order" src="/assets/img/taxslayer-pro-ecommerce/review-concept.png">
@@ -155,7 +155,7 @@ I realized I needed to make a set of visuals that accomplished these things:
     <figcaption>I made a set of product thumbnails that would differentiate between the package levels and show the difference between first-time purchases and renewals.</figcaption>
 </figure>
 
-I created over a dozen different ideas for these thumbnails. I just kept going until I got it right. I ultimately went with a simple TaxSlayer Pro logo with a stripe down the side and a different color for each package level. Up to this point, no one had ever taken just the word "PRO" from the main wordmark and put it underneath the icon. There was a rhyme and reason to the colors I chose. I used the colors from the main color palette in the design system that I built and maintain ([Article: TaxSlayer Pro Design System](/articles/taxslayer-pro-design-system/)). I chose blue for the _Pro Web_ package, because blue is the main brand color, and that package is your most common option. I chose grey for the _Classic_ package because it's your more basic option. I chose gold for _Premium_ as is often the convention. 
+I chose blue for the _Pro Web_ package, because blue is the main brand color, and that package is your most common option. I chose grey for the _Classic_ package because it's your more basic option. I chose gold for _Premium_ as is often the convention. 
 
 Again, no one was asking for this but I knew it'd help users understand what was going on if the renewal items looked different. The renewal is a different SKU, and I felt it was important to help the user understand that.
 
