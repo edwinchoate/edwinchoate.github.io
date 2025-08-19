@@ -5,20 +5,21 @@ title: Showcase
 
 Here's a quick, less-than-a-minute summary of some of the projects I've worked on.
 
-<figure>
+<!-- <figure>
     <img src="/assets/img/taxslayer-pro-ecommerce/finished-design-renewal.png">
-    <figcaption>I designed a custom ecommerce flow that's powering thousands of large transactions per year. <br><a href="/articles/taxslayer-pro-ecommerce/">Full Article: TaxSlayer Pro Ecommerce &rarr;</a></figcaption>
-</figure>
+    <figcaption>I designed a custom ecommerce flow that's powering thousands of large transactions per year. 
+    <br><a href="/articles/taxslayer-pro-ecommerce/">Full Article: TaxSlayer Pro Ecommerce &rarr;</a></figcaption>
+</figure> -->
 
 <figure>
     <img src="/assets/img/ncr-design-system/ncr-ds-site-specs.png">
     <figcaption>I've been part of a design systems team designing the UI components for a fortune 500 company. <br><a href="/articles/ncr-design-system/">Full Article: NCR Design System &rarr;</a></figcaption>
 </figure>
 
-<figure>
+<!-- <figure>
     <img src="/assets/img/prepcheck/fresh-chat.png">
     <figcaption>I've designed an LLM-powered AI chat feature that's live in production. <br><a href="/articles/prepcheck/">Full Article: PrepCheck &rarr;</a></figcaption>
-</figure>
+</figure> -->
 
 <figure>
     <img src="/assets/img/taxslayer-pro-design-system/component-overview.jpg">
@@ -30,10 +31,10 @@ Here's a quick, less-than-a-minute summary of some of the projects I've worked o
     <figcaption>I built a feature-complete wireframe design system from scratch. <br><a href="/articles/sketchy-wireframe-system/">Full Article: Sketchy Wireframe System &rarr;</a></figcaption>
 </figure>
 
-<figure>
+<!-- <figure>
     <img src="/assets/img/speeddialer-ai/customer-activity-history.png">
     <figcaption>I designed an AI-powered support tool for a hackathon. <br><a href="/articles/speeddialer-ai/">Full Article: SpeedDialer AI &rarr;</a></figcaption>
-</figure>
+</figure> -->
 
 <figure>
     <img src="/assets/img/self-order-kiosk/cso2-final-UI.png">
