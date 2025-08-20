@@ -16,7 +16,7 @@ layout: default
         {%- for case_study in site.case_studies -%}
         <div style="display: flex; align-items: center; margin-bottom: 32px;">
           {% if case_study.thumbnail %}
-            <img src="{{ case_study.thumbnail }}" style="width: 72px; margin: 16px; box-shadow: 0px 0px 16px rgba(0, 0, 0, 8%);" alt="" />
+            <img src="{{ case_study.thumbnail }}" style="width: 72px; margin: 16px;" alt="" />
           {% endif %}
           <div>
             <a class="post-link" href="{{ case_study.url | relative_url }}" style="margin-bottom: 10px;">
