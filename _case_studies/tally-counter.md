@@ -32,14 +32,14 @@ A tally counter is a simple device that solves a simple problem: you might forge
 I decided it would make the UX designer in me happy if there was a skeuomorphic metaphor in the app's interface design so I decided to make it look like the physical tally counter devices of the days of old (as pictured above). I felt even better about that when I searched the app stores and saw that no one had really made this design yet. (There are, however, a gazillion tally counter apps on the app stores at this point. This is by no means an original idea, but that is not the point of this project.)
 
 <figure>
-    <img alt="a digital vector of a tally counter numeric display side by side next to a physical one showing that they visuals are similar" src="/assets/img/tally-counter/number-display-inspiration.png" />
+    <img alt="digital graphic next to the physical device showing they look similar" src="/assets/img/tally-counter/number-display-inspiration.png" />
     <figcaption>I designed a vector graphic for the numeric display in Figma, basing the visuals and the font on the look and feel of the physical device.</figcaption>
 </figure>
 
 Was this necessary? Of course not, but I wanted to learn how to take a custom vector graphic, design it, and put it into a working application. This also served as a way to learn to how put text into a graphic, text that's not embedded in the SVG but rather font text that can be updated as the user interacts with the app.
 
 <figure>
-    <img alt="the app design which includes a four-digit numeric display a plus button, a minus button, and a reset button" src="/assets/img/tally-counter/app-mockup.png" />
+    <img alt="a four-digit numeric display, plus and minus buttons, and a reset button" src="/assets/img/tally-counter/app-mockup.png" />
     <figcaption>I based the look and feel of the app design on that of the physical tally counter device.</figcaption>
 </figure>
 
