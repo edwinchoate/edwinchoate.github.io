@@ -37,7 +37,7 @@ Here's a quick, less-than-a-minute summary of some of the projects I've worked o
 </figure> -->
 
 <figure>
-    <img alt="the front view and side views of a food-order kiosk next to a screenshot of the menu page and a screenshot of the payment page" src="/assets/img/self-order-kiosk/cso2-final-UI.png">
+    <img alt="views of a food-order kiosk, a restaurant menu page, and a payment page" src="/assets/img/self-order-kiosk/cso2-final-UI.png">
     <figcaption>I've been part of a tiger team which brought a restaurant food-ordering kiosk to market for a fortune 500 company. <br><a href="/articles/self-order-kiosk/">Full Article: Self-Order Kiosk &rarr;</a></figcaption>
 </figure>
 
