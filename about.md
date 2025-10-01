@@ -56,6 +56,7 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 <img class="book" alt="" src="/assets/img/books/design-of-everyday-things.jpg" title="The Design of Everyday Things by Don Norman">
 <img class="book" alt="" src="/assets/img/books/hooked.jpg" title="Hooked by Nir Eyal">
 <img class="book" alt="" src="/assets/img/books/practical-empathy.jpg" title="Practical Empathy by Indi Young">
+<img class="book" alt="" src="/assets/img/books/make-it-so.png" title="Make It So by Nathan Shedroff and Christopher Noessel">
 <img class="book" alt="" src="/assets/img/books/refactoring-UI.jpg" title="Refactoring UI by Adam Wathan and Steve Schoger">
 <img class="book" alt="" src="/assets/img/books/design-for-emotion.jpg" title="Designing for Emotion by Aarron Walter">
 <img class="book" alt="" src="/assets/img/books/100-things.jpg" title="100 Things Every Designer Needs to Know About People by Susan Weinschenk">
