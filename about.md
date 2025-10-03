@@ -60,6 +60,7 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 <img class="book" alt="" src="/assets/img/books/refactoring-UI.jpg" title="Refactoring UI by Adam Wathan and Steve Schoger">
 <img class="book" alt="" src="/assets/img/books/design-for-emotion.jpg" title="Designing for Emotion by Aarron Walter">
 <img class="book" alt="" src="/assets/img/books/100-things.jpg" title="100 Things Every Designer Needs to Know About People by Susan Weinschenk">
+<img class="book" alt="" src="/assets/img/books/how-to-make-sense-of-any-mess.png" title="How to Make Sense of Any Mess by Abby Covert">
 <img class="book" alt="" src="/assets/img/books/dont-make-me-think.jpg" title="Don't Make Me Think by Steve Krug">
 <img class="book" alt="" src="/assets/img/books/information-architecture.jpg" title="Information Architecture for the World Wide Web by Louis Rosenfeld">
 <img class="book" alt="" src="/assets/img/books/lean-ux.jpg" title="Lean UX by Jeff Gothelf">
