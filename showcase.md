@@ -6,19 +6,19 @@ title: Showcase
 Here's a quick, less-than-a-minute summary of some of the projects I've worked on.
 
 <figure>
-    <img alt="two screenshots from an ecommerce interface, one showing a shopping page, and the other showing an order page" src="/assets/img/taxslayer-pro-ecommerce/finished-design-renewal.png">
+    <img alt="two screenshots from an ecommerce interface, one showing a shopping page, and the other showing an order page" src="/assets/img/taxslayer-pro-ecommerce/finished-design-min.png">
     <figcaption>I designed a custom ecommerce flow that's powering thousands of large transactions per year. 
     <br><a href="/articles/taxslayer-pro-ecommerce/">Full Article: TaxSlayer Pro Ecommerce &rarr;</a></figcaption>
 </figure>
 
 <figure>
-    <img alt="the documentation site for the NCR Design System" src="/assets/img/ncr-design-system/ncr-ds-site-specs.png">
-    <figcaption>I've been part of a design systems team designing the UI components for a fortune 500 company. <br><a href="/articles/ncr-design-system/">Full Article: NCR Design System &rarr;</a></figcaption>
+    <img alt="the start page in an AI chat thread where the AI is asking how it can help" src="/assets/img/prepcheck/fresh-chat.png">
+    <figcaption>I've designed an LLM-powered AI chat feature that's live in production. <br><a href="/articles/prepcheck/">Full Article: PrepCheck &rarr;</a></figcaption>
 </figure>
 
 <figure>
-    <img alt="the start page in an AI chat thread where the AI is asking how it can help" src="/assets/img/prepcheck/fresh-chat.png">
-    <figcaption>I've designed an LLM-powered AI chat feature that's live in production. <br><a href="/articles/prepcheck/">Full Article: PrepCheck &rarr;</a></figcaption>
+    <img alt="the documentation site for the NCR Design System" src="/assets/img/ncr-design-system/ncr-ds-site-specs.png">
+    <figcaption>I've been part of a design systems team designing the UI components for a fortune 500 company. <br><a href="/articles/ncr-design-system/">Full Article: NCR Design System &rarr;</a></figcaption>
 </figure>
 
 <figure>
