@@ -5,6 +5,8 @@ author: Edwin Choate
 date: 2025-10-07
 ---
 
+Below are several UX-related newsletters I find interesting, all of which you can subscribe to via email.
+
 **Ed Zitron's _Where's Your Ed At_**<br>
 A skeptical take on AI<br>
 [wheresyoured.at](https://www.wheresyoured.at)
