@@ -6,7 +6,7 @@ date: 2025-10-07
 ---
 
 **Ed Zitron's _Where's Your Ed At_**<br>
-A pessimistic take on AI<br>
+A skeptical take on AI<br>
 [wheresyoured.at](https://www.wheresyoured.at)
 
 **Figma's Newsletter, _Shortcut_**<br>
