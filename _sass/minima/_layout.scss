@@ -106,6 +106,7 @@
 .site-footer {
   padding: $spacing-unit 0;
   background-color: darken($background-color, 4%);
+  border-top: 1px solid lighten($grey-color-light, 10%);
 }
 
 .footer-heading {
