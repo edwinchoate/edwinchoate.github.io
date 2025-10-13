@@ -94,4 +94,4 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 
 **Design Thinking: The Beginner’s Guide**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-design-thinking-the-beginner-s-guide.jpg)
 
-[&uarr; Back to Top](#top)
+<button onclick="window.location.href='#top'">&uarr; Back to Top</button>

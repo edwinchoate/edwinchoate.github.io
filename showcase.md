@@ -71,4 +71,4 @@ Email me at <a href="mailto:{{ site.email }}?subject=👋&nbsp;Hi,&nbsp;Edwin!">
 </div>
 {% endif %}
 
-<a href="#top">&uarr; Back to Top</a>
+<button onclick="window.location.href='#top'">&uarr; Back to Top</button>
