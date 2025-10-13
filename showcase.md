@@ -53,7 +53,7 @@ Here's a quick, less-than-a-minute summary of some of the projects I've worked o
 
 ### Let's Get in Touch
 
-Email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>, or <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">connect with me on LinkedIn</a>.
+Email me at <a href="mailto:{{ site.email }}?subject=👋&nbsp;Hi,&nbsp;Edwin!">{{ site.email }}</a>, or <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">connect with me on LinkedIn</a>.
 
 {% if site.case_studies.size > 1 %}
 <div>

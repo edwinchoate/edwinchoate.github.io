@@ -12,7 +12,7 @@ I'm a senior user experience (UX) designer at [TaxSlayer](https://www.taxslayer.
 
 ## Contact
 
-Email &mdash; [hello@edwinchoate.com](mailto:hello@edwinchoate.com?subject=👋&nbsp;Hi,&nbsp;Edwin!)
+Email &mdash; [hello@edwinchoate.com](mailto:{{ site.email }}?subject=👋&nbsp;Hi,&nbsp;Edwin!)
 
 LinkedIn &mdash; [Let's Connect!](https://www.linkedin.com/in/edwinchoate)
 
