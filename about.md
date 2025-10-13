@@ -6,7 +6,7 @@ permalink: /about/
 
 ![](/assets/img/pebbles.png)
 
-I'm a senior user experience (UX) designer at [TaxSlayer](https://www.taxslayer.com/) and I'm based out of Atlanta, GA. I'm especially interested in usability, UX architecture, interaction design, semantic HTML, and accessibility. I'm an active member of [Interaction Design Association (IxDA) Atlanta](https://ixda.org/local-groups/ixda-atlanta/) and [Interaction Design Foundation (IxDF) Atlanta](https://www.interaction-design.org/local-group/north-america/united-states/atlanta?r=edwin-choate). In my spare time I enjoy reading, folk music, retro video games, and playing my acoustic guitar.
+Edwin Choate is a senior user experience (UX) designer at [TaxSlayer](https://www.taxslayer.com/) in Atlanta, GA. He's especially interested in usability, UX architecture, interaction design, semantic web, and accessibility. Edwin is an active member of [Interaction Design Association (IxDA) Atlanta](https://ixda.org/local-groups/ixda-atlanta/) and [Interaction Design Foundation (IxDF) Atlanta](https://www.interaction-design.org/local-group/north-america/united-states/atlanta?r=edwin-choate). In his spare time he enjoys reading, folk music, retro video games, and playing his acoustic guitar.
 
 ![](/assets/img/squiggle-mail.png)
 
