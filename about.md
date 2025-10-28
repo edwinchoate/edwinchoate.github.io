@@ -6,7 +6,7 @@ permalink: /about/
 
 ![](/assets/img/pebbles.png)
 
-<span><script src="/assets/scripts/greeting.js"></script><span> I'm a senior product designer in Atlanta, GA. I'm especially interested in usability, UX architecture, interaction design, semantic web, and accessibility. I'm an active member of [Interaction Design Association (IxDA) Atlanta](https://ixda.org/local-groups/ixda-atlanta/) and [Interaction Design Foundation (IxDF) Atlanta](https://www.interaction-design.org/local-group/north-america/united-states/atlanta?r=edwin-choate). In my spare time I enjoy reading, folk music, retro video games, and playing my acoustic guitar.
+<span><script src="/assets/scripts/greeting.js"></script><span> I'm a senior product designer at [Fiserv](https://www.fiserv.com/) in Atlanta, GA. I'm especially interested in usability, UX architecture, interaction design, semantic web, and accessibility. I'm an active member of [Interaction Design Association (IxDA) Atlanta](https://ixda.org/local-groups/ixda-atlanta/) and [Interaction Design Foundation (IxDF) Atlanta](https://www.interaction-design.org/local-group/north-america/united-states/atlanta?r=edwin-choate). In my spare time I enjoy reading, folk music, retro video games, and playing my acoustic guitar.
 
 ![](/assets/img/squiggle-mail.png)
 
