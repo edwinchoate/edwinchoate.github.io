@@ -3,3 +3,5 @@ Allow: /
 
 Sitemap: https://edwinchoate.com/sitemap.xml
 
+User-agent: GPTBot
+Disallow: /
