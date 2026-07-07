@@ -3,6 +3,7 @@ layout: post
 title: UX Newsletters
 author: Edwin Choate
 date: 2025-10-07
+edited: 2026-07-07
 ---
 
 Below are several UX-related newsletters I find interesting, all of which you can subscribe to via email.
@@ -16,8 +17,12 @@ Product updates from the Figma team<br>
 [figma.com/blog/newsletter](https://www.figma.com/blog/newsletter/)
 
 **Jakob Nielsen's Substack, _UX Tigers_**<br>
-Speculative futurism from Jakob Neilsen<br>
+Jakob Neilsen writes about AI<br>
 [uxtigers.com](https://www.uxtigers.com)
+
+**Luke Wroblewski's Writings**<br>
+Luke W writes about AI and product design<br>
+[lukew.com/subscribe](https://www.lukew.com/subscribe/)
 
 **Nielsen Norman Group Newsletter**<br>
 UX and usability newsletter from NN/g<br>
