@@ -76,6 +76,8 @@ Relevant Courses: Interaction Design, User Interface Design, Information Design,
 
 **Human-Computer Interaction**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-human-computer-interaction.jpg)
 
+**AI for Designers**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-ai-for-designers.jpg)
+
 **Brain Science in Interface Design**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-the-brain-and-technology-brain-science-in-interface-design.jpg)
 
 **Interaction Design for Usability**, Interaction Design Foundation [Certificate](/assets/img/certificates/course-certificate-interaction-design-for-usability.jpg)
